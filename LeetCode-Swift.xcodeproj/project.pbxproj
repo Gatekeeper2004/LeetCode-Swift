@@ -1,0 +1,1659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19001B1D2418B929006496C9 /* canThreePartsEqualSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19001B1C2418B929006496C9 /* canThreePartsEqualSum.swift */; };
+		1901B56723F12B4E004771A2 /* IsCompleteTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1901B56623F12B4E004771A2 /* IsCompleteTree.swift */; };
+		190B8A75240CA98F0055B200 /* InorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190B8A74240CA98F0055B200 /* InorderTraversal.swift */; };
+		190E958E23B3547600370EAB /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E958D23B3547600370EAB /* LongestPalindrome.swift */; };
+		19185BD0243239C30066094F /* spiralOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19185BCF243239C30066094F /* spiralOrder.swift */; };
+		19185BD3243250A60066094F /* removeDuplicateLetters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19185BD2243250A60066094F /* removeDuplicateLetters.swift */; };
+		19185BD62432755D0066094F /* searchRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19185BD52432755D0066094F /* searchRange.swift */; };
+		191A4B8123EF1FBF00DD5334 /* Divide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191A4B8023EF1FBF00DD5334 /* Divide.swift */; };
+		191A4B8423EFB34700DD5334 /* LexicalOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191A4B8323EFB34700DD5334 /* LexicalOrder.swift */; };
+		19207C0323EDB5F900E14D9F /* IsPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19207C0223EDB5F900E14D9F /* IsPalindrome.swift */; };
+		19353E192411F93100C1E8CC /* removeDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19353E182411F93100C1E8CC /* removeDuplicates.swift */; };
+		19386DE323F8F131008A17B1 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19386DE223F8F131008A17B1 /* LongestCommonPrefix.swift */; };
+		193E67A624319EDD00420F4A /* reverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E67A524319EDD00420F4A /* reverse.swift */; };
+		193E67A92431A44500420F4A /* myAtoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E67A82431A44500420F4A /* myAtoi.swift */; };
+		1943875423A71A00002E08CF /* MaxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943875323A71A00002E08CF /* MaxProfit.swift */; };
+		1943875723A726A7002E08CF /* MaxPorfit_121.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943875623A726A7002E08CF /* MaxPorfit_121.swift */; };
+		19458D2C24245AD2005F1DA1 /* getLeastNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19458D2B24245AD2005F1DA1 /* getLeastNumbers.swift */; };
+		1946BC94241E9373009F0C56 /* search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1946BC93241E9373009F0C56 /* search.swift */; };
+		1946BC97241E9CDD009F0C56 /* search1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1946BC96241E9CDD009F0C56 /* search1.swift */; };
+		1946BC9A241EA340009F0C56 /* findMin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1946BC99241EA340009F0C56 /* findMin.swift */; };
+		1946BC9D241EA806009F0C56 /* findMin2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1946BC9C241EA806009F0C56 /* findMin2.swift */; };
+		194D03C9243115DA00B0A044 /* merge1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194D03C8243115DA00B0A044 /* merge1.swift */; };
+		194D03CC24311D5800B0A044 /* convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194D03CB24311D5800B0A044 /* convert.swift */; };
+		195A2C3623F425850081DF85 /* CheckSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195A2C3523F425850081DF85 /* CheckSubarraySum.swift */; };
+		195EBCCD23E6C448007B90BE /* CountSmaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195EBCCC23E6C448007B90BE /* CountSmaller.swift */; };
+		196105BB2433490600B7721A /* sortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196105BA2433490600B7721A /* sortArray.swift */; };
+		196105BE243353A900B7721A /* lowestCommonAncestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196105BD243353A900B7721A /* lowestCommonAncestor.swift */; };
+		1962020A240FD15300298BBE /* coinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19620209240FD15300298BBE /* coinChange.swift */; };
+		196239192435938700091CCA /* addStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196239182435938700091CCA /* addStrings.swift */; };
+		1962391C24359A4A00091CCA /* multiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1962391B24359A4A00091CCA /* multiply.swift */; };
+		19624D3E2429B14A0055276D /* massage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19624D3D2429B14A0055276D /* massage.swift */; };
+		19624D412429C0890055276D /* exist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19624D402429C0890055276D /* exist.swift */; };
+		19624D442429CD7F0055276D /* rob3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19624D432429CD7F0055276D /* rob3.swift */; };
+		19677C93243700750040D345 /* allPossibleFBT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19677C92243700750040D345 /* allPossibleFBT.swift */; };
+		19677C96243789B60040D345 /* distanceK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19677C95243789B60040D345 /* distanceK.swift */; };
+		1969ED8823B7192C00810BA1 /* LengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1969ED8723B7192C00810BA1 /* LengthOfLongestSubstring.swift */; };
+		196ADF052406D64B007C8208 /* MaxProfit_714.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196ADF042406D64B007C8208 /* MaxProfit_714.swift */; };
+		196DE09723CC88390037ABE1 /* FindDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196DE09623CC88390037ABE1 /* FindDuplicate.swift */; };
+		196DE09A23CC9CF80037ABE1 /* DetectCycle2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196DE09923CC9CF80037ABE1 /* DetectCycle2.swift */; };
+		196E370B24024083007DDE14 /* MinStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196E370A24024083007DDE14 /* MinStack.swift */; };
+		197106AF239160FF0087B259 /* SwapPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197106AE239160FF0087B259 /* SwapPairs.swift */; };
+		197106B223916D0E0087B259 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197106B123916D0E0087B259 /* TwoSum.swift */; };
+		197161E223B08EDA00261252 /* Rob_198.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197161E123B08EDA00261252 /* Rob_198.swift */; };
+		1972D3DC241A5775007CCA1E /* buildTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972D3DB241A5775007CCA1E /* buildTree.swift */; };
+		1974D6A4239F767A00484953 /* CombinationSum2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1974D6A3239F767A00484953 /* CombinationSum2.swift */; };
+		1978D6C0242E4C2E005A8C4D /* permuteUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1978D6BF242E4C2E005A8C4D /* permuteUnique.swift */; };
+		1978D6C3242E5C0E005A8C4D /* numTilePossibilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1978D6C2242E5C0D005A8C4D /* numTilePossibilities.swift */; };
+		197CF1FA2427C3C70036AD23 /* permute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197CF1F92427C3C70036AD23 /* permute.swift */; };
+		197F08212418CCE40016E6AD /* numWays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F08202418CCE40016E6AD /* numWays.swift */; };
+		1981E571242734CE0089E1DD /* minIncrementForUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1981E570242734CE0089E1DD /* minIncrementForUnique.swift */; };
+		1984AD76239E278E00960E95 /* CombinationSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1984AD75239E278E00960E95 /* CombinationSum.swift */; };
+		1984CDDB2398DF5A003827A4 /* ReverseKGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1984CDDA2398DF5A003827A4 /* ReverseKGroup.swift */; };
+		1987669A240D66CB00AA33A2 /* ProductExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19876699240D66CB00AA33A2 /* ProductExceptSelf.swift */; };
+		1987CF302395375F009B3CC0 /* ReverseBetween.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1987CF2F2395375F009B3CC0 /* ReverseBetween.swift */; };
+		1987CF3323955AAB009B3CC0 /* ReverseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1987CF3223955AAB009B3CC0 /* ReverseList.swift */; };
+		1988EF492427D49C00AACF06 /* subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1988EF482427D49C00AACF06 /* subsets.swift */; };
+		198AD33D239CFC790051EA35 /* PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198AD33C239CFC790051EA35 /* PlusOne.swift */; };
+		198AD340239D463F0051EA35 /* LetterCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198AD33F239D463F0051EA35 /* LetterCombinations.swift */; };
+		1992824C23D1852800DF9DD0 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1992824B23D1852800DF9DD0 /* Trie.swift */; };
+		199C7F4623CAE95900CF6DB8 /* DailyTemperatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C7F4523CAE95900CF6DB8 /* DailyTemperatures.swift */; };
+		199C7F4923CB1A7500CF6DB8 /* Trap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C7F4823CB1A7500CF6DB8 /* Trap.swift */; };
+		199FD4D72393F75E0028BDA8 /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199FD4D62393F75E0028BDA8 /* ThreeSum.swift */; };
+		19A113152425BE6200BE8EC0 /* canMeasureWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A113142425BE6200BE8EC0 /* canMeasureWater.swift */; };
+		19A2960F23CEC489003E091A /* FindKthLargest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A2960E23CEC489003E091A /* FindKthLargest.swift */; };
+		19AE25EA24017A10008EA886 /* FindCircleNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE25E924017A10008EA886 /* FindCircleNum.swift */; };
+		19AE25ED24017F25008EA886 /* FindRedundantConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE25EC24017F25008EA886 /* FindRedundantConnection.swift */; };
+		19B2A6D0242F33BF00BEE658 /* findPeakElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B2A6CF242F33BF00BEE658 /* findPeakElement.swift */; };
+		19B30AB2241A230F00DFA3E0 /* gcdOfStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B30AB1241A230F00DFA3E0 /* gcdOfStrings.swift */; };
+		19B419E023CA04E200C79DCB /* LongestCommonSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B419DF23CA04E200C79DCB /* LongestCommonSubsequence.swift */; };
+		19B5391123A776BC003F8D44 /* IsAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B5391023A776BC003F8D44 /* IsAnagram.swift */; };
+		19B62619242CFC0E00F83BE5 /* numRookCaptures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B62618242CFC0E00F83BE5 /* numRookCaptures.swift */; };
+		19B89A0C23FF823F0022E646 /* IsHappy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B89A0B23FF823F0022E646 /* IsHappy.swift */; };
+		19B9E29C23EE658C00E39B17 /* MaxArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B9E29B23EE658C00E39B17 /* MaxArea.swift */; };
+		19BEAF97242860910043EC2C /* middleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BEAF96242860910043EC2C /* middleNode.swift */; };
+		19C39921242256590011910A /* maxSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C39920242256590011910A /* maxSubArray.swift */; };
+		19C3992424226BDC0011910A /* isRectangleOverlap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C3992324226BDC0011910A /* isRectangleOverlap.swift */; };
+		19C3A2D52398A03C00FAA27C /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A2D42398A03C00FAA27C /* AddTwoNumbers.swift */; };
+		19C482C1242AF46E00BE8BA6 /* generateTheString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C482C0242AF46E00BE8BA6 /* generateTheString.swift */; };
+		19C62C1923E59D070093CF4F /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C62C1823E59D070093CF4F /* ContainsDuplicate.swift */; };
+		19C96FA0238F655F00699CA5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C96F9F238F655F00699CA5 /* main.swift */; };
+		19C96FAA238F676800699CA5 /* IsValid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C96FA9238F676800699CA5 /* IsValid.swift */; };
+		19CAA601240DFFF0006513E9 /* flatten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CAA600240DFFF0006513E9 /* flatten.swift */; };
+		19CAA604240E0C0C006513E9 /* merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CAA603240E0C0C006513E9 /* merge.swift */; };
+		19CAA607240E2C22006513E9 /* rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CAA606240E2C22006513E9 /* rotate.swift */; };
+		19D65DF2241A8B1500AEF6B0 /* fib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D65DF1241A8B1500AEF6B0 /* fib.swift */; };
+		19D814C023C4B4F00066B8B6 /* CountBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D814BF23C4B4F00066B8B6 /* CountBits.swift */; };
+		19D9DD5C23F02AC4001BBD64 /* LevelOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9DD5B23F02AC4001BBD64 /* LevelOrder.swift */; };
+		19DADFAB24304EDA007C342F /* romanToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DADFAA24304EDA007C342F /* romanToInt.swift */; };
+		19DADFAE24305777007C342F /* rotateRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DADFAD24305777007C342F /* rotateRight.swift */; };
+		19DADFB12430CA88007C342F /* copyRandomList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DADFB02430CA88007C342F /* copyRandomList.swift */; };
+		19DAE31B242D0C2A00A431FA /* preorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DAE31A242D0C2A00A431FA /* preorderTraversal.swift */; };
+		19DAE31E242D19FD00A431FA /* postorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DAE31D242D19FD00A431FA /* postorderTraversal.swift */; };
+		19DAE321242D2AFB00A431FA /* zigzagLevelOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DAE320242D2AFB00A431FA /* zigzagLevelOrder.swift */; };
+		19DAE324242DA33200A431FA /* minDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DAE323242DA33200A431FA /* minDepth.swift */; };
+		19DAE327242DBC7A00A431FA /* isBalanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DAE326242DBC7A00A431FA /* isBalanced.swift */; };
+		19DAE32A242DDE0000A431FA /* generateParenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DAE329242DDE0000A431FA /* generateParenthesis.swift */; };
+		19DAE32D242E174200A431FA /* translateNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DAE32C242E174200A431FA /* translateNum.swift */; };
+		19DAE330242E1E8300A431FA /* subsetsWithDup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DAE32F242E1E8300A431FA /* subsetsWithDup.swift */; };
+		19DAE333242E376E00A431FA /* combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DAE332242E376E00A431FA /* combine.swift */; };
+		19E23D0123AA769500271E1C /* LongestValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E23D0023AA769500271E1C /* LongestValidParentheses.swift */; };
+		19E24EB623A2703500DA9E84 /* DeleteNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E24EB523A2703500DA9E84 /* DeleteNode.swift */; };
+		19E24EB923A28DFB00DA9E84 /* SortList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E24EB823A28DFB00DA9E84 /* SortList.swift */; };
+		19E24EBC23A298C000DA9E84 /* MergeTwoLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E24EBB23A298C000DA9E84 /* MergeTwoLists.swift */; };
+		19E24EBF23A3613900DA9E84 /* InsertionSortList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E24EBE23A3613900DA9E84 /* InsertionSortList.swift */; };
+		19E43DF423AB5815005BF64A /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E43DF323AB5815005BF64A /* LRUCache.swift */; };
+		19E587B9240836E70032B9D4 /* MinPathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E587B8240836E70032B9D4 /* MinPathSum.swift */; };
+		19E6654823968A04001424B3 /* RemoveNthFromEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E6654723968A04001424B3 /* RemoveNthFromEnd.swift */; };
+		19E87717242B77E6006D7679 /* isPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E87716242B77E6006D7679 /* isPalindrome.swift */; };
+		19EA94B6242B0B06004232F7 /* getIntersectionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EA94B5242B0B06004232F7 /* getIntersectionNode.swift */; };
+		19EA94B9242B134F004232F7 /* surfaceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EA94B8242B134F004232F7 /* surfaceArea.swift */; };
+		19EAFC8923E2EFE700A22956 /* strStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EAFC8823E2EFE700A22956 /* strStr.swift */; };
+		19EDBDE9239800EA002C53B8 /* Partition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EDBDE8239800EA002C53B8 /* Partition.swift */; };
+		19FA3B2A2423CB7B00A29DC8 /* longestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA3B292423CB7B00A29DC8 /* longestPalindrome.swift */; };
+		19FE1141242EF5C200DAF210 /* cloneGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE1140242EF5C200DAF210 /* cloneGraph.swift */; };
+		19FEA90924343AED0067C255 /* MyHashSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FEA90824343AED0067C255 /* MyHashSet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		19C96F9A238F655F00699CA5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		19001B1C2418B929006496C9 /* canThreePartsEqualSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canThreePartsEqualSum.swift; sourceTree = "<group>"; };
+		1901B56623F12B4E004771A2 /* IsCompleteTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsCompleteTree.swift; sourceTree = "<group>"; };
+		190B8A74240CA98F0055B200 /* InorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InorderTraversal.swift; sourceTree = "<group>"; };
+		190E958D23B3547600370EAB /* LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindrome.swift; sourceTree = "<group>"; };
+		19185BCF243239C30066094F /* spiralOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spiralOrder.swift; sourceTree = "<group>"; };
+		19185BD2243250A60066094F /* removeDuplicateLetters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeDuplicateLetters.swift; sourceTree = "<group>"; };
+		19185BD52432755D0066094F /* searchRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchRange.swift; sourceTree = "<group>"; };
+		191A4B8023EF1FBF00DD5334 /* Divide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divide.swift; sourceTree = "<group>"; };
+		191A4B8323EFB34700DD5334 /* LexicalOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LexicalOrder.swift; sourceTree = "<group>"; };
+		19207C0223EDB5F900E14D9F /* IsPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPalindrome.swift; sourceTree = "<group>"; };
+		19353E182411F93100C1E8CC /* removeDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeDuplicates.swift; sourceTree = "<group>"; };
+		19386DE223F8F131008A17B1 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
+		193E67A524319EDD00420F4A /* reverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverse.swift; sourceTree = "<group>"; };
+		193E67A82431A44500420F4A /* myAtoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAtoi.swift; sourceTree = "<group>"; };
+		1943875323A71A00002E08CF /* MaxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit.swift; sourceTree = "<group>"; };
+		1943875623A726A7002E08CF /* MaxPorfit_121.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxPorfit_121.swift; sourceTree = "<group>"; };
+		19458D2B24245AD2005F1DA1 /* getLeastNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getLeastNumbers.swift; sourceTree = "<group>"; };
+		1946BC93241E9373009F0C56 /* search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = search.swift; sourceTree = "<group>"; };
+		1946BC96241E9CDD009F0C56 /* search1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = search1.swift; sourceTree = "<group>"; };
+		1946BC99241EA340009F0C56 /* findMin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findMin.swift; sourceTree = "<group>"; };
+		1946BC9C241EA806009F0C56 /* findMin2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findMin2.swift; sourceTree = "<group>"; };
+		194D03C8243115DA00B0A044 /* merge1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = merge1.swift; sourceTree = "<group>"; };
+		194D03CB24311D5800B0A044 /* convert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = convert.swift; sourceTree = "<group>"; };
+		195A2C3523F425850081DF85 /* CheckSubarraySum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckSubarraySum.swift; sourceTree = "<group>"; };
+		195EBCCC23E6C448007B90BE /* CountSmaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountSmaller.swift; sourceTree = "<group>"; };
+		196105BA2433490600B7721A /* sortArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sortArray.swift; sourceTree = "<group>"; };
+		196105BD243353A900B7721A /* lowestCommonAncestor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lowestCommonAncestor.swift; sourceTree = "<group>"; };
+		19620209240FD15300298BBE /* coinChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coinChange.swift; sourceTree = "<group>"; };
+		196239182435938700091CCA /* addStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addStrings.swift; sourceTree = "<group>"; };
+		1962391B24359A4A00091CCA /* multiply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multiply.swift; sourceTree = "<group>"; };
+		19624D3D2429B14A0055276D /* massage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = massage.swift; sourceTree = "<group>"; };
+		19624D402429C0890055276D /* exist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exist.swift; sourceTree = "<group>"; };
+		19624D432429CD7F0055276D /* rob3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rob3.swift; sourceTree = "<group>"; };
+		19677C92243700750040D345 /* allPossibleFBT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allPossibleFBT.swift; sourceTree = "<group>"; };
+		19677C95243789B60040D345 /* distanceK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = distanceK.swift; sourceTree = "<group>"; };
+		1969ED8723B7192C00810BA1 /* LengthOfLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLongestSubstring.swift; sourceTree = "<group>"; };
+		196ADF042406D64B007C8208 /* MaxProfit_714.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit_714.swift; sourceTree = "<group>"; };
+		196DE09623CC88390037ABE1 /* FindDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDuplicate.swift; sourceTree = "<group>"; };
+		196DE09923CC9CF80037ABE1 /* DetectCycle2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectCycle2.swift; sourceTree = "<group>"; };
+		196E370A24024083007DDE14 /* MinStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinStack.swift; sourceTree = "<group>"; };
+		197106AE239160FF0087B259 /* SwapPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapPairs.swift; sourceTree = "<group>"; };
+		197106B123916D0E0087B259 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		197161E123B08EDA00261252 /* Rob_198.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rob_198.swift; sourceTree = "<group>"; };
+		1972D3DB241A5775007CCA1E /* buildTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buildTree.swift; sourceTree = "<group>"; };
+		1974D6A3239F767A00484953 /* CombinationSum2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSum2.swift; sourceTree = "<group>"; };
+		1978D6BF242E4C2E005A8C4D /* permuteUnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = permuteUnique.swift; sourceTree = "<group>"; };
+		1978D6C2242E5C0D005A8C4D /* numTilePossibilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numTilePossibilities.swift; sourceTree = "<group>"; };
+		197CF1F92427C3C70036AD23 /* permute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = permute.swift; sourceTree = "<group>"; };
+		197F08202418CCE40016E6AD /* numWays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numWays.swift; sourceTree = "<group>"; };
+		1981E570242734CE0089E1DD /* minIncrementForUnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minIncrementForUnique.swift; sourceTree = "<group>"; };
+		1984AD75239E278E00960E95 /* CombinationSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSum.swift; sourceTree = "<group>"; };
+		1984CDDA2398DF5A003827A4 /* ReverseKGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseKGroup.swift; sourceTree = "<group>"; };
+		19876699240D66CB00AA33A2 /* ProductExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductExceptSelf.swift; sourceTree = "<group>"; };
+		1987CF2F2395375F009B3CC0 /* ReverseBetween.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseBetween.swift; sourceTree = "<group>"; };
+		1987CF3223955AAB009B3CC0 /* ReverseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseList.swift; sourceTree = "<group>"; };
+		1988EF482427D49C00AACF06 /* subsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subsets.swift; sourceTree = "<group>"; };
+		198AD33C239CFC790051EA35 /* PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOne.swift; sourceTree = "<group>"; };
+		198AD33F239D463F0051EA35 /* LetterCombinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCombinations.swift; sourceTree = "<group>"; };
+		1992824B23D1852800DF9DD0 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
+		199C7F4523CAE95900CF6DB8 /* DailyTemperatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTemperatures.swift; sourceTree = "<group>"; };
+		199C7F4823CB1A7500CF6DB8 /* Trap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trap.swift; sourceTree = "<group>"; };
+		199FD4D62393F75E0028BDA8 /* ThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
+		19A113142425BE6200BE8EC0 /* canMeasureWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canMeasureWater.swift; sourceTree = "<group>"; };
+		19A2960E23CEC489003E091A /* FindKthLargest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindKthLargest.swift; sourceTree = "<group>"; };
+		19AE25E924017A10008EA886 /* FindCircleNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCircleNum.swift; sourceTree = "<group>"; };
+		19AE25EC24017F25008EA886 /* FindRedundantConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindRedundantConnection.swift; sourceTree = "<group>"; };
+		19B2A6CF242F33BF00BEE658 /* findPeakElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findPeakElement.swift; sourceTree = "<group>"; };
+		19B30AB1241A230F00DFA3E0 /* gcdOfStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gcdOfStrings.swift; sourceTree = "<group>"; };
+		19B419DF23CA04E200C79DCB /* LongestCommonSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonSubsequence.swift; sourceTree = "<group>"; };
+		19B5391023A776BC003F8D44 /* IsAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsAnagram.swift; sourceTree = "<group>"; };
+		19B62618242CFC0E00F83BE5 /* numRookCaptures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numRookCaptures.swift; sourceTree = "<group>"; };
+		19B89A0B23FF823F0022E646 /* IsHappy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsHappy.swift; sourceTree = "<group>"; };
+		19B9E29B23EE658C00E39B17 /* MaxArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxArea.swift; sourceTree = "<group>"; };
+		19BEAF96242860910043EC2C /* middleNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = middleNode.swift; sourceTree = "<group>"; };
+		19C39920242256590011910A /* maxSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maxSubArray.swift; sourceTree = "<group>"; };
+		19C3992324226BDC0011910A /* isRectangleOverlap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isRectangleOverlap.swift; sourceTree = "<group>"; };
+		19C3A2D42398A03C00FAA27C /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
+		19C482C0242AF46E00BE8BA6 /* generateTheString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generateTheString.swift; sourceTree = "<group>"; };
+		19C62C1823E59D070093CF4F /* ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate.swift; sourceTree = "<group>"; };
+		19C96F9C238F655F00699CA5 /* LeetCode-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCode-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C96F9F238F655F00699CA5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		19C96FA9238F676800699CA5 /* IsValid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsValid.swift; sourceTree = "<group>"; };
+		19CAA600240DFFF0006513E9 /* flatten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flatten.swift; sourceTree = "<group>"; };
+		19CAA603240E0C0C006513E9 /* merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = merge.swift; sourceTree = "<group>"; };
+		19CAA606240E2C22006513E9 /* rotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotate.swift; sourceTree = "<group>"; };
+		19D65DF1241A8B1500AEF6B0 /* fib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fib.swift; sourceTree = "<group>"; };
+		19D814BF23C4B4F00066B8B6 /* CountBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountBits.swift; sourceTree = "<group>"; };
+		19D9DD5B23F02AC4001BBD64 /* LevelOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOrder.swift; sourceTree = "<group>"; };
+		19DADFAA24304EDA007C342F /* romanToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = romanToInt.swift; sourceTree = "<group>"; };
+		19DADFAD24305777007C342F /* rotateRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotateRight.swift; sourceTree = "<group>"; };
+		19DADFB02430CA88007C342F /* copyRandomList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = copyRandomList.swift; sourceTree = "<group>"; };
+		19DAE31A242D0C2A00A431FA /* preorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preorderTraversal.swift; sourceTree = "<group>"; };
+		19DAE31D242D19FD00A431FA /* postorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postorderTraversal.swift; sourceTree = "<group>"; };
+		19DAE320242D2AFB00A431FA /* zigzagLevelOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zigzagLevelOrder.swift; sourceTree = "<group>"; };
+		19DAE323242DA33200A431FA /* minDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minDepth.swift; sourceTree = "<group>"; };
+		19DAE326242DBC7A00A431FA /* isBalanced.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isBalanced.swift; sourceTree = "<group>"; };
+		19DAE329242DDE0000A431FA /* generateParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generateParenthesis.swift; sourceTree = "<group>"; };
+		19DAE32C242E174200A431FA /* translateNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = translateNum.swift; sourceTree = "<group>"; };
+		19DAE32F242E1E8300A431FA /* subsetsWithDup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subsetsWithDup.swift; sourceTree = "<group>"; };
+		19DAE332242E376E00A431FA /* combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combine.swift; sourceTree = "<group>"; };
+		19E23D0023AA769500271E1C /* LongestValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestValidParentheses.swift; sourceTree = "<group>"; };
+		19E24EB523A2703500DA9E84 /* DeleteNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteNode.swift; sourceTree = "<group>"; };
+		19E24EB823A28DFB00DA9E84 /* SortList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortList.swift; sourceTree = "<group>"; };
+		19E24EBB23A298C000DA9E84 /* MergeTwoLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoLists.swift; sourceTree = "<group>"; };
+		19E24EBE23A3613900DA9E84 /* InsertionSortList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSortList.swift; sourceTree = "<group>"; };
+		19E43DF323AB5815005BF64A /* LRUCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUCache.swift; sourceTree = "<group>"; };
+		19E587B8240836E70032B9D4 /* MinPathSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinPathSum.swift; sourceTree = "<group>"; };
+		19E6654723968A04001424B3 /* RemoveNthFromEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNthFromEnd.swift; sourceTree = "<group>"; };
+		19E87716242B77E6006D7679 /* isPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isPalindrome.swift; sourceTree = "<group>"; };
+		19EA94B5242B0B06004232F7 /* getIntersectionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getIntersectionNode.swift; sourceTree = "<group>"; };
+		19EA94B8242B134F004232F7 /* surfaceArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surfaceArea.swift; sourceTree = "<group>"; };
+		19EAFC8823E2EFE700A22956 /* strStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strStr.swift; sourceTree = "<group>"; };
+		19EDBDE8239800EA002C53B8 /* Partition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Partition.swift; sourceTree = "<group>"; };
+		19FA3B292423CB7B00A29DC8 /* longestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longestPalindrome.swift; sourceTree = "<group>"; };
+		19FE1140242EF5C200DAF210 /* cloneGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloneGraph.swift; sourceTree = "<group>"; };
+		19FEA90824343AED0067C255 /* MyHashSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHashSet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19C96F99238F655F00699CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19001B1B2418B91C006496C9 /* 1013. 将数组分成和相等的三个部分 */ = {
+			isa = PBXGroup;
+			children = (
+				19001B1C2418B929006496C9 /* canThreePartsEqualSum.swift */,
+			);
+			path = "1013. 将数组分成和相等的三个部分";
+			sourceTree = "<group>";
+		};
+		1901B56523F12B3C004771A2 /* 958. 二叉树的完全性检验 */ = {
+			isa = PBXGroup;
+			children = (
+				1901B56623F12B4E004771A2 /* IsCompleteTree.swift */,
+			);
+			path = "958. 二叉树的完全性检验";
+			sourceTree = "<group>";
+		};
+		190B8A73240CA9840055B200 /* 94. 二叉树的中序遍历 */ = {
+			isa = PBXGroup;
+			children = (
+				190B8A74240CA98F0055B200 /* InorderTraversal.swift */,
+			);
+			path = "94. 二叉树的中序遍历";
+			sourceTree = "<group>";
+		};
+		190E958C23B3546E00370EAB /* 5.最长回文子串    */ = {
+			isa = PBXGroup;
+			children = (
+				190E958D23B3547600370EAB /* LongestPalindrome.swift */,
+			);
+			path = "5.最长回文子串   ";
+			sourceTree = "<group>";
+		};
+		19185BCE243239BC0066094F /* 54. 螺旋矩阵 */ = {
+			isa = PBXGroup;
+			children = (
+				19185BCF243239C30066094F /* spiralOrder.swift */,
+			);
+			path = "54. 螺旋矩阵";
+			sourceTree = "<group>";
+		};
+		19185BD1243250980066094F /* 316. 去除重复字母 */ = {
+			isa = PBXGroup;
+			children = (
+				19185BD2243250A60066094F /* removeDuplicateLetters.swift */,
+			);
+			path = "316. 去除重复字母";
+			sourceTree = "<group>";
+		};
+		19185BD4243275500066094F /* 34. 在排序数组中查找元素的第一个和最后一个位置 */ = {
+			isa = PBXGroup;
+			children = (
+				19185BD52432755D0066094F /* searchRange.swift */,
+			);
+			path = "34. 在排序数组中查找元素的第一个和最后一个位置";
+			sourceTree = "<group>";
+		};
+		191A4B7F23EF1FB400DD5334 /* 29. 两数相除 */ = {
+			isa = PBXGroup;
+			children = (
+				191A4B8023EF1FBF00DD5334 /* Divide.swift */,
+			);
+			path = "29. 两数相除";
+			sourceTree = "<group>";
+		};
+		191A4B8223EFAB6C00DD5334 /* 386. 字典序排数 */ = {
+			isa = PBXGroup;
+			children = (
+				191A4B8323EFB34700DD5334 /* LexicalOrder.swift */,
+			);
+			path = "386. 字典序排数";
+			sourceTree = "<group>";
+		};
+		19207C0123EDB5EA00E14D9F /* 9. 回文数 */ = {
+			isa = PBXGroup;
+			children = (
+				19207C0223EDB5F900E14D9F /* IsPalindrome.swift */,
+			);
+			path = "9. 回文数";
+			sourceTree = "<group>";
+		};
+		19353E172411F92900C1E8CC /* 80. 删除排序数组中的重复项 II */ = {
+			isa = PBXGroup;
+			children = (
+				19353E182411F93100C1E8CC /* removeDuplicates.swift */,
+			);
+			path = "80. 删除排序数组中的重复项 II";
+			sourceTree = "<group>";
+		};
+		19386DE123F8F122008A17B1 /* 14. 最长公共前缀 */ = {
+			isa = PBXGroup;
+			children = (
+				19386DE223F8F131008A17B1 /* LongestCommonPrefix.swift */,
+			);
+			path = "14. 最长公共前缀";
+			sourceTree = "<group>";
+		};
+		193E67A424319ED600420F4A /* 7. 整数反转 */ = {
+			isa = PBXGroup;
+			children = (
+				193E67A524319EDD00420F4A /* reverse.swift */,
+			);
+			path = "7. 整数反转";
+			sourceTree = "<group>";
+		};
+		193E67A72431A43C00420F4A /* 8. 字符串转换整数 (atoi) */ = {
+			isa = PBXGroup;
+			children = (
+				193E67A82431A44500420F4A /* myAtoi.swift */,
+			);
+			path = "8. 字符串转换整数 (atoi)";
+			sourceTree = "<group>";
+		};
+		1943875223A719F1002E08CF /* 122. 买卖股票的最佳时机 II */ = {
+			isa = PBXGroup;
+			children = (
+				1943875323A71A00002E08CF /* MaxProfit.swift */,
+			);
+			path = "122. 买卖股票的最佳时机 II";
+			sourceTree = "<group>";
+		};
+		1943875523A7268D002E08CF /* 121. 买卖股票的最佳时机 */ = {
+			isa = PBXGroup;
+			children = (
+				1943875623A726A7002E08CF /* MaxPorfit_121.swift */,
+			);
+			path = "121. 买卖股票的最佳时机";
+			sourceTree = "<group>";
+		};
+		19458D2A242458FD005F1DA1 /* 面试题40. 最小的k个数 */ = {
+			isa = PBXGroup;
+			children = (
+				19458D2B24245AD2005F1DA1 /* getLeastNumbers.swift */,
+			);
+			path = "面试题40. 最小的k个数";
+			sourceTree = "<group>";
+		};
+		1946BC92241E9368009F0C56 /* 33. 搜索旋转排序数组 */ = {
+			isa = PBXGroup;
+			children = (
+				1946BC93241E9373009F0C56 /* search.swift */,
+			);
+			path = "33. 搜索旋转排序数组";
+			sourceTree = "<group>";
+		};
+		1946BC95241E9C78009F0C56 /* 81. 搜索旋转排序数组 II */ = {
+			isa = PBXGroup;
+			children = (
+				1946BC96241E9CDD009F0C56 /* search1.swift */,
+			);
+			path = "81. 搜索旋转排序数组 II";
+			sourceTree = "<group>";
+		};
+		1946BC98241EA337009F0C56 /* 153. 寻找旋转排序数组中的最小值 */ = {
+			isa = PBXGroup;
+			children = (
+				1946BC99241EA340009F0C56 /* findMin.swift */,
+			);
+			path = "153. 寻找旋转排序数组中的最小值";
+			sourceTree = "<group>";
+		};
+		1946BC9B241EA7FA009F0C56 /* 154. 搜索旋转排序数组中的最小值-ii */ = {
+			isa = PBXGroup;
+			children = (
+				1946BC9C241EA806009F0C56 /* findMin2.swift */,
+			);
+			path = "154. 搜索旋转排序数组中的最小值-ii";
+			sourceTree = "<group>";
+		};
+		194D03CA24311D4D00B0A044 /* 6. Z 字形变换 */ = {
+			isa = PBXGroup;
+			children = (
+				194D03CB24311D5800B0A044 /* convert.swift */,
+			);
+			path = "6. Z 字形变换";
+			sourceTree = "<group>";
+		};
+		195A2C3423F4257C0081DF85 /* 523. 连续的子数组和 */ = {
+			isa = PBXGroup;
+			children = (
+				195A2C3523F425850081DF85 /* CheckSubarraySum.swift */,
+			);
+			path = "523. 连续的子数组和";
+			sourceTree = "<group>";
+		};
+		195EBCCB23E6C430007B90BE /* 315. 计算右侧小于当前元素的个数 */ = {
+			isa = PBXGroup;
+			children = (
+				195EBCCC23E6C448007B90BE /* CountSmaller.swift */,
+			);
+			path = "315. 计算右侧小于当前元素的个数";
+			sourceTree = "<group>";
+		};
+		196105B9243348F800B7721A /* 912. 排序数组 */ = {
+			isa = PBXGroup;
+			children = (
+				196105BA2433490600B7721A /* sortArray.swift */,
+			);
+			path = "912. 排序数组";
+			sourceTree = "<group>";
+		};
+		196105BC243353A000B7721A /* 236. 二叉树的最近公共祖先 */ = {
+			isa = PBXGroup;
+			children = (
+				196105BD243353A900B7721A /* lowestCommonAncestor.swift */,
+			);
+			path = "236. 二叉树的最近公共祖先";
+			sourceTree = "<group>";
+		};
+		19620208240FD14A00298BBE /* 322. 零钱兑换 */ = {
+			isa = PBXGroup;
+			children = (
+				19620209240FD15300298BBE /* coinChange.swift */,
+			);
+			path = "322. 零钱兑换";
+			sourceTree = "<group>";
+		};
+		196239172435937E00091CCA /* 415. 字符串相加 */ = {
+			isa = PBXGroup;
+			children = (
+				196239182435938700091CCA /* addStrings.swift */,
+			);
+			path = "415. 字符串相加";
+			sourceTree = "<group>";
+		};
+		1962391A24359A4100091CCA /* 43. 字符串相乘(未完） */ = {
+			isa = PBXGroup;
+			children = (
+				1962391B24359A4A00091CCA /* multiply.swift */,
+			);
+			path = "43. 字符串相乘(未完）";
+			sourceTree = "<group>";
+		};
+		19624D3C2429B00C0055276D /* 面试题 17.16. 按摩师 */ = {
+			isa = PBXGroup;
+			children = (
+				19624D3D2429B14A0055276D /* massage.swift */,
+			);
+			path = "面试题 17.16. 按摩师";
+			sourceTree = "<group>";
+		};
+		19624D3F2429C0700055276D /* 面试题12. 矩阵中的路径 */ = {
+			isa = PBXGroup;
+			children = (
+				19624D402429C0890055276D /* exist.swift */,
+			);
+			path = "面试题12. 矩阵中的路径";
+			sourceTree = "<group>";
+		};
+		19624D422429CD770055276D /* 337. 打家劫舍 III */ = {
+			isa = PBXGroup;
+			children = (
+				19624D432429CD7F0055276D /* rob3.swift */,
+			);
+			path = "337. 打家劫舍 III";
+			sourceTree = "<group>";
+		};
+		19677C912437006D0040D345 /* 894. 所有可能的满二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				19677C92243700750040D345 /* allPossibleFBT.swift */,
+			);
+			path = "894. 所有可能的满二叉树";
+			sourceTree = "<group>";
+		};
+		19677C94243789AF0040D345 /* 863. 二叉树中所有距离为 K 的结点 */ = {
+			isa = PBXGroup;
+			children = (
+				19677C95243789B60040D345 /* distanceK.swift */,
+			);
+			path = "863. 二叉树中所有距离为 K 的结点";
+			sourceTree = "<group>";
+		};
+		1969ED8623B7191E00810BA1 /* 3.无重复字符的最长子串    */ = {
+			isa = PBXGroup;
+			children = (
+				1969ED8723B7192C00810BA1 /* LengthOfLongestSubstring.swift */,
+			);
+			path = "3.无重复字符的最长子串   ";
+			sourceTree = "<group>";
+		};
+		196ADF032406D637007C8208 /* 714. 买卖股票的最佳时机含手续费 */ = {
+			isa = PBXGroup;
+			children = (
+				196ADF042406D64B007C8208 /* MaxProfit_714.swift */,
+			);
+			path = "714. 买卖股票的最佳时机含手续费";
+			sourceTree = "<group>";
+		};
+		196DE09523CC88280037ABE1 /* 287.寻找重复数 */ = {
+			isa = PBXGroup;
+			children = (
+				196DE09623CC88390037ABE1 /* FindDuplicate.swift */,
+			);
+			path = "287.寻找重复数";
+			sourceTree = "<group>";
+		};
+		196DE09823CC99F40037ABE1 /* 142.环形链表 II */ = {
+			isa = PBXGroup;
+			children = (
+				196DE09923CC9CF80037ABE1 /* DetectCycle2.swift */,
+			);
+			path = "142.环形链表 II";
+			sourceTree = "<group>";
+		};
+		196E370924024069007DDE14 /* 155. 最小栈 */ = {
+			isa = PBXGroup;
+			children = (
+				196E370A24024083007DDE14 /* MinStack.swift */,
+			);
+			path = "155. 最小栈";
+			sourceTree = "<group>";
+		};
+		197106AD239160F30087B259 /* 24. 两两交换链表中的节点 */ = {
+			isa = PBXGroup;
+			children = (
+				197106AE239160FF0087B259 /* SwapPairs.swift */,
+			);
+			path = "24. 两两交换链表中的节点";
+			sourceTree = "<group>";
+		};
+		197106B023916D020087B259 /* 1.两数之和 */ = {
+			isa = PBXGroup;
+			children = (
+				197106B123916D0E0087B259 /* TwoSum.swift */,
+			);
+			path = "1.两数之和";
+			sourceTree = "<group>";
+		};
+		197161E023B08EC800261252 /* 198. 打家劫舍 */ = {
+			isa = PBXGroup;
+			children = (
+				197161E123B08EDA00261252 /* Rob_198.swift */,
+			);
+			path = "198. 打家劫舍";
+			sourceTree = "<group>";
+		};
+		1972D3DA241A576D007CCA1E /* 面试题07. 重建二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				1972D3DB241A5775007CCA1E /* buildTree.swift */,
+			);
+			path = "面试题07. 重建二叉树";
+			sourceTree = "<group>";
+		};
+		1974D6A2239F766B00484953 /* 40. 组合总和 II */ = {
+			isa = PBXGroup;
+			children = (
+				1974D6A3239F767A00484953 /* CombinationSum2.swift */,
+			);
+			path = "40. 组合总和 II";
+			sourceTree = "<group>";
+		};
+		1978D6BE242E4C26005A8C4D /* 47. 全排列 II */ = {
+			isa = PBXGroup;
+			children = (
+				1978D6BF242E4C2E005A8C4D /* permuteUnique.swift */,
+			);
+			path = "47. 全排列 II";
+			sourceTree = "<group>";
+		};
+		1978D6C1242E5C01005A8C4D /* 1079. 活字印刷 */ = {
+			isa = PBXGroup;
+			children = (
+				1978D6C2242E5C0D005A8C4D /* numTilePossibilities.swift */,
+			);
+			path = "1079. 活字印刷";
+			sourceTree = "<group>";
+		};
+		197CF1F82427C3BF0036AD23 /* 46. 全排列 */ = {
+			isa = PBXGroup;
+			children = (
+				197CF1F92427C3C70036AD23 /* permute.swift */,
+			);
+			path = "46. 全排列";
+			sourceTree = "<group>";
+		};
+		197F081F2418CCDD0016E6AD /* 面试题10- II. 青蛙跳台阶问题 */ = {
+			isa = PBXGroup;
+			children = (
+				197F08202418CCE40016E6AD /* numWays.swift */,
+			);
+			path = "面试题10- II. 青蛙跳台阶问题";
+			sourceTree = "<group>";
+		};
+		1981E56F242734C20089E1DD /* 945. 使数组唯一的最小增量 */ = {
+			isa = PBXGroup;
+			children = (
+				1981E570242734CE0089E1DD /* minIncrementForUnique.swift */,
+			);
+			path = "945. 使数组唯一的最小增量";
+			sourceTree = "<group>";
+		};
+		1984AD74239E277F00960E95 /* 39. 组合总和 */ = {
+			isa = PBXGroup;
+			children = (
+				1984AD75239E278E00960E95 /* CombinationSum.swift */,
+			);
+			path = "39. 组合总和";
+			sourceTree = "<group>";
+		};
+		1984CDD92398DF42003827A4 /* 25-K 个一组翻转链表 */ = {
+			isa = PBXGroup;
+			children = (
+				1984CDDA2398DF5A003827A4 /* ReverseKGroup.swift */,
+			);
+			path = "25-K 个一组翻转链表";
+			sourceTree = "<group>";
+		};
+		19876698240D66BD00AA33A2 /* 238. 除自身以外数组的乘积 */ = {
+			isa = PBXGroup;
+			children = (
+				19876699240D66CB00AA33A2 /* ProductExceptSelf.swift */,
+			);
+			path = "238. 除自身以外数组的乘积";
+			sourceTree = "<group>";
+		};
+		1987CF2E2395374F009B3CC0 /* 92. 反转链表 II */ = {
+			isa = PBXGroup;
+			children = (
+				1987CF2F2395375F009B3CC0 /* ReverseBetween.swift */,
+			);
+			path = "92. 反转链表 II";
+			sourceTree = "<group>";
+		};
+		1987CF3123955A9E009B3CC0 /* 206. 反转链表 */ = {
+			isa = PBXGroup;
+			children = (
+				1987CF3223955AAB009B3CC0 /* ReverseList.swift */,
+			);
+			path = "206. 反转链表";
+			sourceTree = "<group>";
+		};
+		1988EF472427D48900AACF06 /* 78. 子集 */ = {
+			isa = PBXGroup;
+			children = (
+				1988EF482427D49C00AACF06 /* subsets.swift */,
+			);
+			path = "78. 子集";
+			sourceTree = "<group>";
+		};
+		198AD33B239CFC6C0051EA35 /* 66. 加一 */ = {
+			isa = PBXGroup;
+			children = (
+				198AD33C239CFC790051EA35 /* PlusOne.swift */,
+			);
+			path = "66. 加一";
+			sourceTree = "<group>";
+		};
+		198AD33E239D462B0051EA35 /* 17. 电话号码的字母组合 */ = {
+			isa = PBXGroup;
+			children = (
+				198AD33F239D463F0051EA35 /* LetterCombinations.swift */,
+			);
+			path = "17. 电话号码的字母组合";
+			sourceTree = "<group>";
+		};
+		1992824D23D1854B00DF9DD0 /* 208. 实现 Trie (前缀树) */ = {
+			isa = PBXGroup;
+			children = (
+				1992824B23D1852800DF9DD0 /* Trie.swift */,
+			);
+			path = "208. 实现 Trie (前缀树)";
+			sourceTree = "<group>";
+		};
+		199C7F4423CACDE300CF6DB8 /* 739. 每日温度 */ = {
+			isa = PBXGroup;
+			children = (
+				199C7F4523CAE95900CF6DB8 /* DailyTemperatures.swift */,
+			);
+			path = "739. 每日温度";
+			sourceTree = "<group>";
+		};
+		199C7F4723CB1A6700CF6DB8 /* 42.接雨水 */ = {
+			isa = PBXGroup;
+			children = (
+				199C7F4823CB1A7500CF6DB8 /* Trap.swift */,
+			);
+			path = "42.接雨水";
+			sourceTree = "<group>";
+		};
+		199FD4D52393F7400028BDA8 /* 15. 三数之和 */ = {
+			isa = PBXGroup;
+			children = (
+				199FD4D62393F75E0028BDA8 /* ThreeSum.swift */,
+			);
+			path = "15. 三数之和";
+			sourceTree = "<group>";
+		};
+		19A113132425BE5600BE8EC0 /* 365. 水壶问题 */ = {
+			isa = PBXGroup;
+			children = (
+				19A113142425BE6200BE8EC0 /* canMeasureWater.swift */,
+			);
+			path = "365. 水壶问题";
+			sourceTree = "<group>";
+		};
+		19A2960D23CEBDF8003E091A /* 215.数组中的第K个最大元素 */ = {
+			isa = PBXGroup;
+			children = (
+				19A2960E23CEC489003E091A /* FindKthLargest.swift */,
+			);
+			path = "215.数组中的第K个最大元素";
+			sourceTree = "<group>";
+		};
+		19AE25E824017A07008EA886 /* 547. 朋友圈 */ = {
+			isa = PBXGroup;
+			children = (
+				19AE25E924017A10008EA886 /* FindCircleNum.swift */,
+			);
+			path = "547. 朋友圈";
+			sourceTree = "<group>";
+		};
+		19AE25EB24017F14008EA886 /* 684. 冗余连接 */ = {
+			isa = PBXGroup;
+			children = (
+				19AE25EC24017F25008EA886 /* FindRedundantConnection.swift */,
+			);
+			path = "684. 冗余连接";
+			sourceTree = "<group>";
+		};
+		19B2A6CE242F33B300BEE658 /* 162. 寻找峰值 */ = {
+			isa = PBXGroup;
+			children = (
+				19B2A6CF242F33BF00BEE658 /* findPeakElement.swift */,
+			);
+			path = "162. 寻找峰值";
+			sourceTree = "<group>";
+		};
+		19B30AB0241A22E700DFA3E0 /* 1071. 字符串的最大公因子 */ = {
+			isa = PBXGroup;
+			children = (
+				19B30AB1241A230F00DFA3E0 /* gcdOfStrings.swift */,
+			);
+			path = "1071. 字符串的最大公因子";
+			sourceTree = "<group>";
+		};
+		19B419DE23CA04BD00C79DCB /* 1143.最长公共子序列 */ = {
+			isa = PBXGroup;
+			children = (
+				19B419DF23CA04E200C79DCB /* LongestCommonSubsequence.swift */,
+			);
+			path = "1143.最长公共子序列";
+			sourceTree = "<group>";
+		};
+		19B5390F23A776B2003F8D44 /* 242. 有效的字母异位词 */ = {
+			isa = PBXGroup;
+			children = (
+				19B5391023A776BC003F8D44 /* IsAnagram.swift */,
+			);
+			path = "242. 有效的字母异位词";
+			sourceTree = "<group>";
+		};
+		19B62617242CFC0200F83BE5 /* 999. 车的可用捕获量 */ = {
+			isa = PBXGroup;
+			children = (
+				19B62618242CFC0E00F83BE5 /* numRookCaptures.swift */,
+			);
+			path = "999. 车的可用捕获量";
+			sourceTree = "<group>";
+		};
+		19B89A0A23FF82340022E646 /* 202. 快乐数 */ = {
+			isa = PBXGroup;
+			children = (
+				19B89A0B23FF823F0022E646 /* IsHappy.swift */,
+			);
+			path = "202. 快乐数";
+			sourceTree = "<group>";
+		};
+		19B9E29A23EE656400E39B17 /* 11. 盛最多水的容器 */ = {
+			isa = PBXGroup;
+			children = (
+				19B9E29B23EE658C00E39B17 /* MaxArea.swift */,
+			);
+			path = "11. 盛最多水的容器";
+			sourceTree = "<group>";
+		};
+		19BEAF95242860890043EC2C /* 876. 链表的中间结点 */ = {
+			isa = PBXGroup;
+			children = (
+				19BEAF96242860910043EC2C /* middleNode.swift */,
+			);
+			path = "876. 链表的中间结点";
+			sourceTree = "<group>";
+		};
+		19C3991F242256490011910A /* 面试题42. 连续子数组的最大和 */ = {
+			isa = PBXGroup;
+			children = (
+				19C39920242256590011910A /* maxSubArray.swift */,
+			);
+			path = "面试题42. 连续子数组的最大和";
+			sourceTree = "<group>";
+		};
+		19C3992224226BD30011910A /* 836. 矩形重叠 */ = {
+			isa = PBXGroup;
+			children = (
+				19C3992324226BDC0011910A /* isRectangleOverlap.swift */,
+			);
+			path = "836. 矩形重叠";
+			sourceTree = "<group>";
+		};
+		19C3A2D32398A02C00FAA27C /* 2. 两数相加 */ = {
+			isa = PBXGroup;
+			children = (
+				19C3A2D42398A03C00FAA27C /* AddTwoNumbers.swift */,
+			);
+			path = "2. 两数相加";
+			sourceTree = "<group>";
+		};
+		19C482BF242AF46400BE8BA6 /* 1374. 生成每种字符都是奇数个的字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				19C482C0242AF46E00BE8BA6 /* generateTheString.swift */,
+			);
+			path = "1374. 生成每种字符都是奇数个的字符串";
+			sourceTree = "<group>";
+		};
+		19C62C1723E59CFB0093CF4F /* 217. 存在重复元素 */ = {
+			isa = PBXGroup;
+			children = (
+				19C62C1823E59D070093CF4F /* ContainsDuplicate.swift */,
+			);
+			path = "217. 存在重复元素";
+			sourceTree = "<group>";
+		};
+		19C96F93238F655F00699CA5 = {
+			isa = PBXGroup;
+			children = (
+				19C96F9E238F655F00699CA5 /* LeetCode-Swift */,
+				19C96F9D238F655F00699CA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19C96F9D238F655F00699CA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19C96F9C238F655F00699CA5 /* LeetCode-Swift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				19677C94243789AF0040D345 /* 863. 二叉树中所有距离为 K 的结点 */,
+				19677C912437006D0040D345 /* 894. 所有可能的满二叉树 */,
+				1962391A24359A4100091CCA /* 43. 字符串相乘(未完） */,
+				196239172435937E00091CCA /* 415. 字符串相加 */,
+				19FEA90724343AE40067C255 /* 705. 设计哈希集合 */,
+				196105BC243353A000B7721A /* 236. 二叉树的最近公共祖先 */,
+				196105B9243348F800B7721A /* 912. 排序数组 */,
+				19185BD4243275500066094F /* 34. 在排序数组中查找元素的第一个和最后一个位置 */,
+				19185BD1243250980066094F /* 316. 去除重复字母 */,
+				19185BCE243239BC0066094F /* 54. 螺旋矩阵 */,
+				193E67A72431A43C00420F4A /* 8. 字符串转换整数 (atoi) */,
+				193E67A424319ED600420F4A /* 7. 整数反转 */,
+				194D03CA24311D4D00B0A044 /* 6. Z 字形变换 */,
+				19DC802924310FBE00B6E6C6 /* 56. 合并区间 */,
+				19DADFAF2430CA7F007C342F /* 138. 复制带随机指针的链表 */,
+				19DADFAC24305768007C342F /* 61. 旋转链表 */,
+				19DADFA924304ECE007C342F /* 13. 罗马数字转整数 */,
+				19B2A6CE242F33B300BEE658 /* 162. 寻找峰值 */,
+				19FE113F242EF5BA00DAF210 /* 133. 克隆图 */,
+				1978D6C1242E5C01005A8C4D /* 1079. 活字印刷 */,
+				1978D6BE242E4C26005A8C4D /* 47. 全排列 II */,
+				19DAE331242E376100A431FA /* 77. 组合 */,
+				19DAE32E242E1E7B00A431FA /* 90. 子集 II */,
+				19DAE32B242E173A00A431FA /* 面试题46. 把数字翻译成字符串 */,
+				19DAE328242DDDF800A431FA /* 22. 括号生成 */,
+				19DAE325242DBC6900A431FA /* 110. 平衡二叉树 */,
+				19DAE322242DA29400A431FA /* 111. 二叉树的最小深度 */,
+				19DAE31F242D2AF300A431FA /* 103. 二叉树的锯齿形层次遍历 */,
+				19DAE31C242D19F100A431FA /* 145. 二叉树的后序遍历 */,
+				19DAE319242D0C2200A431FA /* 144. 二叉树的前序遍历 */,
+				19B62617242CFC0200F83BE5 /* 999. 车的可用捕获量 */,
+				19E87715242B77DC006D7679 /* 234. 回文链表 */,
+				19EA94B7242B1342004232F7 /* 892. 三维形体的表面积 */,
+				19EA94B4242B0AF7004232F7 /* 160. 相交链表 */,
+				19C482BF242AF46400BE8BA6 /* 1374. 生成每种字符都是奇数个的字符串 */,
+				19624D422429CD770055276D /* 337. 打家劫舍 III */,
+				19624D3F2429C0700055276D /* 面试题12. 矩阵中的路径 */,
+				19624D3C2429B00C0055276D /* 面试题 17.16. 按摩师 */,
+				19BEAF95242860890043EC2C /* 876. 链表的中间结点 */,
+				1988EF472427D48900AACF06 /* 78. 子集 */,
+				197CF1F82427C3BF0036AD23 /* 46. 全排列 */,
+				1981E56F242734C20089E1DD /* 945. 使数组唯一的最小增量 */,
+				19A113132425BE5600BE8EC0 /* 365. 水壶问题 */,
+				19458D2A242458FD005F1DA1 /* 面试题40. 最小的k个数 */,
+				19FA3B282423CB7300A29DC8 /* 409. 最长回文串 */,
+				19C3992224226BD30011910A /* 836. 矩形重叠 */,
+				19C3991F242256490011910A /* 面试题42. 连续子数组的最大和 */,
+				1946BC9B241EA7FA009F0C56 /* 154. 搜索旋转排序数组中的最小值-ii */,
+				1946BC98241EA337009F0C56 /* 153. 寻找旋转排序数组中的最小值 */,
+				1946BC95241E9C78009F0C56 /* 81. 搜索旋转排序数组 II */,
+				1946BC92241E9368009F0C56 /* 33. 搜索旋转排序数组 */,
+				19D65DF0241A8B0700AEF6B0 /* 面试题10- I. 斐波那契数列(509) */,
+				1972D3DA241A576D007CCA1E /* 面试题07. 重建二叉树 */,
+				19B30AB0241A22E700DFA3E0 /* 1071. 字符串的最大公因子 */,
+				197F081F2418CCDD0016E6AD /* 面试题10- II. 青蛙跳台阶问题 */,
+				19001B1B2418B91C006496C9 /* 1013. 将数组分成和相等的三个部分 */,
+				19353E172411F92900C1E8CC /* 80. 删除排序数组中的重复项 II */,
+				19620208240FD14A00298BBE /* 322. 零钱兑换 */,
+				19CAA605240E2C17006513E9 /* 189. 旋转数组 */,
+				19CAA602240E0AD8006513E9 /* 面试题 10.01. 合并排序的数组 */,
+				19CAA5FF240DFFE7006513E9 /* 114. 二叉树展开为链表 */,
+				19876698240D66BD00AA33A2 /* 238. 除自身以外数组的乘积 */,
+				190B8A73240CA9840055B200 /* 94. 二叉树的中序遍历 */,
+				19E587B7240836DB0032B9D4 /* 64. 最小路径和 */,
+				196ADF032406D637007C8208 /* 714. 买卖股票的最佳时机含手续费 */,
+				196E370924024069007DDE14 /* 155. 最小栈 */,
+				19AE25EB24017F14008EA886 /* 684. 冗余连接 */,
+				19AE25E824017A07008EA886 /* 547. 朋友圈 */,
+				19B89A0A23FF82340022E646 /* 202. 快乐数 */,
+				19386DE123F8F122008A17B1 /* 14. 最长公共前缀 */,
+				195A2C3423F4257C0081DF85 /* 523. 连续的子数组和 */,
+				1901B56523F12B3C004771A2 /* 958. 二叉树的完全性检验 */,
+				19D9DD5A23F02AB3001BBD64 /* 102. 二叉树的层次遍历 */,
+				191A4B8223EFAB6C00DD5334 /* 386. 字典序排数 */,
+				191A4B7F23EF1FB400DD5334 /* 29. 两数相除 */,
+				19B9E29A23EE656400E39B17 /* 11. 盛最多水的容器 */,
+				19207C0123EDB5EA00E14D9F /* 9. 回文数 */,
+				195EBCCB23E6C430007B90BE /* 315. 计算右侧小于当前元素的个数 */,
+				19C62C1723E59CFB0093CF4F /* 217. 存在重复元素 */,
+				19EAFC8723E2EFC000A22956 /* 28. 实现 strStr() */,
+				1992824D23D1854B00DF9DD0 /* 208. 实现 Trie (前缀树) */,
+				19A2960D23CEBDF8003E091A /* 215.数组中的第K个最大元素 */,
+				196DE09823CC99F40037ABE1 /* 142.环形链表 II */,
+				196DE09523CC88280037ABE1 /* 287.寻找重复数 */,
+				199C7F4723CB1A6700CF6DB8 /* 42.接雨水 */,
+				199C7F4423CACDE300CF6DB8 /* 739. 每日温度 */,
+				19B419DE23CA04BD00C79DCB /* 1143.最长公共子序列 */,
+				19D814BE23C4B4DE0066B8B6 /* 338.比特位计数 */,
+				1969ED8623B7191E00810BA1 /* 3.无重复字符的最长子串    */,
+				190E958C23B3546E00370EAB /* 5.最长回文子串    */,
+				197161E023B08EC800261252 /* 198. 打家劫舍 */,
+				19E43DF223AB5808005BF64A /* 146. LRU缓存机制 */,
+				19D0893523AA767A00D3660B /* 32. 最长有效括号 */,
+				19B5390F23A776B2003F8D44 /* 242. 有效的字母异位词 */,
+				1943875523A7268D002E08CF /* 121. 买卖股票的最佳时机 */,
+				1943875223A719F1002E08CF /* 122. 买卖股票的最佳时机 II */,
+				19E24EBD23A35E3100DA9E84 /* 147. 对链表进行插入排序 */,
+				19E24EBA23A298AD00DA9E84 /* 21. 合并两个有序链表 */,
+				19E24EB723A28DEC00DA9E84 /* 148. 排序链表 */,
+				19E24EB423A2701700DA9E84 /* 237. 删除链表中的节点 */,
+				1974D6A2239F766B00484953 /* 40. 组合总和 II */,
+				1984AD74239E277F00960E95 /* 39. 组合总和 */,
+				198AD33E239D462B0051EA35 /* 17. 电话号码的字母组合 */,
+				198AD33B239CFC6C0051EA35 /* 66. 加一 */,
+				1984CDD92398DF42003827A4 /* 25-K 个一组翻转链表 */,
+				19C3A2D32398A02C00FAA27C /* 2. 两数相加 */,
+				19EDBDE72397FD30002C53B8 /* 86. 分隔链表 */,
+				19E66546239689EB001424B3 /* 19. 删除链表的倒数第N个节点 */,
+				1987CF3123955A9E009B3CC0 /* 206. 反转链表 */,
+				1987CF2E2395374F009B3CC0 /* 92. 反转链表 II */,
+				199FD4D52393F7400028BDA8 /* 15. 三数之和 */,
+				197106B023916D020087B259 /* 1.两数之和 */,
+				197106AD239160F30087B259 /* 24. 两两交换链表中的节点 */,
+				19C96FA6238F66F800699CA5 /* 20. 有效的括号 */,
+				19C96F9F238F655F00699CA5 /* main.swift */,
+			);
+			path = "LeetCode-Swift";
+			sourceTree = "<group>";
+		};
+		19C96FA6238F66F800699CA5 /* 20. 有效的括号 */ = {
+			isa = PBXGroup;
+			children = (
+				19C96FA9238F676800699CA5 /* IsValid.swift */,
+			);
+			path = "20. 有效的括号";
+			sourceTree = "<group>";
+		};
+		19CAA5FF240DFFE7006513E9 /* 114. 二叉树展开为链表 */ = {
+			isa = PBXGroup;
+			children = (
+				19CAA600240DFFF0006513E9 /* flatten.swift */,
+			);
+			path = "114. 二叉树展开为链表";
+			sourceTree = "<group>";
+		};
+		19CAA602240E0AD8006513E9 /* 面试题 10.01. 合并排序的数组 */ = {
+			isa = PBXGroup;
+			children = (
+				19CAA603240E0C0C006513E9 /* merge.swift */,
+			);
+			path = "面试题 10.01. 合并排序的数组";
+			sourceTree = "<group>";
+		};
+		19CAA605240E2C17006513E9 /* 189. 旋转数组 */ = {
+			isa = PBXGroup;
+			children = (
+				19CAA606240E2C22006513E9 /* rotate.swift */,
+			);
+			path = "189. 旋转数组";
+			sourceTree = "<group>";
+		};
+		19D0893523AA767A00D3660B /* 32. 最长有效括号 */ = {
+			isa = PBXGroup;
+			children = (
+				19E23D0023AA769500271E1C /* LongestValidParentheses.swift */,
+			);
+			path = "32. 最长有效括号";
+			sourceTree = "<group>";
+		};
+		19D65DF0241A8B0700AEF6B0 /* 面试题10- I. 斐波那契数列(509) */ = {
+			isa = PBXGroup;
+			children = (
+				19D65DF1241A8B1500AEF6B0 /* fib.swift */,
+			);
+			path = "面试题10- I. 斐波那契数列(509)";
+			sourceTree = "<group>";
+		};
+		19D814BE23C4B4DE0066B8B6 /* 338.比特位计数 */ = {
+			isa = PBXGroup;
+			children = (
+				19D814BF23C4B4F00066B8B6 /* CountBits.swift */,
+			);
+			path = "338.比特位计数";
+			sourceTree = "<group>";
+		};
+		19D9DD5A23F02AB3001BBD64 /* 102. 二叉树的层次遍历 */ = {
+			isa = PBXGroup;
+			children = (
+				19D9DD5B23F02AC4001BBD64 /* LevelOrder.swift */,
+			);
+			path = "102. 二叉树的层次遍历";
+			sourceTree = "<group>";
+		};
+		19DADFA924304ECE007C342F /* 13. 罗马数字转整数 */ = {
+			isa = PBXGroup;
+			children = (
+				19DADFAA24304EDA007C342F /* romanToInt.swift */,
+			);
+			path = "13. 罗马数字转整数";
+			sourceTree = "<group>";
+		};
+		19DADFAC24305768007C342F /* 61. 旋转链表 */ = {
+			isa = PBXGroup;
+			children = (
+				19DADFAD24305777007C342F /* rotateRight.swift */,
+			);
+			path = "61. 旋转链表";
+			sourceTree = "<group>";
+		};
+		19DADFAF2430CA7F007C342F /* 138. 复制带随机指针的链表 */ = {
+			isa = PBXGroup;
+			children = (
+				19DADFB02430CA88007C342F /* copyRandomList.swift */,
+			);
+			path = "138. 复制带随机指针的链表";
+			sourceTree = "<group>";
+		};
+		19DAE319242D0C2200A431FA /* 144. 二叉树的前序遍历 */ = {
+			isa = PBXGroup;
+			children = (
+				19DAE31A242D0C2A00A431FA /* preorderTraversal.swift */,
+			);
+			path = "144. 二叉树的前序遍历";
+			sourceTree = "<group>";
+		};
+		19DAE31C242D19F100A431FA /* 145. 二叉树的后序遍历 */ = {
+			isa = PBXGroup;
+			children = (
+				19DAE31D242D19FD00A431FA /* postorderTraversal.swift */,
+			);
+			path = "145. 二叉树的后序遍历";
+			sourceTree = "<group>";
+		};
+		19DAE31F242D2AF300A431FA /* 103. 二叉树的锯齿形层次遍历 */ = {
+			isa = PBXGroup;
+			children = (
+				19DAE320242D2AFB00A431FA /* zigzagLevelOrder.swift */,
+			);
+			path = "103. 二叉树的锯齿形层次遍历";
+			sourceTree = "<group>";
+		};
+		19DAE322242DA29400A431FA /* 111. 二叉树的最小深度 */ = {
+			isa = PBXGroup;
+			children = (
+				19DAE323242DA33200A431FA /* minDepth.swift */,
+			);
+			path = "111. 二叉树的最小深度";
+			sourceTree = "<group>";
+		};
+		19DAE325242DBC6900A431FA /* 110. 平衡二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				19DAE326242DBC7A00A431FA /* isBalanced.swift */,
+			);
+			path = "110. 平衡二叉树";
+			sourceTree = "<group>";
+		};
+		19DAE328242DDDF800A431FA /* 22. 括号生成 */ = {
+			isa = PBXGroup;
+			children = (
+				19DAE329242DDE0000A431FA /* generateParenthesis.swift */,
+			);
+			path = "22. 括号生成";
+			sourceTree = "<group>";
+		};
+		19DAE32B242E173A00A431FA /* 面试题46. 把数字翻译成字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				19DAE32C242E174200A431FA /* translateNum.swift */,
+			);
+			path = "面试题46. 把数字翻译成字符串";
+			sourceTree = "<group>";
+		};
+		19DAE32E242E1E7B00A431FA /* 90. 子集 II */ = {
+			isa = PBXGroup;
+			children = (
+				19DAE32F242E1E8300A431FA /* subsetsWithDup.swift */,
+			);
+			path = "90. 子集 II";
+			sourceTree = "<group>";
+		};
+		19DAE331242E376100A431FA /* 77. 组合 */ = {
+			isa = PBXGroup;
+			children = (
+				19DAE332242E376E00A431FA /* combine.swift */,
+			);
+			path = "77. 组合";
+			sourceTree = "<group>";
+		};
+		19DC802924310FBE00B6E6C6 /* 56. 合并区间 */ = {
+			isa = PBXGroup;
+			children = (
+				194D03C8243115DA00B0A044 /* merge1.swift */,
+			);
+			path = "56. 合并区间";
+			sourceTree = "<group>";
+		};
+		19E24EB423A2701700DA9E84 /* 237. 删除链表中的节点 */ = {
+			isa = PBXGroup;
+			children = (
+				19E24EB523A2703500DA9E84 /* DeleteNode.swift */,
+			);
+			path = "237. 删除链表中的节点";
+			sourceTree = "<group>";
+		};
+		19E24EB723A28DEC00DA9E84 /* 148. 排序链表 */ = {
+			isa = PBXGroup;
+			children = (
+				19E24EB823A28DFB00DA9E84 /* SortList.swift */,
+			);
+			path = "148. 排序链表";
+			sourceTree = "<group>";
+		};
+		19E24EBA23A298AD00DA9E84 /* 21. 合并两个有序链表 */ = {
+			isa = PBXGroup;
+			children = (
+				19E24EBB23A298C000DA9E84 /* MergeTwoLists.swift */,
+			);
+			path = "21. 合并两个有序链表";
+			sourceTree = "<group>";
+		};
+		19E24EBD23A35E3100DA9E84 /* 147. 对链表进行插入排序 */ = {
+			isa = PBXGroup;
+			children = (
+				19E24EBE23A3613900DA9E84 /* InsertionSortList.swift */,
+			);
+			path = "147. 对链表进行插入排序";
+			sourceTree = "<group>";
+		};
+		19E43DF223AB5808005BF64A /* 146. LRU缓存机制 */ = {
+			isa = PBXGroup;
+			children = (
+				19E43DF323AB5815005BF64A /* LRUCache.swift */,
+			);
+			path = "146. LRU缓存机制";
+			sourceTree = "<group>";
+		};
+		19E587B7240836DB0032B9D4 /* 64. 最小路径和 */ = {
+			isa = PBXGroup;
+			children = (
+				19E587B8240836E70032B9D4 /* MinPathSum.swift */,
+			);
+			path = "64. 最小路径和";
+			sourceTree = "<group>";
+		};
+		19E66546239689EB001424B3 /* 19. 删除链表的倒数第N个节点 */ = {
+			isa = PBXGroup;
+			children = (
+				19E6654723968A04001424B3 /* RemoveNthFromEnd.swift */,
+			);
+			path = "19. 删除链表的倒数第N个节点";
+			sourceTree = "<group>";
+		};
+		19E87715242B77DC006D7679 /* 234. 回文链表 */ = {
+			isa = PBXGroup;
+			children = (
+				19E87716242B77E6006D7679 /* isPalindrome.swift */,
+			);
+			path = "234. 回文链表";
+			sourceTree = "<group>";
+		};
+		19EA94B4242B0AF7004232F7 /* 160. 相交链表 */ = {
+			isa = PBXGroup;
+			children = (
+				19EA94B5242B0B06004232F7 /* getIntersectionNode.swift */,
+			);
+			path = "160. 相交链表";
+			sourceTree = "<group>";
+		};
+		19EA94B7242B1342004232F7 /* 892. 三维形体的表面积 */ = {
+			isa = PBXGroup;
+			children = (
+				19EA94B8242B134F004232F7 /* surfaceArea.swift */,
+			);
+			path = "892. 三维形体的表面积";
+			sourceTree = "<group>";
+		};
+		19EAFC8723E2EFC000A22956 /* 28. 实现 strStr() */ = {
+			isa = PBXGroup;
+			children = (
+				19EAFC8823E2EFE700A22956 /* strStr.swift */,
+			);
+			path = "28. 实现 strStr()";
+			sourceTree = "<group>";
+		};
+		19EDBDE72397FD30002C53B8 /* 86. 分隔链表 */ = {
+			isa = PBXGroup;
+			children = (
+				19EDBDE8239800EA002C53B8 /* Partition.swift */,
+			);
+			path = "86. 分隔链表";
+			sourceTree = "<group>";
+		};
+		19FA3B282423CB7300A29DC8 /* 409. 最长回文串 */ = {
+			isa = PBXGroup;
+			children = (
+				19FA3B292423CB7B00A29DC8 /* longestPalindrome.swift */,
+			);
+			path = "409. 最长回文串";
+			sourceTree = "<group>";
+		};
+		19FE113F242EF5BA00DAF210 /* 133. 克隆图 */ = {
+			isa = PBXGroup;
+			children = (
+				19FE1140242EF5C200DAF210 /* cloneGraph.swift */,
+			);
+			path = "133. 克隆图";
+			sourceTree = "<group>";
+		};
+		19FEA90724343AE40067C255 /* 705. 设计哈希集合 */ = {
+			isa = PBXGroup;
+			children = (
+				19FEA90824343AED0067C255 /* MyHashSet.swift */,
+			);
+			path = "705. 设计哈希集合";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19C96F9B238F655F00699CA5 /* LeetCode-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C96FA3238F655F00699CA5 /* Build configuration list for PBXNativeTarget "LeetCode-Swift" */;
+			buildPhases = (
+				19C96F98238F655F00699CA5 /* Sources */,
+				19C96F99238F655F00699CA5 /* Frameworks */,
+				19C96F9A238F655F00699CA5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LeetCode-Swift";
+			productName = "LeetCode-Swift";
+			productReference = 19C96F9C238F655F00699CA5 /* LeetCode-Swift */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19C96F94238F655F00699CA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = yidingw;
+				TargetAttributes = {
+					19C96F9B238F655F00699CA5 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 19C96F97238F655F00699CA5 /* Build configuration list for PBXProject "LeetCode-Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19C96F93238F655F00699CA5;
+			productRefGroup = 19C96F9D238F655F00699CA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19C96F9B238F655F00699CA5 /* LeetCode-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19C96F98238F655F00699CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E24EBC23A298C000DA9E84 /* MergeTwoLists.swift in Sources */,
+				19DAE330242E1E8300A431FA /* subsetsWithDup.swift in Sources */,
+				199C7F4623CAE95900CF6DB8 /* DailyTemperatures.swift in Sources */,
+				19B419E023CA04E200C79DCB /* LongestCommonSubsequence.swift in Sources */,
+				1992824C23D1852800DF9DD0 /* Trie.swift in Sources */,
+				1969ED8823B7192C00810BA1 /* LengthOfLongestSubstring.swift in Sources */,
+				19B5391123A776BC003F8D44 /* IsAnagram.swift in Sources */,
+				19DADFAE24305777007C342F /* rotateRight.swift in Sources */,
+				19DADFB12430CA88007C342F /* copyRandomList.swift in Sources */,
+				19DAE32A242DDE0000A431FA /* generateParenthesis.swift in Sources */,
+				19C62C1923E59D070093CF4F /* ContainsDuplicate.swift in Sources */,
+				1974D6A4239F767A00484953 /* CombinationSum2.swift in Sources */,
+				193E67A92431A44500420F4A /* myAtoi.swift in Sources */,
+				19C3A2D52398A03C00FAA27C /* AddTwoNumbers.swift in Sources */,
+				19D9DD5C23F02AC4001BBD64 /* LevelOrder.swift in Sources */,
+				196E370B24024083007DDE14 /* MinStack.swift in Sources */,
+				199C7F4923CB1A7500CF6DB8 /* Trap.swift in Sources */,
+				19C96FA0238F655F00699CA5 /* main.swift in Sources */,
+				193E67A624319EDD00420F4A /* reverse.swift in Sources */,
+				1978D6C3242E5C0E005A8C4D /* numTilePossibilities.swift in Sources */,
+				19185BD3243250A60066094F /* removeDuplicateLetters.swift in Sources */,
+				191A4B8123EF1FBF00DD5334 /* Divide.swift in Sources */,
+				1962020A240FD15300298BBE /* coinChange.swift in Sources */,
+				19AE25EA24017A10008EA886 /* FindCircleNum.swift in Sources */,
+				19C39921242256590011910A /* maxSubArray.swift in Sources */,
+				191A4B8423EFB34700DD5334 /* LexicalOrder.swift in Sources */,
+				195A2C3623F425850081DF85 /* CheckSubarraySum.swift in Sources */,
+				19B9E29C23EE658C00E39B17 /* MaxArea.swift in Sources */,
+				19207C0323EDB5F900E14D9F /* IsPalindrome.swift in Sources */,
+				19CAA601240DFFF0006513E9 /* flatten.swift in Sources */,
+				1987CF3323955AAB009B3CC0 /* ReverseList.swift in Sources */,
+				19BEAF97242860910043EC2C /* middleNode.swift in Sources */,
+				1901B56723F12B4E004771A2 /* IsCompleteTree.swift in Sources */,
+				19D65DF2241A8B1500AEF6B0 /* fib.swift in Sources */,
+				197161E223B08EDA00261252 /* Rob_198.swift in Sources */,
+				19DAE324242DA33200A431FA /* minDepth.swift in Sources */,
+				19B30AB2241A230F00DFA3E0 /* gcdOfStrings.swift in Sources */,
+				197106B223916D0E0087B259 /* TwoSum.swift in Sources */,
+				1962391C24359A4A00091CCA /* multiply.swift in Sources */,
+				1988EF492427D49C00AACF06 /* subsets.swift in Sources */,
+				19DAE333242E376E00A431FA /* combine.swift in Sources */,
+				196105BE243353A900B7721A /* lowestCommonAncestor.swift in Sources */,
+				19FEA90924343AED0067C255 /* MyHashSet.swift in Sources */,
+				19C3992424226BDC0011910A /* isRectangleOverlap.swift in Sources */,
+				19DAE32D242E174200A431FA /* translateNum.swift in Sources */,
+				196DE09A23CC9CF80037ABE1 /* DetectCycle2.swift in Sources */,
+				19DAE31E242D19FD00A431FA /* postorderTraversal.swift in Sources */,
+				1984CDDB2398DF5A003827A4 /* ReverseKGroup.swift in Sources */,
+				19624D442429CD7F0055276D /* rob3.swift in Sources */,
+				19677C93243700750040D345 /* allPossibleFBT.swift in Sources */,
+				1943875423A71A00002E08CF /* MaxProfit.swift in Sources */,
+				19E24EBF23A3613900DA9E84 /* InsertionSortList.swift in Sources */,
+				19677C96243789B60040D345 /* distanceK.swift in Sources */,
+				1943875723A726A7002E08CF /* MaxPorfit_121.swift in Sources */,
+				19DAE31B242D0C2A00A431FA /* preorderTraversal.swift in Sources */,
+				19B62619242CFC0E00F83BE5 /* numRookCaptures.swift in Sources */,
+				197F08212418CCE40016E6AD /* numWays.swift in Sources */,
+				19458D2C24245AD2005F1DA1 /* getLeastNumbers.swift in Sources */,
+				197CF1FA2427C3C70036AD23 /* permute.swift in Sources */,
+				19B89A0C23FF823F0022E646 /* IsHappy.swift in Sources */,
+				19386DE323F8F131008A17B1 /* LongestCommonPrefix.swift in Sources */,
+				198AD33D239CFC790051EA35 /* PlusOne.swift in Sources */,
+				1972D3DC241A5775007CCA1E /* buildTree.swift in Sources */,
+				19624D412429C0890055276D /* exist.swift in Sources */,
+				19DAE327242DBC7A00A431FA /* isBalanced.swift in Sources */,
+				198AD340239D463F0051EA35 /* LetterCombinations.swift in Sources */,
+				19E24EB623A2703500DA9E84 /* DeleteNode.swift in Sources */,
+				1984AD76239E278E00960E95 /* CombinationSum.swift in Sources */,
+				19185BD62432755D0066094F /* searchRange.swift in Sources */,
+				19DAE321242D2AFB00A431FA /* zigzagLevelOrder.swift in Sources */,
+				196105BB2433490600B7721A /* sortArray.swift in Sources */,
+				19001B1D2418B929006496C9 /* canThreePartsEqualSum.swift in Sources */,
+				1987CF302395375F009B3CC0 /* ReverseBetween.swift in Sources */,
+				199FD4D72393F75E0028BDA8 /* ThreeSum.swift in Sources */,
+				1946BC9D241EA806009F0C56 /* findMin2.swift in Sources */,
+				19EDBDE9239800EA002C53B8 /* Partition.swift in Sources */,
+				19D814C023C4B4F00066B8B6 /* CountBits.swift in Sources */,
+				19E43DF423AB5815005BF64A /* LRUCache.swift in Sources */,
+				19EA94B6242B0B06004232F7 /* getIntersectionNode.swift in Sources */,
+				197106AF239160FF0087B259 /* SwapPairs.swift in Sources */,
+				19AE25ED24017F25008EA886 /* FindRedundantConnection.swift in Sources */,
+				1981E571242734CE0089E1DD /* minIncrementForUnique.swift in Sources */,
+				1978D6C0242E4C2E005A8C4D /* permuteUnique.swift in Sources */,
+				19185BD0243239C30066094F /* spiralOrder.swift in Sources */,
+				194D03CC24311D5800B0A044 /* convert.swift in Sources */,
+				1946BC97241E9CDD009F0C56 /* search1.swift in Sources */,
+				19E23D0123AA769500271E1C /* LongestValidParentheses.swift in Sources */,
+				19EA94B9242B134F004232F7 /* surfaceArea.swift in Sources */,
+				19B2A6D0242F33BF00BEE658 /* findPeakElement.swift in Sources */,
+				19E24EB923A28DFB00DA9E84 /* SortList.swift in Sources */,
+				196239192435938700091CCA /* addStrings.swift in Sources */,
+				19A2960F23CEC489003E091A /* FindKthLargest.swift in Sources */,
+				19E6654823968A04001424B3 /* RemoveNthFromEnd.swift in Sources */,
+				196DE09723CC88390037ABE1 /* FindDuplicate.swift in Sources */,
+				19E87717242B77E6006D7679 /* isPalindrome.swift in Sources */,
+				19353E192411F93100C1E8CC /* removeDuplicates.swift in Sources */,
+				19CAA607240E2C22006513E9 /* rotate.swift in Sources */,
+				19A113152425BE6200BE8EC0 /* canMeasureWater.swift in Sources */,
+				1946BC9A241EA340009F0C56 /* findMin.swift in Sources */,
+				1987669A240D66CB00AA33A2 /* ProductExceptSelf.swift in Sources */,
+				19E587B9240836E70032B9D4 /* MinPathSum.swift in Sources */,
+				19C482C1242AF46E00BE8BA6 /* generateTheString.swift in Sources */,
+				190B8A75240CA98F0055B200 /* InorderTraversal.swift in Sources */,
+				196ADF052406D64B007C8208 /* MaxProfit_714.swift in Sources */,
+				19FE1141242EF5C200DAF210 /* cloneGraph.swift in Sources */,
+				19DADFAB24304EDA007C342F /* romanToInt.swift in Sources */,
+				19FA3B2A2423CB7B00A29DC8 /* longestPalindrome.swift in Sources */,
+				194D03C9243115DA00B0A044 /* merge1.swift in Sources */,
+				19624D3E2429B14A0055276D /* massage.swift in Sources */,
+				19EAFC8923E2EFE700A22956 /* strStr.swift in Sources */,
+				1946BC94241E9373009F0C56 /* search.swift in Sources */,
+				190E958E23B3547600370EAB /* LongestPalindrome.swift in Sources */,
+				195EBCCD23E6C448007B90BE /* CountSmaller.swift in Sources */,
+				19C96FAA238F676800699CA5 /* IsValid.swift in Sources */,
+				19CAA604240E0C0C006513E9 /* merge.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		19C96FA1238F655F00699CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19C96FA2238F655F00699CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		19C96FA4238F655F00699CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BN2ZB6R5L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		19C96FA5238F655F00699CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BN2ZB6R5L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19C96F97238F655F00699CA5 /* Build configuration list for PBXProject "LeetCode-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C96FA1238F655F00699CA5 /* Debug */,
+				19C96FA2238F655F00699CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19C96FA3238F655F00699CA5 /* Build configuration list for PBXNativeTarget "LeetCode-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C96FA4238F655F00699CA5 /* Debug */,
+				19C96FA5238F655F00699CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19C96F94238F655F00699CA5 /* Project object */;
+}
