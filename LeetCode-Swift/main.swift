@@ -10,7 +10,8 @@ import Foundation
 
 
 func main() -> Void {
-    
+    let a = palindromePairs(["abcd","dcba","lls","s","sssll"])
+    print(a)
 }
 
 main()

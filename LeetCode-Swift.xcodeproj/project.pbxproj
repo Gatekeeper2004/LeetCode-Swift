@@ -42,6 +42,7 @@
 		19624D442429CD7F0055276D /* rob3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19624D432429CD7F0055276D /* rob3.swift */; };
 		19677C93243700750040D345 /* allPossibleFBT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19677C92243700750040D345 /* allPossibleFBT.swift */; };
 		19677C96243789B60040D345 /* distanceK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19677C95243789B60040D345 /* distanceK.swift */; };
+		19685FB4243B6D300052F48C /* palindromePairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19685FB3243B6D300052F48C /* palindromePairs.swift */; };
 		1969ED8823B7192C00810BA1 /* LengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1969ED8723B7192C00810BA1 /* LengthOfLongestSubstring.swift */; };
 		196ADF052406D64B007C8208 /* MaxProfit_714.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196ADF042406D64B007C8208 /* MaxProfit_714.swift */; };
 		196DE09723CC88390037ABE1 /* FindDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196DE09623CC88390037ABE1 /* FindDuplicate.swift */; };
@@ -172,6 +173,7 @@
 		19624D432429CD7F0055276D /* rob3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rob3.swift; sourceTree = "<group>"; };
 		19677C92243700750040D345 /* allPossibleFBT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allPossibleFBT.swift; sourceTree = "<group>"; };
 		19677C95243789B60040D345 /* distanceK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = distanceK.swift; sourceTree = "<group>"; };
+		19685FB3243B6D300052F48C /* palindromePairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = palindromePairs.swift; sourceTree = "<group>"; };
 		1969ED8723B7192C00810BA1 /* LengthOfLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLongestSubstring.swift; sourceTree = "<group>"; };
 		196ADF042406D64B007C8208 /* MaxProfit_714.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit_714.swift; sourceTree = "<group>"; };
 		196DE09623CC88390037ABE1 /* FindDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDuplicate.swift; sourceTree = "<group>"; };
@@ -536,6 +538,14 @@
 				19677C95243789B60040D345 /* distanceK.swift */,
 			);
 			path = "863. 二叉树中所有距离为 K 的结点";
+			sourceTree = "<group>";
+		};
+		19685FB2243B6D270052F48C /* 336. 回文对 */ = {
+			isa = PBXGroup;
+			children = (
+				19685FB3243B6D300052F48C /* palindromePairs.swift */,
+			);
+			path = "336. 回文对";
 			sourceTree = "<group>";
 		};
 		1969ED8623B7191E00810BA1 /* 3.无重复字符的最长子串    */ = {
@@ -909,6 +919,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				19685FB2243B6D270052F48C /* 336. 回文对 */,
 				19677C94243789AF0040D345 /* 863. 二叉树中所有距离为 K 的结点 */,
 				19677C912437006D0040D345 /* 894. 所有可能的满二叉树 */,
 				1962391A24359A4100091CCA /* 43. 字符串相乘(未完） */,
@@ -1484,6 +1495,7 @@
 				194D03C9243115DA00B0A044 /* merge1.swift in Sources */,
 				19624D3E2429B14A0055276D /* massage.swift in Sources */,
 				19EAFC8923E2EFE700A22956 /* strStr.swift in Sources */,
+				19685FB4243B6D300052F48C /* palindromePairs.swift in Sources */,
 				1946BC94241E9373009F0C56 /* search.swift in Sources */,
 				190E958E23B3547600370EAB /* LongestPalindrome.swift in Sources */,
 				195EBCCD23E6C448007B90BE /* CountSmaller.swift in Sources */,
