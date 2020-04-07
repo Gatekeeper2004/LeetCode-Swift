@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		19001B1D2418B929006496C9 /* canThreePartsEqualSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19001B1C2418B929006496C9 /* canThreePartsEqualSum.swift */; };
 		1901B56723F12B4E004771A2 /* IsCompleteTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1901B56623F12B4E004771A2 /* IsCompleteTree.swift */; };
+		190B05C4243C1CDC008668D2 /* largestNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190B05C3243C1CDC008668D2 /* largestNumber.swift */; };
 		190B8A75240CA98F0055B200 /* InorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190B8A74240CA98F0055B200 /* InorderTraversal.swift */; };
 		190E958E23B3547600370EAB /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E958D23B3547600370EAB /* LongestPalindrome.swift */; };
 		19185BD0243239C30066094F /* spiralOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19185BCF243239C30066094F /* spiralOrder.swift */; };
@@ -120,6 +121,7 @@
 		19EA94B9242B134F004232F7 /* surfaceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EA94B8242B134F004232F7 /* surfaceArea.swift */; };
 		19EAFC8923E2EFE700A22956 /* strStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EAFC8823E2EFE700A22956 /* strStr.swift */; };
 		19EDBDE9239800EA002C53B8 /* Partition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EDBDE8239800EA002C53B8 /* Partition.swift */; };
+		19EE25ED243CC27F006102D3 /* rotate1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EE25EC243CC27F006102D3 /* rotate1.swift */; };
 		19FA3B2A2423CB7B00A29DC8 /* longestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA3B292423CB7B00A29DC8 /* longestPalindrome.swift */; };
 		19FE1141242EF5C200DAF210 /* cloneGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE1140242EF5C200DAF210 /* cloneGraph.swift */; };
 		19FEA90924343AED0067C255 /* MyHashSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FEA90824343AED0067C255 /* MyHashSet.swift */; };
@@ -140,6 +142,7 @@
 /* Begin PBXFileReference section */
 		19001B1C2418B929006496C9 /* canThreePartsEqualSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canThreePartsEqualSum.swift; sourceTree = "<group>"; };
 		1901B56623F12B4E004771A2 /* IsCompleteTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsCompleteTree.swift; sourceTree = "<group>"; };
+		190B05C3243C1CDC008668D2 /* largestNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = largestNumber.swift; sourceTree = "<group>"; };
 		190B8A74240CA98F0055B200 /* InorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InorderTraversal.swift; sourceTree = "<group>"; };
 		190E958D23B3547600370EAB /* LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindrome.swift; sourceTree = "<group>"; };
 		19185BCF243239C30066094F /* spiralOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spiralOrder.swift; sourceTree = "<group>"; };
@@ -252,6 +255,7 @@
 		19EA94B8242B134F004232F7 /* surfaceArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surfaceArea.swift; sourceTree = "<group>"; };
 		19EAFC8823E2EFE700A22956 /* strStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strStr.swift; sourceTree = "<group>"; };
 		19EDBDE8239800EA002C53B8 /* Partition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Partition.swift; sourceTree = "<group>"; };
+		19EE25EC243CC27F006102D3 /* rotate1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotate1.swift; sourceTree = "<group>"; };
 		19FA3B292423CB7B00A29DC8 /* longestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longestPalindrome.swift; sourceTree = "<group>"; };
 		19FE1140242EF5C200DAF210 /* cloneGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloneGraph.swift; sourceTree = "<group>"; };
 		19FEA90824343AED0067C255 /* MyHashSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHashSet.swift; sourceTree = "<group>"; };
@@ -282,6 +286,14 @@
 				1901B56623F12B4E004771A2 /* IsCompleteTree.swift */,
 			);
 			path = "958. 二叉树的完全性检验";
+			sourceTree = "<group>";
+		};
+		190B05C2243C1CCE008668D2 /* 179. 最大数 */ = {
+			isa = PBXGroup;
+			children = (
+				190B05C3243C1CDC008668D2 /* largestNumber.swift */,
+			);
+			path = "179. 最大数";
 			sourceTree = "<group>";
 		};
 		190B8A73240CA9840055B200 /* 94. 二叉树的中序遍历 */ = {
@@ -919,6 +931,8 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				19EE25EB243CC275006102D3 /* 面试题 01.07. 旋转矩阵 */,
+				190B05C2243C1CCE008668D2 /* 179. 最大数 */,
 				19685FB2243B6D270052F48C /* 336. 回文对 */,
 				19677C94243789AF0040D345 /* 863. 二叉树中所有距离为 K 的结点 */,
 				19677C912437006D0040D345 /* 894. 所有可能的满二叉树 */,
@@ -1303,6 +1317,14 @@
 			path = "86. 分隔链表";
 			sourceTree = "<group>";
 		};
+		19EE25EB243CC275006102D3 /* 面试题 01.07. 旋转矩阵 */ = {
+			isa = PBXGroup;
+			children = (
+				19EE25EC243CC27F006102D3 /* rotate1.swift */,
+			);
+			path = "面试题 01.07. 旋转矩阵";
+			sourceTree = "<group>";
+		};
 		19FA3B282423CB7300A29DC8 /* 409. 最长回文串 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1430,8 +1452,10 @@
 				19FEA90924343AED0067C255 /* MyHashSet.swift in Sources */,
 				19C3992424226BDC0011910A /* isRectangleOverlap.swift in Sources */,
 				19DAE32D242E174200A431FA /* translateNum.swift in Sources */,
+				190B05C4243C1CDC008668D2 /* largestNumber.swift in Sources */,
 				196DE09A23CC9CF80037ABE1 /* DetectCycle2.swift in Sources */,
 				19DAE31E242D19FD00A431FA /* postorderTraversal.swift in Sources */,
+				19EE25ED243CC27F006102D3 /* rotate1.swift in Sources */,
 				1984CDDB2398DF5A003827A4 /* ReverseKGroup.swift in Sources */,
 				19624D442429CD7F0055276D /* rob3.swift in Sources */,
 				19677C93243700750040D345 /* allPossibleFBT.swift in Sources */,

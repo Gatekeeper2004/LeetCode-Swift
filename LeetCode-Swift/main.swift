@@ -10,8 +10,7 @@ import Foundation
 
 
 func main() -> Void {
-    let a = palindromePairs(["abcd","dcba","lls","s","sssll"])
-    print(a)
+    print(largestNumber([0,0,1,2,3]))
 }
 
 main()
