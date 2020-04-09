@@ -12,6 +12,7 @@
 		190B05C4243C1CDC008668D2 /* largestNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190B05C3243C1CDC008668D2 /* largestNumber.swift */; };
 		190B8A75240CA98F0055B200 /* InorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190B8A74240CA98F0055B200 /* InorderTraversal.swift */; };
 		190E958E23B3547600370EAB /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E958D23B3547600370EAB /* LongestPalindrome.swift */; };
+		1911A724243F673C00342725 /* nthUglyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1911A723243F673C00342725 /* nthUglyNumber.swift */; };
 		19185BD0243239C30066094F /* spiralOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19185BCF243239C30066094F /* spiralOrder.swift */; };
 		19185BD3243250A60066094F /* removeDuplicateLetters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19185BD2243250A60066094F /* removeDuplicateLetters.swift */; };
 		19185BD62432755D0066094F /* searchRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19185BD52432755D0066094F /* searchRange.swift */; };
@@ -146,6 +147,7 @@
 		190B05C3243C1CDC008668D2 /* largestNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = largestNumber.swift; sourceTree = "<group>"; };
 		190B8A74240CA98F0055B200 /* InorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InorderTraversal.swift; sourceTree = "<group>"; };
 		190E958D23B3547600370EAB /* LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindrome.swift; sourceTree = "<group>"; };
+		1911A723243F673C00342725 /* nthUglyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nthUglyNumber.swift; sourceTree = "<group>"; };
 		19185BCF243239C30066094F /* spiralOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spiralOrder.swift; sourceTree = "<group>"; };
 		19185BD2243250A60066094F /* removeDuplicateLetters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeDuplicateLetters.swift; sourceTree = "<group>"; };
 		19185BD52432755D0066094F /* searchRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchRange.swift; sourceTree = "<group>"; };
@@ -312,6 +314,14 @@
 				190E958D23B3547600370EAB /* LongestPalindrome.swift */,
 			);
 			path = "5.最长回文子串   ";
+			sourceTree = "<group>";
+		};
+		1911A722243F673200342725 /* 面试题49. 丑数 */ = {
+			isa = PBXGroup;
+			children = (
+				1911A723243F673C00342725 /* nthUglyNumber.swift */,
+			);
+			path = "面试题49. 丑数";
 			sourceTree = "<group>";
 		};
 		19185BCE243239BC0066094F /* 54. 螺旋矩阵 */ = {
@@ -941,6 +951,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				1911A722243F673200342725 /* 面试题49. 丑数 */,
 				1944B631243F190400C925FC /* 300. 最长上升子序列 */,
 				19EE25EB243CC275006102D3 /* 面试题 01.07. 旋转矩阵 */,
 				190B05C2243C1CCE008668D2 /* 179. 最大数 */,
@@ -1508,6 +1519,7 @@
 				194D03CC24311D5800B0A044 /* convert.swift in Sources */,
 				1946BC97241E9CDD009F0C56 /* search1.swift in Sources */,
 				19E23D0123AA769500271E1C /* LongestValidParentheses.swift in Sources */,
+				1911A724243F673C00342725 /* nthUglyNumber.swift in Sources */,
 				19EA94B9242B134F004232F7 /* surfaceArea.swift in Sources */,
 				19B2A6D0242F33BF00BEE658 /* findPeakElement.swift in Sources */,
 				19E24EB923A28DFB00DA9E84 /* SortList.swift in Sources */,

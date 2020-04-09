@@ -10,7 +10,7 @@ import Foundation
 
 
 func main() -> Void {
-    print(lengthOfLIS([-2, -1]))
+    print(nthUglyNumber(10))
 }
 
 main()
