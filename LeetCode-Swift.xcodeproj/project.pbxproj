@@ -24,6 +24,7 @@
 		193E67A92431A44500420F4A /* myAtoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E67A82431A44500420F4A /* myAtoi.swift */; };
 		1943875423A71A00002E08CF /* MaxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943875323A71A00002E08CF /* MaxProfit.swift */; };
 		1943875723A726A7002E08CF /* MaxPorfit_121.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943875623A726A7002E08CF /* MaxPorfit_121.swift */; };
+		1944B633243F190E00C925FC /* lengthOfLIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1944B632243F190E00C925FC /* lengthOfLIS.swift */; };
 		19458D2C24245AD2005F1DA1 /* getLeastNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19458D2B24245AD2005F1DA1 /* getLeastNumbers.swift */; };
 		1946BC94241E9373009F0C56 /* search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1946BC93241E9373009F0C56 /* search.swift */; };
 		1946BC97241E9CDD009F0C56 /* search1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1946BC96241E9CDD009F0C56 /* search1.swift */; };
@@ -157,6 +158,7 @@
 		193E67A82431A44500420F4A /* myAtoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAtoi.swift; sourceTree = "<group>"; };
 		1943875323A71A00002E08CF /* MaxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit.swift; sourceTree = "<group>"; };
 		1943875623A726A7002E08CF /* MaxPorfit_121.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxPorfit_121.swift; sourceTree = "<group>"; };
+		1944B632243F190E00C925FC /* lengthOfLIS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lengthOfLIS.swift; sourceTree = "<group>"; };
 		19458D2B24245AD2005F1DA1 /* getLeastNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getLeastNumbers.swift; sourceTree = "<group>"; };
 		1946BC93241E9373009F0C56 /* search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = search.swift; sourceTree = "<group>"; };
 		1946BC96241E9CDD009F0C56 /* search1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = search1.swift; sourceTree = "<group>"; };
@@ -406,6 +408,14 @@
 				1943875623A726A7002E08CF /* MaxPorfit_121.swift */,
 			);
 			path = "121. 买卖股票的最佳时机";
+			sourceTree = "<group>";
+		};
+		1944B631243F190400C925FC /* 300. 最长上升子序列 */ = {
+			isa = PBXGroup;
+			children = (
+				1944B632243F190E00C925FC /* lengthOfLIS.swift */,
+			);
+			path = "300. 最长上升子序列";
 			sourceTree = "<group>";
 		};
 		19458D2A242458FD005F1DA1 /* 面试题40. 最小的k个数 */ = {
@@ -931,6 +941,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				1944B631243F190400C925FC /* 300. 最长上升子序列 */,
 				19EE25EB243CC275006102D3 /* 面试题 01.07. 旋转矩阵 */,
 				190B05C2243C1CCE008668D2 /* 179. 最大数 */,
 				19685FB2243B6D270052F48C /* 336. 回文对 */,
@@ -1409,6 +1420,7 @@
 			files = (
 				19E24EBC23A298C000DA9E84 /* MergeTwoLists.swift in Sources */,
 				19DAE330242E1E8300A431FA /* subsetsWithDup.swift in Sources */,
+				1944B633243F190E00C925FC /* lengthOfLIS.swift in Sources */,
 				199C7F4623CAE95900CF6DB8 /* DailyTemperatures.swift in Sources */,
 				19B419E023CA04E200C79DCB /* LongestCommonSubsequence.swift in Sources */,
 				1992824C23D1852800DF9DD0 /* Trie.swift in Sources */,
