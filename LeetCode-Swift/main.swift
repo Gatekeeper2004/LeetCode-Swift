@@ -10,7 +10,7 @@ import Foundation
 
 
 func main() -> Void {
-    print(nthUglyNumber(10))
+    print(cuttingRope(10))
 }
 
 main()
