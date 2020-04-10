@@ -125,7 +125,10 @@
 		19EAFC8923E2EFE700A22956 /* strStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EAFC8823E2EFE700A22956 /* strStr.swift */; };
 		19EDBDE9239800EA002C53B8 /* Partition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EDBDE8239800EA002C53B8 /* Partition.swift */; };
 		19EE25ED243CC27F006102D3 /* rotate1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EE25EC243CC27F006102D3 /* rotate1.swift */; };
-		19F9DFB124404B3000445902 /* reverseWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F9DFB024404B3000445902 /* reverseWords.swift */; };
+		19F9DFBB2440C23800445902 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F9DFBA2440C23700445902 /* Test.swift */; };
+		19F9DFC12440C25A00445902 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F9DFC02440C25A00445902 /* test.swift */; };
+		19F9DFC32440C2DA00445902 /* reverseWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F9DFC22440C2DA00445902 /* reverseWords.swift */; };
+		19F9DFC42440C2DA00445902 /* reverseWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F9DFC22440C2DA00445902 /* reverseWords.swift */; };
 		19FA3B2A2423CB7B00A29DC8 /* longestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA3B292423CB7B00A29DC8 /* longestPalindrome.swift */; };
 		19FE1141242EF5C200DAF210 /* cloneGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE1140242EF5C200DAF210 /* cloneGraph.swift */; };
 		19FEA90924343AED0067C255 /* MyHashSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FEA90824343AED0067C255 /* MyHashSet.swift */; };
@@ -263,7 +266,11 @@
 		19EAFC8823E2EFE700A22956 /* strStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strStr.swift; sourceTree = "<group>"; };
 		19EDBDE8239800EA002C53B8 /* Partition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Partition.swift; sourceTree = "<group>"; };
 		19EE25EC243CC27F006102D3 /* rotate1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotate1.swift; sourceTree = "<group>"; };
-		19F9DFB024404B3000445902 /* reverseWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseWords.swift; sourceTree = "<group>"; };
+		19F9DFB82440C23700445902 /* Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19F9DFBA2440C23700445902 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		19F9DFBC2440C23800445902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19F9DFC02440C25A00445902 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		19F9DFC22440C2DA00445902 /* reverseWords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = reverseWords.swift; sourceTree = "<group>"; };
 		19FA3B292423CB7B00A29DC8 /* longestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longestPalindrome.swift; sourceTree = "<group>"; };
 		19FE1140242EF5C200DAF210 /* cloneGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloneGraph.swift; sourceTree = "<group>"; };
 		19FEA90824343AED0067C255 /* MyHashSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHashSet.swift; sourceTree = "<group>"; };
@@ -271,6 +278,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		19C96F99238F655F00699CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19F9DFB52440C23700445902 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -948,6 +962,7 @@
 			isa = PBXGroup;
 			children = (
 				19C96F9E238F655F00699CA5 /* LeetCode-Swift */,
+				19F9DFB92440C23700445902 /* Test */,
 				19C96F9D238F655F00699CA5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -956,6 +971,7 @@
 			isa = PBXGroup;
 			children = (
 				19C96F9C238F655F00699CA5 /* LeetCode-Swift */,
+				19F9DFB82440C23700445902 /* Test.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1085,6 +1101,7 @@
 				197106AD239160F30087B259 /* 24. 两两交换链表中的节点 */,
 				19C96FA6238F66F800699CA5 /* 20. 有效的括号 */,
 				19C96F9F238F655F00699CA5 /* main.swift */,
+				19F9DFC02440C25A00445902 /* test.swift */,
 			);
 			path = "LeetCode-Swift";
 			sourceTree = "<group>";
@@ -1364,9 +1381,18 @@
 		19F9DFAF24404B2600445902 /* 151. 翻转字符串里的单词 */ = {
 			isa = PBXGroup;
 			children = (
-				19F9DFB024404B3000445902 /* reverseWords.swift */,
+				19F9DFC22440C2DA00445902 /* reverseWords.swift */,
 			);
 			path = "151. 翻转字符串里的单词";
+			sourceTree = "<group>";
+		};
+		19F9DFB92440C23700445902 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				19F9DFBA2440C23700445902 /* Test.swift */,
+				19F9DFBC2440C23800445902 /* Info.plist */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 		19FA3B282423CB7300A29DC8 /* 409. 最长回文串 */ = {
@@ -1413,18 +1439,38 @@
 			productReference = 19C96F9C238F655F00699CA5 /* LeetCode-Swift */;
 			productType = "com.apple.product-type.tool";
 		};
+		19F9DFB72440C23700445902 /* Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19F9DFBD2440C23800445902 /* Build configuration list for PBXNativeTarget "Test" */;
+			buildPhases = (
+				19F9DFB42440C23700445902 /* Sources */,
+				19F9DFB52440C23700445902 /* Frameworks */,
+				19F9DFB62440C23700445902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test;
+			productName = Test;
+			productReference = 19F9DFB82440C23700445902 /* Test.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		19C96F94238F655F00699CA5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1120;
+				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = yidingw;
 				TargetAttributes = {
 					19C96F9B238F655F00699CA5 = {
 						CreatedOnToolsVersion = 11.2.1;
+					};
+					19F9DFB72440C23700445902 = {
+						CreatedOnToolsVersion = 11.4;
 					};
 				};
 			};
@@ -1442,9 +1488,20 @@
 			projectRoot = "";
 			targets = (
 				19C96F9B238F655F00699CA5 /* LeetCode-Swift */,
+				19F9DFB72440C23700445902 /* Test */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19F9DFB62440C23700445902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		19C96F98238F655F00699CA5 /* Sources */ = {
@@ -1567,12 +1624,22 @@
 				19624D3E2429B14A0055276D /* massage.swift in Sources */,
 				19EAFC8923E2EFE700A22956 /* strStr.swift in Sources */,
 				19685FB4243B6D300052F48C /* palindromePairs.swift in Sources */,
-				19F9DFB124404B3000445902 /* reverseWords.swift in Sources */,
+				19F9DFC32440C2DA00445902 /* reverseWords.swift in Sources */,
 				1946BC94241E9373009F0C56 /* search.swift in Sources */,
 				190E958E23B3547600370EAB /* LongestPalindrome.swift in Sources */,
 				195EBCCD23E6C448007B90BE /* CountSmaller.swift in Sources */,
 				19C96FAA238F676800699CA5 /* IsValid.swift in Sources */,
 				19CAA604240E0C0C006513E9 /* merge.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19F9DFB42440C23700445902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F9DFC42440C2DA00445902 /* reverseWords.swift in Sources */,
+				19F9DFBB2440C23800445902 /* Test.swift in Sources */,
+				19F9DFC12440C25A00445902 /* test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1716,6 +1783,42 @@
 			};
 			name = Release;
 		};
+		19F9DFBE2440C23800445902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4BN2ZB6R5L;
+				INFOPLIST_FILE = Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.yidingw.Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		19F9DFBF2440C23800445902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4BN2ZB6R5L;
+				INFOPLIST_FILE = Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.yidingw.Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1733,6 +1836,15 @@
 			buildConfigurations = (
 				19C96FA4238F655F00699CA5 /* Debug */,
 				19C96FA5238F655F00699CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19F9DFBD2440C23800445902 /* Build configuration list for PBXNativeTarget "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19F9DFBE2440C23800445902 /* Debug */,
+				19F9DFBF2440C23800445902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
