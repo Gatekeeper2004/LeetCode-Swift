@@ -10,7 +10,7 @@ import Foundation
 
 
 func main() -> Void {
-    print(cuttingRope(10))
+    print(reverseWords("the sky is blue"))
 }
 
 main()
