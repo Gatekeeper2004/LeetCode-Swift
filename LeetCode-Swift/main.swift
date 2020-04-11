@@ -10,7 +10,7 @@ import Foundation
 
 
 func main() -> Void {
-    print(reverseWords("the sky is blue"))
+    print(superEggDrop(1, 2))
 }
 
 main()

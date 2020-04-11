@@ -132,6 +132,8 @@
 		19FA3B2A2423CB7B00A29DC8 /* longestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA3B292423CB7B00A29DC8 /* longestPalindrome.swift */; };
 		19FE1141242EF5C200DAF210 /* cloneGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE1140242EF5C200DAF210 /* cloneGraph.swift */; };
 		19FEA90924343AED0067C255 /* MyHashSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FEA90824343AED0067C255 /* MyHashSet.swift */; };
+		19FFB2EC24421034009A3A23 /* superEggDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FFB2EB24421034009A3A23 /* superEggDrop.swift */; };
+		19FFB2ED24421034009A3A23 /* superEggDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FFB2EB24421034009A3A23 /* superEggDrop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -274,6 +276,7 @@
 		19FA3B292423CB7B00A29DC8 /* longestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longestPalindrome.swift; sourceTree = "<group>"; };
 		19FE1140242EF5C200DAF210 /* cloneGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloneGraph.swift; sourceTree = "<group>"; };
 		19FEA90824343AED0067C255 /* MyHashSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHashSet.swift; sourceTree = "<group>"; };
+		19FFB2EB24421034009A3A23 /* superEggDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = superEggDrop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -979,6 +982,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				19FFB2EA2442100C009A3A23 /* 887. 鸡蛋掉落 */,
 				19F9DFAF24404B2600445902 /* 151. 翻转字符串里的单词 */,
 				1914DD50243F876C0095B273 /* 面试题14- I. 剪绳子 */,
 				1911A722243F673200342725 /* 面试题49. 丑数 */,
@@ -1419,6 +1423,14 @@
 			path = "705. 设计哈希集合";
 			sourceTree = "<group>";
 		};
+		19FFB2EA2442100C009A3A23 /* 887. 鸡蛋掉落 */ = {
+			isa = PBXGroup;
+			children = (
+				19FFB2EB24421034009A3A23 /* superEggDrop.swift */,
+			);
+			path = "887. 鸡蛋掉落";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1559,6 +1571,7 @@
 				196DE09A23CC9CF80037ABE1 /* DetectCycle2.swift in Sources */,
 				19DAE31E242D19FD00A431FA /* postorderTraversal.swift in Sources */,
 				19EE25ED243CC27F006102D3 /* rotate1.swift in Sources */,
+				19FFB2EC24421034009A3A23 /* superEggDrop.swift in Sources */,
 				1984CDDB2398DF5A003827A4 /* ReverseKGroup.swift in Sources */,
 				19624D442429CD7F0055276D /* rob3.swift in Sources */,
 				19677C93243700750040D345 /* allPossibleFBT.swift in Sources */,
@@ -1637,6 +1650,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19FFB2ED24421034009A3A23 /* superEggDrop.swift in Sources */,
 				19F9DFC42440C2DA00445902 /* reverseWords.swift in Sources */,
 				19F9DFBB2440C23800445902 /* Test.swift in Sources */,
 				19F9DFC12440C25A00445902 /* test.swift in Sources */,
