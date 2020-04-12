@@ -1,5 +1,7 @@
 # Swift刷LeetCode
 
+![](./porncode.jpg)
+
 ##  吐槽: Swift并不是刷题最佳语言，原因如下：
 
 - Optional在工程上可以大大减少崩溃，但是在刷提的时候感觉真tm神烦；
