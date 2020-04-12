@@ -10,7 +10,8 @@ import Foundation
 
 
 func main() -> Void {
-    print(superEggDrop(1, 2))
+    print(sortedArrayToBST([-10,-3,0,5,9]) ?? "nil")
+    
 }
 
 main()

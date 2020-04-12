@@ -125,6 +125,7 @@
 		19EAFC8923E2EFE700A22956 /* strStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EAFC8823E2EFE700A22956 /* strStr.swift */; };
 		19EDBDE9239800EA002C53B8 /* Partition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EDBDE8239800EA002C53B8 /* Partition.swift */; };
 		19EE25ED243CC27F006102D3 /* rotate1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EE25EC243CC27F006102D3 /* rotate1.swift */; };
+		19F1C3AF24430AF600A591AB /* sortedArrayToBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F1C3AE24430AF600A591AB /* sortedArrayToBST.swift */; };
 		19F9DFBB2440C23800445902 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F9DFBA2440C23700445902 /* Test.swift */; };
 		19F9DFC12440C25A00445902 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F9DFC02440C25A00445902 /* test.swift */; };
 		19F9DFC32440C2DA00445902 /* reverseWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F9DFC22440C2DA00445902 /* reverseWords.swift */; };
@@ -268,6 +269,7 @@
 		19EAFC8823E2EFE700A22956 /* strStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strStr.swift; sourceTree = "<group>"; };
 		19EDBDE8239800EA002C53B8 /* Partition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Partition.swift; sourceTree = "<group>"; };
 		19EE25EC243CC27F006102D3 /* rotate1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotate1.swift; sourceTree = "<group>"; };
+		19F1C3AE24430AF600A591AB /* sortedArrayToBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sortedArrayToBST.swift; sourceTree = "<group>"; };
 		19F9DFB82440C23700445902 /* Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19F9DFBA2440C23700445902 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		19F9DFBC2440C23800445902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -982,6 +984,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				19F1C3AD24430AED00A591AB /* 108. 将有序数组转换为二叉搜索树 */,
 				19FFB2EA2442100C009A3A23 /* 887. 鸡蛋掉落 */,
 				19F9DFAF24404B2600445902 /* 151. 翻转字符串里的单词 */,
 				1914DD50243F876C0095B273 /* 面试题14- I. 剪绳子 */,
@@ -1382,6 +1385,14 @@
 			path = "面试题 01.07. 旋转矩阵";
 			sourceTree = "<group>";
 		};
+		19F1C3AD24430AED00A591AB /* 108. 将有序数组转换为二叉搜索树 */ = {
+			isa = PBXGroup;
+			children = (
+				19F1C3AE24430AF600A591AB /* sortedArrayToBST.swift */,
+			);
+			path = "108. 将有序数组转换为二叉搜索树";
+			sourceTree = "<group>";
+		};
 		19F9DFAF24404B2600445902 /* 151. 翻转字符串里的单词 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1529,6 +1540,7 @@
 				1992824C23D1852800DF9DD0 /* Trie.swift in Sources */,
 				1969ED8823B7192C00810BA1 /* LengthOfLongestSubstring.swift in Sources */,
 				19B5391123A776BC003F8D44 /* IsAnagram.swift in Sources */,
+				19F1C3AF24430AF600A591AB /* sortedArrayToBST.swift in Sources */,
 				19DADFAE24305777007C342F /* rotateRight.swift in Sources */,
 				19DADFB12430CA88007C342F /* copyRandomList.swift in Sources */,
 				19DAE32A242DDE0000A431FA /* generateParenthesis.swift in Sources */,
