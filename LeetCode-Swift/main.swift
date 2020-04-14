@@ -10,7 +10,7 @@ import Foundation
 
 
 func main() -> Void {
-    print(sortedArrayToBST([-10,-3,0,5,9]) ?? "nil")
+    print(getHint("1123", "0111"))
     
 }
 

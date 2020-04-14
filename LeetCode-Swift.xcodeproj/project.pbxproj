@@ -25,6 +25,7 @@
 		193E67A624319EDD00420F4A /* reverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E67A524319EDD00420F4A /* reverse.swift */; };
 		193E67A92431A44500420F4A /* myAtoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E67A82431A44500420F4A /* myAtoi.swift */; };
 		1940903424454B0300AEBEC4 /* addTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1940903324454B0300AEBEC4 /* addTwoNumbers.swift */; };
+		1940903924455B0E00AEBEC4 /* getHint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1940903824455B0E00AEBEC4 /* getHint.swift */; };
 		1943875423A71A00002E08CF /* MaxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943875323A71A00002E08CF /* MaxProfit.swift */; };
 		1943875723A726A7002E08CF /* MaxPorfit_121.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943875623A726A7002E08CF /* MaxPorfit_121.swift */; };
 		1944B633243F190E00C925FC /* lengthOfLIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1944B632243F190E00C925FC /* lengthOfLIS.swift */; };
@@ -170,6 +171,7 @@
 		193E67A524319EDD00420F4A /* reverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverse.swift; sourceTree = "<group>"; };
 		193E67A82431A44500420F4A /* myAtoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAtoi.swift; sourceTree = "<group>"; };
 		1940903324454B0300AEBEC4 /* addTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addTwoNumbers.swift; sourceTree = "<group>"; };
+		1940903824455B0E00AEBEC4 /* getHint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getHint.swift; sourceTree = "<group>"; };
 		1943875323A71A00002E08CF /* MaxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit.swift; sourceTree = "<group>"; };
 		1943875623A726A7002E08CF /* MaxPorfit_121.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxPorfit_121.swift; sourceTree = "<group>"; };
 		1944B632243F190E00C925FC /* lengthOfLIS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lengthOfLIS.swift; sourceTree = "<group>"; };
@@ -445,6 +447,14 @@
 				1940903324454B0300AEBEC4 /* addTwoNumbers.swift */,
 			);
 			path = "445. 两数相加 II";
+			sourceTree = "<group>";
+		};
+		1940903524455A7C00AEBEC4 /* 299. 猜数字游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				1940903824455B0E00AEBEC4 /* getHint.swift */,
+			);
+			path = "299. 猜数字游戏";
 			sourceTree = "<group>";
 		};
 		1943875223A719F1002E08CF /* 122. 买卖股票的最佳时机 II */ = {
@@ -996,6 +1006,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				1940903524455A7C00AEBEC4 /* 299. 猜数字游戏 */,
 				1940903224454AF800AEBEC4 /* 445. 两数相加 II */,
 				19F1C3B0244314F800A591AB /* 783. 二叉搜索树结点最小距离 */,
 				19F1C3AD24430AED00A591AB /* 108. 将有序数组转换为二叉搜索树 */,
@@ -1587,6 +1598,7 @@
 				19207C0323EDB5F900E14D9F /* IsPalindrome.swift in Sources */,
 				19CAA601240DFFF0006513E9 /* flatten.swift in Sources */,
 				1987CF3323955AAB009B3CC0 /* ReverseList.swift in Sources */,
+				1940903924455B0E00AEBEC4 /* getHint.swift in Sources */,
 				19BEAF97242860910043EC2C /* middleNode.swift in Sources */,
 				1901B56723F12B4E004771A2 /* IsCompleteTree.swift in Sources */,
 				19D65DF2241A8B1500AEF6B0 /* fib.swift in Sources */,
