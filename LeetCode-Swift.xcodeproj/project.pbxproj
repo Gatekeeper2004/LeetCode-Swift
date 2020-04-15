@@ -19,6 +19,7 @@
 		19185BD62432755D0066094F /* searchRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19185BD52432755D0066094F /* searchRange.swift */; };
 		191A4B8123EF1FBF00DD5334 /* Divide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191A4B8023EF1FBF00DD5334 /* Divide.swift */; };
 		191A4B8423EFB34700DD5334 /* LexicalOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191A4B8323EFB34700DD5334 /* LexicalOrder.swift */; };
+		191EDE6B24473F0A00587ABA /* invertTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191EDE6A24473F0A00587ABA /* invertTree.swift */; };
 		19207C0323EDB5F900E14D9F /* IsPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19207C0223EDB5F900E14D9F /* IsPalindrome.swift */; };
 		19353E192411F93100C1E8CC /* removeDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19353E182411F93100C1E8CC /* removeDuplicates.swift */; };
 		19386DE323F8F131008A17B1 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19386DE223F8F131008A17B1 /* LongestCommonPrefix.swift */; };
@@ -166,6 +167,7 @@
 		19185BD52432755D0066094F /* searchRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchRange.swift; sourceTree = "<group>"; };
 		191A4B8023EF1FBF00DD5334 /* Divide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divide.swift; sourceTree = "<group>"; };
 		191A4B8323EFB34700DD5334 /* LexicalOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LexicalOrder.swift; sourceTree = "<group>"; };
+		191EDE6A24473F0A00587ABA /* invertTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invertTree.swift; sourceTree = "<group>"; };
 		19207C0223EDB5F900E14D9F /* IsPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPalindrome.swift; sourceTree = "<group>"; };
 		19353E182411F93100C1E8CC /* removeDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeDuplicates.swift; sourceTree = "<group>"; };
 		19386DE223F8F131008A17B1 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
@@ -401,6 +403,14 @@
 				191A4B8323EFB34700DD5334 /* LexicalOrder.swift */,
 			);
 			path = "386. 字典序排数";
+			sourceTree = "<group>";
+		};
+		191EDE6924473F0200587ABA /* 226. 翻转二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				191EDE6A24473F0A00587ABA /* invertTree.swift */,
+			);
+			path = "226. 翻转二叉树";
 			sourceTree = "<group>";
 		};
 		19207C0123EDB5EA00E14D9F /* 9. 回文数 */ = {
@@ -1016,6 +1026,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				191EDE6924473F0200587ABA /* 226. 翻转二叉树 */,
 				19A572B22446B14700515E4D /* 257. 二叉树的所有路径 */,
 				1940903524455A7C00AEBEC4 /* 299. 猜数字游戏 */,
 				1940903224454AF800AEBEC4 /* 445. 两数相加 II */,
@@ -1669,6 +1680,7 @@
 				1978D6C0242E4C2E005A8C4D /* permuteUnique.swift in Sources */,
 				19185BD0243239C30066094F /* spiralOrder.swift in Sources */,
 				194D03CC24311D5800B0A044 /* convert.swift in Sources */,
+				191EDE6B24473F0A00587ABA /* invertTree.swift in Sources */,
 				1946BC97241E9CDD009F0C56 /* search1.swift in Sources */,
 				19E23D0123AA769500271E1C /* LongestValidParentheses.swift in Sources */,
 				1911A724243F673C00342725 /* nthUglyNumber.swift in Sources */,
