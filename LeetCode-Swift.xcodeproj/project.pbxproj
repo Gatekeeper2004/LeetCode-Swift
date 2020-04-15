@@ -78,6 +78,7 @@
 		199FD4D72393F75E0028BDA8 /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199FD4D62393F75E0028BDA8 /* ThreeSum.swift */; };
 		19A113152425BE6200BE8EC0 /* canMeasureWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A113142425BE6200BE8EC0 /* canMeasureWater.swift */; };
 		19A2960F23CEC489003E091A /* FindKthLargest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A2960E23CEC489003E091A /* FindKthLargest.swift */; };
+		19A572B42446B15100515E4D /* binaryTreePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A572B32446B15100515E4D /* binaryTreePaths.swift */; };
 		19AE25EA24017A10008EA886 /* FindCircleNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE25E924017A10008EA886 /* FindCircleNum.swift */; };
 		19AE25ED24017F25008EA886 /* FindRedundantConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE25EC24017F25008EA886 /* FindRedundantConnection.swift */; };
 		19B2A6D0242F33BF00BEE658 /* findPeakElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B2A6CF242F33BF00BEE658 /* findPeakElement.swift */; };
@@ -224,6 +225,7 @@
 		199FD4D62393F75E0028BDA8 /* ThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
 		19A113142425BE6200BE8EC0 /* canMeasureWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canMeasureWater.swift; sourceTree = "<group>"; };
 		19A2960E23CEC489003E091A /* FindKthLargest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindKthLargest.swift; sourceTree = "<group>"; };
+		19A572B32446B15100515E4D /* binaryTreePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = binaryTreePaths.swift; sourceTree = "<group>"; };
 		19AE25E924017A10008EA886 /* FindCircleNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCircleNum.swift; sourceTree = "<group>"; };
 		19AE25EC24017F25008EA886 /* FindRedundantConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindRedundantConnection.swift; sourceTree = "<group>"; };
 		19B2A6CF242F33BF00BEE658 /* findPeakElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findPeakElement.swift; sourceTree = "<group>"; };
@@ -865,6 +867,14 @@
 			path = "215.数组中的第K个最大元素";
 			sourceTree = "<group>";
 		};
+		19A572B22446B14700515E4D /* 257. 二叉树的所有路径 */ = {
+			isa = PBXGroup;
+			children = (
+				19A572B32446B15100515E4D /* binaryTreePaths.swift */,
+			);
+			path = "257. 二叉树的所有路径";
+			sourceTree = "<group>";
+		};
 		19AE25E824017A07008EA886 /* 547. 朋友圈 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1006,6 +1016,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				19A572B22446B14700515E4D /* 257. 二叉树的所有路径 */,
 				1940903524455A7C00AEBEC4 /* 299. 猜数字游戏 */,
 				1940903224454AF800AEBEC4 /* 445. 两数相加 II */,
 				19F1C3B0244314F800A591AB /* 783. 二叉搜索树结点最小距离 */,
@@ -1569,6 +1580,7 @@
 				19DAE330242E1E8300A431FA /* subsetsWithDup.swift in Sources */,
 				1944B633243F190E00C925FC /* lengthOfLIS.swift in Sources */,
 				199C7F4623CAE95900CF6DB8 /* DailyTemperatures.swift in Sources */,
+				19A572B42446B15100515E4D /* binaryTreePaths.swift in Sources */,
 				19B419E023CA04E200C79DCB /* LongestCommonSubsequence.swift in Sources */,
 				1992824C23D1852800DF9DD0 /* Trie.swift in Sources */,
 				1969ED8823B7192C00810BA1 /* LengthOfLongestSubstring.swift in Sources */,
