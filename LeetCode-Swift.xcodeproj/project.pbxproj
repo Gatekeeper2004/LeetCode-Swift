@@ -37,6 +37,7 @@
 		1946BC9D241EA806009F0C56 /* findMin2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1946BC9C241EA806009F0C56 /* findMin2.swift */; };
 		194D03C9243115DA00B0A044 /* merge1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194D03C8243115DA00B0A044 /* merge1.swift */; };
 		194D03CC24311D5800B0A044 /* convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194D03CB24311D5800B0A044 /* convert.swift */; };
+		195506E324483D6700C7FCD1 /* change2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195506E224483D6700C7FCD1 /* change2.swift */; };
 		195A2C3623F425850081DF85 /* CheckSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195A2C3523F425850081DF85 /* CheckSubarraySum.swift */; };
 		195EBCCD23E6C448007B90BE /* CountSmaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195EBCCC23E6C448007B90BE /* CountSmaller.swift */; };
 		196105BB2433490600B7721A /* sortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196105BA2433490600B7721A /* sortArray.swift */; };
@@ -185,6 +186,7 @@
 		1946BC9C241EA806009F0C56 /* findMin2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findMin2.swift; sourceTree = "<group>"; };
 		194D03C8243115DA00B0A044 /* merge1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = merge1.swift; sourceTree = "<group>"; };
 		194D03CB24311D5800B0A044 /* convert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = convert.swift; sourceTree = "<group>"; };
+		195506E224483D6700C7FCD1 /* change2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = change2.swift; sourceTree = "<group>"; };
 		195A2C3523F425850081DF85 /* CheckSubarraySum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckSubarraySum.swift; sourceTree = "<group>"; };
 		195EBCCC23E6C448007B90BE /* CountSmaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountSmaller.swift; sourceTree = "<group>"; };
 		196105BA2433490600B7721A /* sortArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sortArray.swift; sourceTree = "<group>"; };
@@ -539,6 +541,14 @@
 				194D03CB24311D5800B0A044 /* convert.swift */,
 			);
 			path = "6. Z 字形变换";
+			sourceTree = "<group>";
+		};
+		195506E124483D5C00C7FCD1 /* 518. 零钱兑换 II */ = {
+			isa = PBXGroup;
+			children = (
+				195506E224483D6700C7FCD1 /* change2.swift */,
+			);
+			path = "518. 零钱兑换 II";
 			sourceTree = "<group>";
 		};
 		195A2C3423F4257C0081DF85 /* 523. 连续的子数组和 */ = {
@@ -1026,6 +1036,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				195506E124483D5C00C7FCD1 /* 518. 零钱兑换 II */,
 				191EDE6924473F0200587ABA /* 226. 翻转二叉树 */,
 				19A572B22446B14700515E4D /* 257. 二叉树的所有路径 */,
 				1940903524455A7C00AEBEC4 /* 299. 猜数字游戏 */,
@@ -1650,6 +1661,7 @@
 				1943875723A726A7002E08CF /* MaxPorfit_121.swift in Sources */,
 				19DAE31B242D0C2A00A431FA /* preorderTraversal.swift in Sources */,
 				19B62619242CFC0E00F83BE5 /* numRookCaptures.swift in Sources */,
+				195506E324483D6700C7FCD1 /* change2.swift in Sources */,
 				197F08212418CCE40016E6AD /* numWays.swift in Sources */,
 				19458D2C24245AD2005F1DA1 /* getLeastNumbers.swift in Sources */,
 				197CF1FA2427C3C70036AD23 /* permute.swift in Sources */,

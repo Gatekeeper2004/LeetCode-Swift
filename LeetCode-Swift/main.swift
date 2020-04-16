@@ -10,7 +10,7 @@ import Foundation
 
 
 func main() -> Void {
-    print(getHint("1123", "0111"))
+    print(change2(0, [2]))
     
 }
 
