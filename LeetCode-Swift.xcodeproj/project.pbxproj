@@ -104,6 +104,7 @@
 		19D65DF2241A8B1500AEF6B0 /* fib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D65DF1241A8B1500AEF6B0 /* fib.swift */; };
 		19D814C023C4B4F00066B8B6 /* CountBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D814BF23C4B4F00066B8B6 /* CountBits.swift */; };
 		19D9DD5C23F02AC4001BBD64 /* LevelOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9DD5B23F02AC4001BBD64 /* LevelOrder.swift */; };
+		19D9F9602449543E00534772 /* canJump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9F95F2449543D00534772 /* canJump.swift */; };
 		19DADFAB24304EDA007C342F /* romanToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DADFAA24304EDA007C342F /* romanToInt.swift */; };
 		19DADFAE24305777007C342F /* rotateRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DADFAD24305777007C342F /* rotateRight.swift */; };
 		19DADFB12430CA88007C342F /* copyRandomList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DADFB02430CA88007C342F /* copyRandomList.swift */; };
@@ -254,6 +255,7 @@
 		19D65DF1241A8B1500AEF6B0 /* fib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fib.swift; sourceTree = "<group>"; };
 		19D814BF23C4B4F00066B8B6 /* CountBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountBits.swift; sourceTree = "<group>"; };
 		19D9DD5B23F02AC4001BBD64 /* LevelOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOrder.swift; sourceTree = "<group>"; };
+		19D9F95F2449543D00534772 /* canJump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canJump.swift; sourceTree = "<group>"; };
 		19DADFAA24304EDA007C342F /* romanToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = romanToInt.swift; sourceTree = "<group>"; };
 		19DADFAD24305777007C342F /* rotateRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotateRight.swift; sourceTree = "<group>"; };
 		19DADFB02430CA88007C342F /* copyRandomList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = copyRandomList.swift; sourceTree = "<group>"; };
@@ -1036,6 +1038,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				19D9F95E2449543300534772 /* 55. 跳跃游戏 */,
 				195506E124483D5C00C7FCD1 /* 518. 零钱兑换 II */,
 				191EDE6924473F0200587ABA /* 226. 翻转二叉树 */,
 				19A572B22446B14700515E4D /* 257. 二叉树的所有路径 */,
@@ -1233,6 +1236,14 @@
 				19D9DD5B23F02AC4001BBD64 /* LevelOrder.swift */,
 			);
 			path = "102. 二叉树的层次遍历";
+			sourceTree = "<group>";
+		};
+		19D9F95E2449543300534772 /* 55. 跳跃游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				19D9F95F2449543D00534772 /* canJump.swift */,
+			);
+			path = "55. 跳跃游戏";
 			sourceTree = "<group>";
 		};
 		19DADFA924304ECE007C342F /* 13. 罗马数字转整数 */ = {
@@ -1719,6 +1730,7 @@
 				19FA3B2A2423CB7B00A29DC8 /* longestPalindrome.swift in Sources */,
 				194D03C9243115DA00B0A044 /* merge1.swift in Sources */,
 				19624D3E2429B14A0055276D /* massage.swift in Sources */,
+				19D9F9602449543E00534772 /* canJump.swift in Sources */,
 				19EAFC8923E2EFE700A22956 /* strStr.swift in Sources */,
 				19685FB4243B6D300052F48C /* palindromePairs.swift in Sources */,
 				19F9DFC32440C2DA00445902 /* reverseWords.swift in Sources */,
