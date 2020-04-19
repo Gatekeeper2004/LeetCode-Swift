@@ -10,7 +10,6 @@ import Foundation
 
 
 func main() -> Void {
-    print(change2(0, [2]))
     
 }
 

@@ -48,6 +48,7 @@
 		19624D3E2429B14A0055276D /* massage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19624D3D2429B14A0055276D /* massage.swift */; };
 		19624D412429C0890055276D /* exist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19624D402429C0890055276D /* exist.swift */; };
 		19624D442429CD7F0055276D /* rob3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19624D432429CD7F0055276D /* rob3.swift */; };
+		1962C43B244CA452007B91A7 /* numIslands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1962C43A244CA452007B91A7 /* numIslands.swift */; };
 		19677C93243700750040D345 /* allPossibleFBT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19677C92243700750040D345 /* allPossibleFBT.swift */; };
 		19677C96243789B60040D345 /* distanceK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19677C95243789B60040D345 /* distanceK.swift */; };
 		19685FB4243B6D300052F48C /* palindromePairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19685FB3243B6D300052F48C /* palindromePairs.swift */; };
@@ -198,6 +199,7 @@
 		19624D3D2429B14A0055276D /* massage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = massage.swift; sourceTree = "<group>"; };
 		19624D402429C0890055276D /* exist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exist.swift; sourceTree = "<group>"; };
 		19624D432429CD7F0055276D /* rob3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rob3.swift; sourceTree = "<group>"; };
+		1962C43A244CA452007B91A7 /* numIslands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numIslands.swift; sourceTree = "<group>"; };
 		19677C92243700750040D345 /* allPossibleFBT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allPossibleFBT.swift; sourceTree = "<group>"; };
 		19677C95243789B60040D345 /* distanceK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = distanceK.swift; sourceTree = "<group>"; };
 		19685FB3243B6D300052F48C /* palindromePairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = palindromePairs.swift; sourceTree = "<group>"; };
@@ -633,6 +635,14 @@
 			path = "337. 打家劫舍 III";
 			sourceTree = "<group>";
 		};
+		1962C439244CA447007B91A7 /* 200. 岛屿数量 */ = {
+			isa = PBXGroup;
+			children = (
+				1962C43A244CA452007B91A7 /* numIslands.swift */,
+			);
+			path = "200. 岛屿数量";
+			sourceTree = "<group>";
+		};
 		19677C912437006D0040D345 /* 894. 所有可能的满二叉树 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1038,6 +1048,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				1962C439244CA447007B91A7 /* 200. 岛屿数量 */,
 				19D9F95E2449543300534772 /* 55. 跳跃游戏 */,
 				195506E124483D5C00C7FCD1 /* 518. 零钱兑换 II */,
 				191EDE6924473F0200587ABA /* 226. 翻转二叉树 */,
@@ -1609,6 +1620,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1914DD52243F87750095B273 /* cuttingRope.swift in Sources */,
+				1962C43B244CA452007B91A7 /* numIslands.swift in Sources */,
 				19E24EBC23A298C000DA9E84 /* MergeTwoLists.swift in Sources */,
 				19DAE330242E1E8300A431FA /* subsetsWithDup.swift in Sources */,
 				1944B633243F190E00C925FC /* lengthOfLIS.swift in Sources */,
