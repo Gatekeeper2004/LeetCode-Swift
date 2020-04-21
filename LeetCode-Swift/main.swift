@@ -10,7 +10,7 @@ import Foundation
 
 
 func main() -> Void {
-    
+    print(numberOfSubarrays([2,2,2,1,2,2,1,2,2,2], 2))
 }
 
 main()
