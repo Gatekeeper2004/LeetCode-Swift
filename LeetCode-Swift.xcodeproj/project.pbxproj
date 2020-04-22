@@ -54,6 +54,7 @@
 		19685FB4243B6D300052F48C /* palindromePairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19685FB3243B6D300052F48C /* palindromePairs.swift */; };
 		1969ED8823B7192C00810BA1 /* LengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1969ED8723B7192C00810BA1 /* LengthOfLongestSubstring.swift */; };
 		196ADF052406D64B007C8208 /* MaxProfit_714.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196ADF042406D64B007C8208 /* MaxProfit_714.swift */; };
+		196BA61624501BAB00D758FB /* subarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196BA61524501BAB00D758FB /* subarraySum.swift */; };
 		196DE09723CC88390037ABE1 /* FindDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196DE09623CC88390037ABE1 /* FindDuplicate.swift */; };
 		196DE09A23CC9CF80037ABE1 /* DetectCycle2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196DE09923CC9CF80037ABE1 /* DetectCycle2.swift */; };
 		196E370B24024083007DDE14 /* MinStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196E370A24024083007DDE14 /* MinStack.swift */; };
@@ -207,6 +208,7 @@
 		19685FB3243B6D300052F48C /* palindromePairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = palindromePairs.swift; sourceTree = "<group>"; };
 		1969ED8723B7192C00810BA1 /* LengthOfLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLongestSubstring.swift; sourceTree = "<group>"; };
 		196ADF042406D64B007C8208 /* MaxProfit_714.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit_714.swift; sourceTree = "<group>"; };
+		196BA61524501BAB00D758FB /* subarraySum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subarraySum.swift; sourceTree = "<group>"; };
 		196DE09623CC88390037ABE1 /* FindDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDuplicate.swift; sourceTree = "<group>"; };
 		196DE09923CC9CF80037ABE1 /* DetectCycle2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectCycle2.swift; sourceTree = "<group>"; };
 		196E370A24024083007DDE14 /* MinStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinStack.swift; sourceTree = "<group>"; };
@@ -687,6 +689,14 @@
 			path = "714. 买卖股票的最佳时机含手续费";
 			sourceTree = "<group>";
 		};
+		196BA61424501B9C00D758FB /* 560. 和为K的子数组 */ = {
+			isa = PBXGroup;
+			children = (
+				196BA61524501BAB00D758FB /* subarraySum.swift */,
+			);
+			path = "560. 和为K的子数组";
+			sourceTree = "<group>";
+		};
 		196DE09523CC88280037ABE1 /* 287.寻找重复数 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1060,6 +1070,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				196BA61424501B9C00D758FB /* 560. 和为K的子数组 */,
 				19DC0BC0244FEF99005BDCA4 /* 199. 二叉树的右视图 */,
 				1977FAA8244F21090074A124 /* 1248. 统计「优美子数组」 */,
 				1962C439244CA447007B91A7 /* 200. 岛屿数量 */,
@@ -1723,6 +1734,7 @@
 				19185BD62432755D0066094F /* searchRange.swift in Sources */,
 				19DAE321242D2AFB00A431FA /* zigzagLevelOrder.swift in Sources */,
 				196105BB2433490600B7721A /* sortArray.swift in Sources */,
+				196BA61624501BAB00D758FB /* subarraySum.swift in Sources */,
 				19001B1D2418B929006496C9 /* canThreePartsEqualSum.swift in Sources */,
 				1987CF302395375F009B3CC0 /* ReverseBetween.swift in Sources */,
 				199FD4D72393F75E0028BDA8 /* ThreeSum.swift in Sources */,
