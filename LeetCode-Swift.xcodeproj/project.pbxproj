@@ -119,6 +119,7 @@
 		19DAE32D242E174200A431FA /* translateNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DAE32C242E174200A431FA /* translateNum.swift */; };
 		19DAE330242E1E8300A431FA /* subsetsWithDup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DAE32F242E1E8300A431FA /* subsetsWithDup.swift */; };
 		19DAE333242E376E00A431FA /* combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DAE332242E376E00A431FA /* combine.swift */; };
+		19DC0BC2244FEFA2005BDCA4 /* rightSideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DC0BC1244FEFA2005BDCA4 /* rightSideView.swift */; };
 		19E23D0123AA769500271E1C /* LongestValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E23D0023AA769500271E1C /* LongestValidParentheses.swift */; };
 		19E24EB623A2703500DA9E84 /* DeleteNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E24EB523A2703500DA9E84 /* DeleteNode.swift */; };
 		19E24EB923A28DFB00DA9E84 /* SortList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E24EB823A28DFB00DA9E84 /* SortList.swift */; };
@@ -272,6 +273,7 @@
 		19DAE32C242E174200A431FA /* translateNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = translateNum.swift; sourceTree = "<group>"; };
 		19DAE32F242E1E8300A431FA /* subsetsWithDup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subsetsWithDup.swift; sourceTree = "<group>"; };
 		19DAE332242E376E00A431FA /* combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combine.swift; sourceTree = "<group>"; };
+		19DC0BC1244FEFA2005BDCA4 /* rightSideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rightSideView.swift; sourceTree = "<group>"; };
 		19E23D0023AA769500271E1C /* LongestValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestValidParentheses.swift; sourceTree = "<group>"; };
 		19E24EB523A2703500DA9E84 /* DeleteNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteNode.swift; sourceTree = "<group>"; };
 		19E24EB823A28DFB00DA9E84 /* SortList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortList.swift; sourceTree = "<group>"; };
@@ -1058,6 +1060,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				19DC0BC0244FEF99005BDCA4 /* 199. 二叉树的右视图 */,
 				1977FAA8244F21090074A124 /* 1248. 统计「优美子数组」 */,
 				1962C439244CA447007B91A7 /* 200. 岛屿数量 */,
 				19D9F95E2449543300534772 /* 55. 跳跃游戏 */,
@@ -1362,6 +1365,14 @@
 				19DAE332242E376E00A431FA /* combine.swift */,
 			);
 			path = "77. 组合";
+			sourceTree = "<group>";
+		};
+		19DC0BC0244FEF99005BDCA4 /* 199. 二叉树的右视图 */ = {
+			isa = PBXGroup;
+			children = (
+				19DC0BC1244FEFA2005BDCA4 /* rightSideView.swift */,
+			);
+			path = "199. 二叉树的右视图";
 			sourceTree = "<group>";
 		};
 		19DC802924310FBE00B6E6C6 /* 56. 合并区间 */ = {
@@ -1718,6 +1729,7 @@
 				1946BC9D241EA806009F0C56 /* findMin2.swift in Sources */,
 				19EDBDE9239800EA002C53B8 /* Partition.swift in Sources */,
 				19D814C023C4B4F00066B8B6 /* CountBits.swift in Sources */,
+				19DC0BC2244FEFA2005BDCA4 /* rightSideView.swift in Sources */,
 				19E43DF423AB5815005BF64A /* LRUCache.swift in Sources */,
 				19EA94B6242B0B06004232F7 /* getIntersectionNode.swift in Sources */,
 				197106AF239160FF0087B259 /* SwapPairs.swift in Sources */,
