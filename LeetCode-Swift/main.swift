@@ -10,7 +10,7 @@ import Foundation
 
 
 func main() -> Void {
-    print(subarraySum([0,0,0,0,0,0,0,0,0,0], 0))
+    print(waysToChange(10))
 }
 
 main()
