@@ -7,7 +7,7 @@
 //
 
 import Foundation
-//并轨排序
+//并归排序
 /*
 //超时
 func reversePairs(_ nums: [Int]) -> Int {
