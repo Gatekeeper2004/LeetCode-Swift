@@ -42,6 +42,7 @@
 		195506E324483D6700C7FCD1 /* change2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195506E224483D6700C7FCD1 /* change2.swift */; };
 		195A2C3623F425850081DF85 /* CheckSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195A2C3523F425850081DF85 /* CheckSubarraySum.swift */; };
 		195EBCCD23E6C448007B90BE /* CountSmaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195EBCCC23E6C448007B90BE /* CountSmaller.swift */; };
+		195FAEAF2454084C00F46E0C /* numTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FAEAE2454084C00F46E0C /* numTrees.swift */; };
 		196105BB2433490600B7721A /* sortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196105BA2433490600B7721A /* sortArray.swift */; };
 		196105BE243353A900B7721A /* lowestCommonAncestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196105BD243353A900B7721A /* lowestCommonAncestor.swift */; };
 		1962020A240FD15300298BBE /* coinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19620209240FD15300298BBE /* coinChange.swift */; };
@@ -198,6 +199,7 @@
 		195506E224483D6700C7FCD1 /* change2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = change2.swift; sourceTree = "<group>"; };
 		195A2C3523F425850081DF85 /* CheckSubarraySum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckSubarraySum.swift; sourceTree = "<group>"; };
 		195EBCCC23E6C448007B90BE /* CountSmaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountSmaller.swift; sourceTree = "<group>"; };
+		195FAEAE2454084C00F46E0C /* numTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numTrees.swift; sourceTree = "<group>"; };
 		196105BA2433490600B7721A /* sortArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sortArray.swift; sourceTree = "<group>"; };
 		196105BD243353A900B7721A /* lowestCommonAncestor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lowestCommonAncestor.swift; sourceTree = "<group>"; };
 		19620209240FD15300298BBE /* coinChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coinChange.swift; sourceTree = "<group>"; };
@@ -595,6 +597,14 @@
 				195EBCCC23E6C448007B90BE /* CountSmaller.swift */,
 			);
 			path = "315. 计算右侧小于当前元素的个数";
+			sourceTree = "<group>";
+		};
+		195FAEAD2454084100F46E0C /* 96. 不同的二叉搜索树 */ = {
+			isa = PBXGroup;
+			children = (
+				195FAEAE2454084C00F46E0C /* numTrees.swift */,
+			);
+			path = "96. 不同的二叉搜索树";
 			sourceTree = "<group>";
 		};
 		196105B9243348F800B7721A /* 912. 排序数组 */ = {
@@ -1090,6 +1100,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				195FAEAD2454084100F46E0C /* 96. 不同的二叉搜索树 */,
 				1953AA062452905B00B1AE80 /* 面试题51. 数组中的逆序对 */,
 				1940A019245185CE00A14B77 /* 面试题 08.11. 硬币 */,
 				196BA61424501B9C00D758FB /* 560. 和为K的子数组 */,
@@ -1760,6 +1771,7 @@
 				196BA61624501BAB00D758FB /* subarraySum.swift in Sources */,
 				19001B1D2418B929006496C9 /* canThreePartsEqualSum.swift in Sources */,
 				1987CF302395375F009B3CC0 /* ReverseBetween.swift in Sources */,
+				195FAEAF2454084C00F46E0C /* numTrees.swift in Sources */,
 				199FD4D72393F75E0028BDA8 /* ThreeSum.swift in Sources */,
 				1946BC9D241EA806009F0C56 /* findMin2.swift in Sources */,
 				19EDBDE9239800EA002C53B8 /* Partition.swift in Sources */,

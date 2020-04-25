@@ -10,7 +10,7 @@ import Foundation
 
 
 func main() -> Void {
-    print(reversePairs([5,4,3,2,1]))
+    print(numTrees(0))
 }
 
 main()
