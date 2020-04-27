@@ -10,7 +10,7 @@ import Foundation
 
 
 func main() -> Void {
-    print(numTrees(0))
+    print(numSquares(12))
 }
 
 main()
