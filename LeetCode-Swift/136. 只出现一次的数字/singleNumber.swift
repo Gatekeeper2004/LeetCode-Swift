@@ -9,9 +9,5 @@
 import Foundation
 
 func singleNumber(_ nums: [Int]) -> Int {
-    var result = 0
-    for i in nums {
-        result = result ^ i
-    }
-    return result
+    return nums.reduce(0, ^)
 }

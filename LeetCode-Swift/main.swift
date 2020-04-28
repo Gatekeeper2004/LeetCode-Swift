@@ -10,7 +10,7 @@ import Foundation
 
 
 func main() -> Void {
-    print(numSquares(12))
+    print(singleNumber([1,1,2,3,3]))
 }
 
 main()
