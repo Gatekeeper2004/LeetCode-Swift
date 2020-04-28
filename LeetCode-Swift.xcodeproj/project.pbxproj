@@ -143,6 +143,7 @@
 		19F1C3AF24430AF600A591AB /* sortedArrayToBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F1C3AE24430AF600A591AB /* sortedArrayToBST.swift */; };
 		19F1C3B2244314FF00A591AB /* minDiffInBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F1C3B1244314FF00A591AB /* minDiffInBST.swift */; };
 		19F9A12F2457D25000BE20A8 /* singleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F9A12E2457D25000BE20A8 /* singleNumber.swift */; };
+		19F9A1322457D3CC00BE20A8 /* singleNumbers3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F9A1312457D3CC00BE20A8 /* singleNumbers3.swift */; };
 		19F9DFBB2440C23800445902 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F9DFBA2440C23700445902 /* Test.swift */; };
 		19F9DFC12440C25A00445902 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F9DFC02440C25A00445902 /* test.swift */; };
 		19F9DFC32440C2DA00445902 /* reverseWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F9DFC22440C2DA00445902 /* reverseWords.swift */; };
@@ -304,6 +305,7 @@
 		19F1C3AE24430AF600A591AB /* sortedArrayToBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sortedArrayToBST.swift; sourceTree = "<group>"; };
 		19F1C3B1244314FF00A591AB /* minDiffInBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minDiffInBST.swift; sourceTree = "<group>"; };
 		19F9A12E2457D25000BE20A8 /* singleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleNumber.swift; sourceTree = "<group>"; };
+		19F9A1312457D3CC00BE20A8 /* singleNumbers3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleNumbers3.swift; sourceTree = "<group>"; };
 		19F9DFB82440C23700445902 /* Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19F9DFBA2440C23700445902 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		19F9DFBC2440C23800445902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1122,6 +1124,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				19F9A1302457D3C300BE20A8 /* 面试题56 - I. 数组中数字出现的次数 */,
 				19F9A12D2457D24700BE20A8 /* 136. 只出现一次的数字 */,
 				1963BE382457057F0038BCC3 /* 279. 完全平方数 */,
 				1978E8952455CAFA003581C6 /* 23. 合并K个排序链表 */,
@@ -1580,6 +1583,14 @@
 			path = "136. 只出现一次的数字";
 			sourceTree = "<group>";
 		};
+		19F9A1302457D3C300BE20A8 /* 面试题56 - I. 数组中数字出现的次数 */ = {
+			isa = PBXGroup;
+			children = (
+				19F9A1312457D3CC00BE20A8 /* singleNumbers3.swift */,
+			);
+			path = "面试题56 - I. 数组中数字出现的次数";
+			sourceTree = "<group>";
+		};
 		19F9DFAF24404B2600445902 /* 151. 翻转字符串里的单词 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1768,6 +1779,7 @@
 				19DAE333242E376E00A431FA /* combine.swift in Sources */,
 				196105BE243353A900B7721A /* lowestCommonAncestor.swift in Sources */,
 				19FEA90924343AED0067C255 /* MyHashSet.swift in Sources */,
+				19F9A1322457D3CC00BE20A8 /* singleNumbers3.swift in Sources */,
 				19C3992424226BDC0011910A /* isRectangleOverlap.swift in Sources */,
 				19DAE32D242E174200A431FA /* translateNum.swift in Sources */,
 				190B05C4243C1CDC008668D2 /* largestNumber.swift in Sources */,
