@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		19001B1D2418B929006496C9 /* canThreePartsEqualSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19001B1C2418B929006496C9 /* canThreePartsEqualSum.swift */; };
 		1901B56723F12B4E004771A2 /* IsCompleteTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1901B56623F12B4E004771A2 /* IsCompleteTree.swift */; };
+		19078B27246054A40054635E /* jump2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19078B26246054A40054635E /* jump2.swift */; };
 		190B05C4243C1CDC008668D2 /* largestNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190B05C3243C1CDC008668D2 /* largestNumber.swift */; };
 		190B8A75240CA98F0055B200 /* InorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190B8A74240CA98F0055B200 /* InorderTraversal.swift */; };
 		190E958E23B3547600370EAB /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E958D23B3547600370EAB /* LongestPalindrome.swift */; };
@@ -171,6 +172,7 @@
 /* Begin PBXFileReference section */
 		19001B1C2418B929006496C9 /* canThreePartsEqualSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canThreePartsEqualSum.swift; sourceTree = "<group>"; };
 		1901B56623F12B4E004771A2 /* IsCompleteTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsCompleteTree.swift; sourceTree = "<group>"; };
+		19078B26246054A40054635E /* jump2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jump2.swift; sourceTree = "<group>"; };
 		190B05C3243C1CDC008668D2 /* largestNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = largestNumber.swift; sourceTree = "<group>"; };
 		190B8A74240CA98F0055B200 /* InorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InorderTraversal.swift; sourceTree = "<group>"; };
 		190E958D23B3547600370EAB /* LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindrome.swift; sourceTree = "<group>"; };
@@ -351,6 +353,14 @@
 				1901B56623F12B4E004771A2 /* IsCompleteTree.swift */,
 			);
 			path = "958. 二叉树的完全性检验";
+			sourceTree = "<group>";
+		};
+		19078B252460549A0054635E /* 45. 跳跃游戏 II */ = {
+			isa = PBXGroup;
+			children = (
+				19078B26246054A40054635E /* jump2.swift */,
+			);
+			path = "45. 跳跃游戏 II";
 			sourceTree = "<group>";
 		};
 		190B05C2243C1CCE008668D2 /* 179. 最大数 */ = {
@@ -1126,6 +1136,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				19078B252460549A0054635E /* 45. 跳跃游戏 II */,
 				19CD806A24591CCF00F7C06E /* 1095. 山脉数组中查找目标值 */,
 				19F9A1302457D3C300BE20A8 /* 面试题56 - I. 数组中数字出现的次数 */,
 				19F9A12D2457D24700BE20A8 /* 136. 只出现一次的数字 */,
@@ -1824,6 +1835,7 @@
 				198AD340239D463F0051EA35 /* LetterCombinations.swift in Sources */,
 				19E24EB623A2703500DA9E84 /* DeleteNode.swift in Sources */,
 				1984AD76239E278E00960E95 /* CombinationSum.swift in Sources */,
+				19078B27246054A40054635E /* jump2.swift in Sources */,
 				19185BD62432755D0066094F /* searchRange.swift in Sources */,
 				19DAE321242D2AFB00A431FA /* zigzagLevelOrder.swift in Sources */,
 				196105BB2433490600B7721A /* sortArray.swift in Sources */,
