@@ -97,6 +97,7 @@
 		19B419E023CA04E200C79DCB /* LongestCommonSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B419DF23CA04E200C79DCB /* LongestCommonSubsequence.swift */; };
 		19B5391123A776BC003F8D44 /* IsAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B5391023A776BC003F8D44 /* IsAnagram.swift */; };
 		19B62619242CFC0E00F83BE5 /* numRookCaptures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B62618242CFC0E00F83BE5 /* numRookCaptures.swift */; };
+		19B7E0B8246113CB00B80805 /* isValidBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B7E0B7246113CB00B80805 /* isValidBST.swift */; };
 		19B89A0C23FF823F0022E646 /* IsHappy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B89A0B23FF823F0022E646 /* IsHappy.swift */; };
 		19B9E29C23EE658C00E39B17 /* MaxArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B9E29B23EE658C00E39B17 /* MaxArea.swift */; };
 		19BEAF97242860910043EC2C /* middleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BEAF96242860910043EC2C /* middleNode.swift */; };
@@ -260,6 +261,7 @@
 		19B419DF23CA04E200C79DCB /* LongestCommonSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonSubsequence.swift; sourceTree = "<group>"; };
 		19B5391023A776BC003F8D44 /* IsAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsAnagram.swift; sourceTree = "<group>"; };
 		19B62618242CFC0E00F83BE5 /* numRookCaptures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numRookCaptures.swift; sourceTree = "<group>"; };
+		19B7E0B7246113CB00B80805 /* isValidBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isValidBST.swift; sourceTree = "<group>"; };
 		19B89A0B23FF823F0022E646 /* IsHappy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsHappy.swift; sourceTree = "<group>"; };
 		19B9E29B23EE658C00E39B17 /* MaxArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxArea.swift; sourceTree = "<group>"; };
 		19BEAF96242860910043EC2C /* middleNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = middleNode.swift; sourceTree = "<group>"; };
@@ -1051,6 +1053,14 @@
 			path = "999. 车的可用捕获量";
 			sourceTree = "<group>";
 		};
+		19B7E0B6246113C100B80805 /* 98. 验证二叉搜索树 */ = {
+			isa = PBXGroup;
+			children = (
+				19B7E0B7246113CB00B80805 /* isValidBST.swift */,
+			);
+			path = "98. 验证二叉搜索树";
+			sourceTree = "<group>";
+		};
 		19B89A0A23FF82340022E646 /* 202. 快乐数 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1136,6 +1146,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				19B7E0B6246113C100B80805 /* 98. 验证二叉搜索树 */,
 				19078B252460549A0054635E /* 45. 跳跃游戏 II */,
 				19CD806A24591CCF00F7C06E /* 1095. 山脉数组中查找目标值 */,
 				19F9A1302457D3C300BE20A8 /* 面试题56 - I. 数组中数字出现的次数 */,
@@ -1791,6 +1802,7 @@
 				1940903924455B0E00AEBEC4 /* getHint.swift in Sources */,
 				19BEAF97242860910043EC2C /* middleNode.swift in Sources */,
 				1901B56723F12B4E004771A2 /* IsCompleteTree.swift in Sources */,
+				19B7E0B8246113CB00B80805 /* isValidBST.swift in Sources */,
 				19D65DF2241A8B1500AEF6B0 /* fib.swift in Sources */,
 				197161E223B08EDA00261252 /* Rob_198.swift in Sources */,
 				19DAE324242DA33200A431FA /* minDepth.swift in Sources */,
