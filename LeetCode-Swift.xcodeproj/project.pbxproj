@@ -94,6 +94,7 @@
 		19AE25ED24017F25008EA886 /* FindRedundantConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE25EC24017F25008EA886 /* FindRedundantConnection.swift */; };
 		19B2A6D0242F33BF00BEE658 /* findPeakElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B2A6CF242F33BF00BEE658 /* findPeakElement.swift */; };
 		19B30AB2241A230F00DFA3E0 /* gcdOfStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B30AB1241A230F00DFA3E0 /* gcdOfStrings.swift */; };
+		19B3913924631CB400AFDD3C /* mincostTickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B3913824631CB400AFDD3C /* mincostTickets.swift */; };
 		19B419E023CA04E200C79DCB /* LongestCommonSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B419DF23CA04E200C79DCB /* LongestCommonSubsequence.swift */; };
 		19B5391123A776BC003F8D44 /* IsAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B5391023A776BC003F8D44 /* IsAnagram.swift */; };
 		19B62619242CFC0E00F83BE5 /* numRookCaptures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B62618242CFC0E00F83BE5 /* numRookCaptures.swift */; };
@@ -258,6 +259,7 @@
 		19AE25EC24017F25008EA886 /* FindRedundantConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindRedundantConnection.swift; sourceTree = "<group>"; };
 		19B2A6CF242F33BF00BEE658 /* findPeakElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findPeakElement.swift; sourceTree = "<group>"; };
 		19B30AB1241A230F00DFA3E0 /* gcdOfStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gcdOfStrings.swift; sourceTree = "<group>"; };
+		19B3913824631CB400AFDD3C /* mincostTickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mincostTickets.swift; sourceTree = "<group>"; };
 		19B419DF23CA04E200C79DCB /* LongestCommonSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonSubsequence.swift; sourceTree = "<group>"; };
 		19B5391023A776BC003F8D44 /* IsAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsAnagram.swift; sourceTree = "<group>"; };
 		19B62618242CFC0E00F83BE5 /* numRookCaptures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numRookCaptures.swift; sourceTree = "<group>"; };
@@ -1029,6 +1031,14 @@
 			path = "1071. 字符串的最大公因子";
 			sourceTree = "<group>";
 		};
+		19B3913724631C9F00AFDD3C /* 983. 最低票价 */ = {
+			isa = PBXGroup;
+			children = (
+				19B3913824631CB400AFDD3C /* mincostTickets.swift */,
+			);
+			path = "983. 最低票价";
+			sourceTree = "<group>";
+		};
 		19B419DE23CA04BD00C79DCB /* 1143.最长公共子序列 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1146,6 +1156,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				19B3913724631C9F00AFDD3C /* 983. 最低票价 */,
 				19B7E0B6246113C100B80805 /* 98. 验证二叉搜索树 */,
 				19078B252460549A0054635E /* 45. 跳跃游戏 II */,
 				19CD806A24591CCF00F7C06E /* 1095. 山脉数组中查找目标值 */,
@@ -1885,6 +1896,7 @@
 				196DE09723CC88390037ABE1 /* FindDuplicate.swift in Sources */,
 				19E87717242B77E6006D7679 /* isPalindrome.swift in Sources */,
 				19353E192411F93100C1E8CC /* removeDuplicates.swift in Sources */,
+				19B3913924631CB400AFDD3C /* mincostTickets.swift in Sources */,
 				19CAA607240E2C22006513E9 /* rotate.swift in Sources */,
 				19A113152425BE6200BE8EC0 /* canMeasureWater.swift in Sources */,
 				1946BC9A241EA340009F0C56 /* findMin.swift in Sources */,

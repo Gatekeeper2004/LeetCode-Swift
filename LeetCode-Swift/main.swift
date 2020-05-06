@@ -10,7 +10,7 @@ import Foundation
 
 
 func main() -> Void {
-    print(singleNumber([1,1,2,3,3]))
+    print(mincostTickets([1,4,6,7,8,20], [2,7,15]))
 }
 
 main()
