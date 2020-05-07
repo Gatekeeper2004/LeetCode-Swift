@@ -57,6 +57,7 @@
 		19677C93243700750040D345 /* allPossibleFBT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19677C92243700750040D345 /* allPossibleFBT.swift */; };
 		19677C96243789B60040D345 /* distanceK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19677C95243789B60040D345 /* distanceK.swift */; };
 		196858F22463B5D300773D6A /* isSameTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196858F12463B5D300773D6A /* isSameTree.swift */; };
+		196858F52463BBE400773D6A /* isSubtree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196858F42463BBE400773D6A /* isSubtree.swift */; };
 		19685FB4243B6D300052F48C /* palindromePairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19685FB3243B6D300052F48C /* palindromePairs.swift */; };
 		1969ED8823B7192C00810BA1 /* LengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1969ED8723B7192C00810BA1 /* LengthOfLongestSubstring.swift */; };
 		196ADF052406D64B007C8208 /* MaxProfit_714.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196ADF042406D64B007C8208 /* MaxProfit_714.swift */; };
@@ -223,6 +224,7 @@
 		19677C92243700750040D345 /* allPossibleFBT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allPossibleFBT.swift; sourceTree = "<group>"; };
 		19677C95243789B60040D345 /* distanceK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = distanceK.swift; sourceTree = "<group>"; };
 		196858F12463B5D300773D6A /* isSameTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isSameTree.swift; sourceTree = "<group>"; };
+		196858F42463BBE400773D6A /* isSubtree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isSubtree.swift; sourceTree = "<group>"; };
 		19685FB3243B6D300052F48C /* palindromePairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = palindromePairs.swift; sourceTree = "<group>"; };
 		1969ED8723B7192C00810BA1 /* LengthOfLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLongestSubstring.swift; sourceTree = "<group>"; };
 		196ADF042406D64B007C8208 /* MaxProfit_714.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit_714.swift; sourceTree = "<group>"; };
@@ -737,6 +739,14 @@
 			path = "100. 相同的树";
 			sourceTree = "<group>";
 		};
+		196858F32463BBC900773D6A /* 572. 另一个树的子树 */ = {
+			isa = PBXGroup;
+			children = (
+				196858F42463BBE400773D6A /* isSubtree.swift */,
+			);
+			path = "572. 另一个树的子树";
+			sourceTree = "<group>";
+		};
 		19685FB2243B6D270052F48C /* 336. 回文对 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1166,6 +1176,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				196858F32463BBC900773D6A /* 572. 另一个树的子树 */,
 				196858F02463B5C800773D6A /* 100. 相同的树 */,
 				19B3913724631C9F00AFDD3C /* 983. 最低票价 */,
 				19B7E0B6246113C100B80805 /* 98. 验证二叉搜索树 */,
@@ -1888,6 +1899,7 @@
 				19EA94B6242B0B06004232F7 /* getIntersectionNode.swift in Sources */,
 				197106AF239160FF0087B259 /* SwapPairs.swift in Sources */,
 				19AE25ED24017F25008EA886 /* FindRedundantConnection.swift in Sources */,
+				196858F52463BBE400773D6A /* isSubtree.swift in Sources */,
 				1981E571242734CE0089E1DD /* minIncrementForUnique.swift in Sources */,
 				1978D6C0242E4C2E005A8C4D /* permuteUnique.swift in Sources */,
 				19185BD0243239C30066094F /* spiralOrder.swift in Sources */,
