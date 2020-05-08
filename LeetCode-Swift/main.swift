@@ -10,7 +10,7 @@ import Foundation
 
 
 func main() -> Void {
-    
+    print(hammingDistance(1, 4))
 }
 
 main()

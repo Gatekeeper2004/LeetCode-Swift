@@ -18,6 +18,7 @@
 		19185BD0243239C30066094F /* spiralOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19185BCF243239C30066094F /* spiralOrder.swift */; };
 		19185BD3243250A60066094F /* removeDuplicateLetters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19185BD2243250A60066094F /* removeDuplicateLetters.swift */; };
 		19185BD62432755D0066094F /* searchRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19185BD52432755D0066094F /* searchRange.swift */; };
+		1919B1752464F832003E6EA7 /* hammingDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1919B1742464F832003E6EA7 /* hammingDistance.swift */; };
 		191A4B8123EF1FBF00DD5334 /* Divide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191A4B8023EF1FBF00DD5334 /* Divide.swift */; };
 		191A4B8423EFB34700DD5334 /* LexicalOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191A4B8323EFB34700DD5334 /* LexicalOrder.swift */; };
 		191EDE6B24473F0A00587ABA /* invertTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191EDE6A24473F0A00587ABA /* invertTree.swift */; };
@@ -185,6 +186,7 @@
 		19185BCF243239C30066094F /* spiralOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spiralOrder.swift; sourceTree = "<group>"; };
 		19185BD2243250A60066094F /* removeDuplicateLetters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeDuplicateLetters.swift; sourceTree = "<group>"; };
 		19185BD52432755D0066094F /* searchRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchRange.swift; sourceTree = "<group>"; };
+		1919B1742464F832003E6EA7 /* hammingDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hammingDistance.swift; sourceTree = "<group>"; };
 		191A4B8023EF1FBF00DD5334 /* Divide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divide.swift; sourceTree = "<group>"; };
 		191A4B8323EFB34700DD5334 /* LexicalOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LexicalOrder.swift; sourceTree = "<group>"; };
 		191EDE6A24473F0A00587ABA /* invertTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invertTree.swift; sourceTree = "<group>"; };
@@ -433,6 +435,14 @@
 				19185BD52432755D0066094F /* searchRange.swift */,
 			);
 			path = "34. 在排序数组中查找元素的第一个和最后一个位置";
+			sourceTree = "<group>";
+		};
+		1919B1732464F828003E6EA7 /* 461. 汉明距离 */ = {
+			isa = PBXGroup;
+			children = (
+				1919B1742464F832003E6EA7 /* hammingDistance.swift */,
+			);
+			path = "461. 汉明距离";
 			sourceTree = "<group>";
 		};
 		191A4B7F23EF1FB400DD5334 /* 29. 两数相除 */ = {
@@ -1176,6 +1186,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				1919B1732464F828003E6EA7 /* 461. 汉明距离 */,
 				196858F32463BBC900773D6A /* 572. 另一个树的子树 */,
 				196858F02463B5C800773D6A /* 100. 相同的树 */,
 				19B3913724631C9F00AFDD3C /* 983. 最低票价 */,
@@ -1809,6 +1820,7 @@
 				19B5391123A776BC003F8D44 /* IsAnagram.swift in Sources */,
 				19F1C3AF24430AF600A591AB /* sortedArrayToBST.swift in Sources */,
 				19DADFAE24305777007C342F /* rotateRight.swift in Sources */,
+				1919B1752464F832003E6EA7 /* hammingDistance.swift in Sources */,
 				19DADFB12430CA88007C342F /* copyRandomList.swift in Sources */,
 				19DAE32A242DDE0000A431FA /* generateParenthesis.swift in Sources */,
 				19C62C1923E59D070093CF4F /* ContainsDuplicate.swift in Sources */,
