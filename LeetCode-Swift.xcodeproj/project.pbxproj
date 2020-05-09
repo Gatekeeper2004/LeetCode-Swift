@@ -55,6 +55,7 @@
 		19624D442429CD7F0055276D /* rob3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19624D432429CD7F0055276D /* rob3.swift */; };
 		1962C43B244CA452007B91A7 /* numIslands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1962C43A244CA452007B91A7 /* numIslands.swift */; };
 		1963BE3A2457058B0038BCC3 /* numSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1963BE392457058B0038BCC3 /* numSquares.swift */; };
+		196645412466506800CA7E3B /* mySqrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196645402466506800CA7E3B /* mySqrt.swift */; };
 		19677C93243700750040D345 /* allPossibleFBT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19677C92243700750040D345 /* allPossibleFBT.swift */; };
 		19677C96243789B60040D345 /* distanceK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19677C95243789B60040D345 /* distanceK.swift */; };
 		196858F22463B5D300773D6A /* isSameTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196858F12463B5D300773D6A /* isSameTree.swift */; };
@@ -223,6 +224,7 @@
 		19624D432429CD7F0055276D /* rob3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rob3.swift; sourceTree = "<group>"; };
 		1962C43A244CA452007B91A7 /* numIslands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numIslands.swift; sourceTree = "<group>"; };
 		1963BE392457058B0038BCC3 /* numSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numSquares.swift; sourceTree = "<group>"; };
+		196645402466506800CA7E3B /* mySqrt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySqrt.swift; sourceTree = "<group>"; };
 		19677C92243700750040D345 /* allPossibleFBT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allPossibleFBT.swift; sourceTree = "<group>"; };
 		19677C95243789B60040D345 /* distanceK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = distanceK.swift; sourceTree = "<group>"; };
 		196858F12463B5D300773D6A /* isSameTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isSameTree.swift; sourceTree = "<group>"; };
@@ -725,6 +727,14 @@
 			path = "279. 完全平方数";
 			sourceTree = "<group>";
 		};
+		1966453F2466505D00CA7E3B /* 69. x 的平方根 */ = {
+			isa = PBXGroup;
+			children = (
+				196645402466506800CA7E3B /* mySqrt.swift */,
+			);
+			path = "69. x 的平方根";
+			sourceTree = "<group>";
+		};
 		19677C912437006D0040D345 /* 894. 所有可能的满二叉树 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1186,6 +1196,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				1966453F2466505D00CA7E3B /* 69. x 的平方根 */,
 				1919B1732464F828003E6EA7 /* 461. 汉明距离 */,
 				196858F32463BBC900773D6A /* 572. 另一个树的子树 */,
 				196858F02463B5C800773D6A /* 100. 相同的树 */,
@@ -1853,6 +1864,7 @@
 				19DAE324242DA33200A431FA /* minDepth.swift in Sources */,
 				196858F22463B5D300773D6A /* isSameTree.swift in Sources */,
 				19B30AB2241A230F00DFA3E0 /* gcdOfStrings.swift in Sources */,
+				196645412466506800CA7E3B /* mySqrt.swift in Sources */,
 				197106B223916D0E0087B259 /* TwoSum.swift in Sources */,
 				1962391C24359A4A00091CCA /* multiply.swift in Sources */,
 				1988EF492427D49C00AACF06 /* subsets.swift in Sources */,
