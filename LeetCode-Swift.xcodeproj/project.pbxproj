@@ -79,6 +79,7 @@
 		1978E8972455CB10003581C6 /* mergeKLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1978E8962455CB10003581C6 /* mergeKLists.swift */; };
 		197CF1FA2427C3C70036AD23 /* permute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197CF1F92427C3C70036AD23 /* permute.swift */; };
 		197F08212418CCE40016E6AD /* numWays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F08202418CCE40016E6AD /* numWays.swift */; };
+		197FF14D247164740096602B /* findOrder2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197FF14C247164740096602B /* findOrder2.swift */; };
 		1981E571242734CE0089E1DD /* minIncrementForUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1981E570242734CE0089E1DD /* minIncrementForUnique.swift */; };
 		1984AD76239E278E00960E95 /* CombinationSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1984AD75239E278E00960E95 /* CombinationSum.swift */; };
 		1984CDDB2398DF5A003827A4 /* ReverseKGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1984CDDA2398DF5A003827A4 /* ReverseKGroup.swift */; };
@@ -249,6 +250,7 @@
 		1978E8962455CB10003581C6 /* mergeKLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mergeKLists.swift; sourceTree = "<group>"; };
 		197CF1F92427C3C70036AD23 /* permute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = permute.swift; sourceTree = "<group>"; };
 		197F08202418CCE40016E6AD /* numWays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numWays.swift; sourceTree = "<group>"; };
+		197FF14C247164740096602B /* findOrder2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findOrder2.swift; sourceTree = "<group>"; };
 		1981E570242734CE0089E1DD /* minIncrementForUnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minIncrementForUnique.swift; sourceTree = "<group>"; };
 		1984AD75239E278E00960E95 /* CombinationSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSum.swift; sourceTree = "<group>"; };
 		1984CDDA2398DF5A003827A4 /* ReverseKGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseKGroup.swift; sourceTree = "<group>"; };
@@ -921,6 +923,14 @@
 			path = "面试题10- II. 青蛙跳台阶问题";
 			sourceTree = "<group>";
 		};
+		197FF14B247164600096602B /* 210. 课程表 II */ = {
+			isa = PBXGroup;
+			children = (
+				197FF14C247164740096602B /* findOrder2.swift */,
+			);
+			path = "210. 课程表 II";
+			sourceTree = "<group>";
+		};
 		1981E56F242734C20089E1DD /* 945. 使数组唯一的最小增量 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1206,6 +1216,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				197FF14B247164600096602B /* 210. 课程表 II */,
 				19226D962468F82F0059CDEE /* 50. Pow(x, n) */,
 				1966453F2466505D00CA7E3B /* 69. x 的平方根 */,
 				1919B1732464F828003E6EA7 /* 461. 汉明距离 */,
@@ -1830,6 +1841,7 @@
 			files = (
 				1914DD52243F87750095B273 /* cuttingRope.swift in Sources */,
 				1962C43B244CA452007B91A7 /* numIslands.swift in Sources */,
+				197FF14D247164740096602B /* findOrder2.swift in Sources */,
 				1940A01B245185DD00A14B77 /* waysToChange.swift in Sources */,
 				19E24EBC23A298C000DA9E84 /* MergeTwoLists.swift in Sources */,
 				19DAE330242E1E8300A431FA /* subsetsWithDup.swift in Sources */,

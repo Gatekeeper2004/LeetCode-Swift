@@ -10,7 +10,7 @@ import Foundation
 
 
 func main() -> Void {
-    print(hammingDistance(1, 4))
+    print(findOrder(3, [[0,1],[0,2],[1,2]]))
 }
 
 main()
