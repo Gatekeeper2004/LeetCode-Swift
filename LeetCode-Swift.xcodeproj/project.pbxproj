@@ -119,6 +119,7 @@
 		19CAA604240E0C0C006513E9 /* merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CAA603240E0C0C006513E9 /* merge.swift */; };
 		19CAA607240E2C22006513E9 /* rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CAA606240E2C22006513E9 /* rotate.swift */; };
 		19CD806C24591CD900F7C06E /* findInMountainArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CD806B24591CD900F7C06E /* findInMountainArray.swift */; };
+		19D21466247228C40056FB50 /* maxProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D21465247228C40056FB50 /* maxProduct.swift */; };
 		19D65DF2241A8B1500AEF6B0 /* fib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D65DF1241A8B1500AEF6B0 /* fib.swift */; };
 		19D814C023C4B4F00066B8B6 /* CountBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D814BF23C4B4F00066B8B6 /* CountBits.swift */; };
 		19D9DD5C23F02AC4001BBD64 /* LevelOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9DD5B23F02AC4001BBD64 /* LevelOrder.swift */; };
@@ -291,6 +292,7 @@
 		19CAA603240E0C0C006513E9 /* merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = merge.swift; sourceTree = "<group>"; };
 		19CAA606240E2C22006513E9 /* rotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotate.swift; sourceTree = "<group>"; };
 		19CD806B24591CD900F7C06E /* findInMountainArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findInMountainArray.swift; sourceTree = "<group>"; };
+		19D21465247228C40056FB50 /* maxProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maxProduct.swift; sourceTree = "<group>"; };
 		19D65DF1241A8B1500AEF6B0 /* fib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fib.swift; sourceTree = "<group>"; };
 		19D814BF23C4B4F00066B8B6 /* CountBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountBits.swift; sourceTree = "<group>"; };
 		19D9DD5B23F02AC4001BBD64 /* LevelOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOrder.swift; sourceTree = "<group>"; };
@@ -1216,6 +1218,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				19D21464247228B50056FB50 /* 152. 乘积最大子数组 */,
 				197FF14B247164600096602B /* 210. 课程表 II */,
 				19226D962468F82F0059CDEE /* 50. Pow(x, n) */,
 				1966453F2466505D00CA7E3B /* 69. x 的平方根 */,
@@ -1419,6 +1422,14 @@
 				19E23D0023AA769500271E1C /* LongestValidParentheses.swift */,
 			);
 			path = "32. 最长有效括号";
+			sourceTree = "<group>";
+		};
+		19D21464247228B50056FB50 /* 152. 乘积最大子数组 */ = {
+			isa = PBXGroup;
+			children = (
+				19D21465247228C40056FB50 /* maxProduct.swift */,
+			);
+			path = "152. 乘积最大子数组";
 			sourceTree = "<group>";
 		};
 		19D65DF0241A8B0700AEF6B0 /* 面试题10- I. 斐波那契数列(509) */ = {
@@ -1982,6 +1993,7 @@
 				19FA3B2A2423CB7B00A29DC8 /* longestPalindrome.swift in Sources */,
 				194D03C9243115DA00B0A044 /* merge1.swift in Sources */,
 				19624D3E2429B14A0055276D /* massage.swift in Sources */,
+				19D21466247228C40056FB50 /* maxProduct.swift in Sources */,
 				19D9F9602449543E00534772 /* canJump.swift in Sources */,
 				19EAFC8923E2EFE700A22956 /* strStr.swift in Sources */,
 				19685FB4243B6D300052F48C /* palindromePairs.swift in Sources */,
