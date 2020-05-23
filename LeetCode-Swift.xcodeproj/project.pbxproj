@@ -27,6 +27,7 @@
 		19226D982468F8380059CDEE /* myPow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19226D972468F8380059CDEE /* myPow.swift */; };
 		19353E192411F93100C1E8CC /* removeDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19353E182411F93100C1E8CC /* removeDuplicates.swift */; };
 		19386DE323F8F131008A17B1 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19386DE223F8F131008A17B1 /* LongestCommonPrefix.swift */; };
+		193C50DD2478D22C00548227 /* minWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193C50DC2478D22C00548227 /* minWindow.swift */; };
 		193E67A624319EDD00420F4A /* reverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E67A524319EDD00420F4A /* reverse.swift */; };
 		193E67A92431A44500420F4A /* myAtoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E67A82431A44500420F4A /* myAtoi.swift */; };
 		1940903424454B0300AEBEC4 /* addTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1940903324454B0300AEBEC4 /* addTwoNumbers.swift */; };
@@ -200,6 +201,7 @@
 		19226D972468F8380059CDEE /* myPow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPow.swift; sourceTree = "<group>"; };
 		19353E182411F93100C1E8CC /* removeDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeDuplicates.swift; sourceTree = "<group>"; };
 		19386DE223F8F131008A17B1 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
+		193C50DC2478D22C00548227 /* minWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minWindow.swift; sourceTree = "<group>"; };
 		193E67A524319EDD00420F4A /* reverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverse.swift; sourceTree = "<group>"; };
 		193E67A82431A44500420F4A /* myAtoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAtoi.swift; sourceTree = "<group>"; };
 		1940903324454B0300AEBEC4 /* addTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addTwoNumbers.swift; sourceTree = "<group>"; };
@@ -517,6 +519,14 @@
 				19386DE223F8F131008A17B1 /* LongestCommonPrefix.swift */,
 			);
 			path = "14. 最长公共前缀";
+			sourceTree = "<group>";
+		};
+		193C50DB2478D22300548227 /* 76. 最小覆盖子串 */ = {
+			isa = PBXGroup;
+			children = (
+				193C50DC2478D22C00548227 /* minWindow.swift */,
+			);
+			path = "76. 最小覆盖子串";
 			sourceTree = "<group>";
 		};
 		193E67A424319ED600420F4A /* 7. 整数反转 */ = {
@@ -1228,6 +1238,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				193C50DB2478D22300548227 /* 76. 最小覆盖子串 */,
 				190DFEFB24737CAA0083F1E3 /* 680. 验证回文字符串 Ⅱ */,
 				19D21464247228B50056FB50 /* 152. 乘积最大子数组 */,
 				197FF14B247164600096602B /* 210. 课程表 II */,
@@ -1886,6 +1897,7 @@
 				19D9DD5C23F02AC4001BBD64 /* LevelOrder.swift in Sources */,
 				196E370B24024083007DDE14 /* MinStack.swift in Sources */,
 				199C7F4923CB1A7500CF6DB8 /* Trap.swift in Sources */,
+				193C50DD2478D22C00548227 /* minWindow.swift in Sources */,
 				19C96FA0238F655F00699CA5 /* main.swift in Sources */,
 				193E67A624319EDD00420F4A /* reverse.swift in Sources */,
 				1978D6C3242E5C0E005A8C4D /* numTilePossibilities.swift in Sources */,

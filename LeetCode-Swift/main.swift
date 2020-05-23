@@ -10,7 +10,9 @@ import Foundation
 
 
 func main() -> Void {
-    print(findOrder(3, [[0,1],[0,2],[1,2]]))
+    let S = "ADOBECODEBANC"
+    let T = "ABC"
+    print(minWindow(S, T))
 }
 
 main()
