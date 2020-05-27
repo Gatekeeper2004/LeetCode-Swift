@@ -10,9 +10,7 @@ import Foundation
 
 
 func main() -> Void {
-    let S = "ADOBECODEBANC"
-    let T = "ABC"
-    print(minWindow(S, T))
+    print(subarraysDivByK([4,5,0,-2,-3,1], 5))
 }
 
 main()

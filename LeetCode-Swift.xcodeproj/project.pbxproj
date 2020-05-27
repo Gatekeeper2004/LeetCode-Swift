@@ -98,6 +98,7 @@
 		19A113152425BE6200BE8EC0 /* canMeasureWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A113142425BE6200BE8EC0 /* canMeasureWater.swift */; };
 		19A2960F23CEC489003E091A /* FindKthLargest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A2960E23CEC489003E091A /* FindKthLargest.swift */; };
 		19A572B42446B15100515E4D /* binaryTreePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A572B32446B15100515E4D /* binaryTreePaths.swift */; };
+		19A792E0247E0DA00078DC54 /* subarraysDivByK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A792DF247E0DA00078DC54 /* subarraysDivByK.swift */; };
 		19AE25EA24017A10008EA886 /* FindCircleNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE25E924017A10008EA886 /* FindCircleNum.swift */; };
 		19AE25ED24017F25008EA886 /* FindRedundantConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE25EC24017F25008EA886 /* FindRedundantConnection.swift */; };
 		19B2A6D0242F33BF00BEE658 /* findPeakElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B2A6CF242F33BF00BEE658 /* findPeakElement.swift */; };
@@ -272,6 +273,7 @@
 		19A113142425BE6200BE8EC0 /* canMeasureWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canMeasureWater.swift; sourceTree = "<group>"; };
 		19A2960E23CEC489003E091A /* FindKthLargest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindKthLargest.swift; sourceTree = "<group>"; };
 		19A572B32446B15100515E4D /* binaryTreePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = binaryTreePaths.swift; sourceTree = "<group>"; };
+		19A792DF247E0DA00078DC54 /* subarraysDivByK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subarraysDivByK.swift; sourceTree = "<group>"; };
 		19AE25E924017A10008EA886 /* FindCircleNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCircleNum.swift; sourceTree = "<group>"; };
 		19AE25EC24017F25008EA886 /* FindRedundantConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindRedundantConnection.swift; sourceTree = "<group>"; };
 		19B2A6CF242F33BF00BEE658 /* findPeakElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findPeakElement.swift; sourceTree = "<group>"; };
@@ -1238,6 +1240,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				19D2FE2A247AB3AF0002615D /* 974. 和可被 K 整除的子数组 */,
 				193C50DB2478D22300548227 /* 76. 最小覆盖子串 */,
 				190DFEFB24737CAA0083F1E3 /* 680. 验证回文字符串 Ⅱ */,
 				19D21464247228B50056FB50 /* 152. 乘积最大子数组 */,
@@ -1452,6 +1455,14 @@
 				19D21465247228C40056FB50 /* maxProduct.swift */,
 			);
 			path = "152. 乘积最大子数组";
+			sourceTree = "<group>";
+		};
+		19D2FE2A247AB3AF0002615D /* 974. 和可被 K 整除的子数组 */ = {
+			isa = PBXGroup;
+			children = (
+				19A792DF247E0DA00078DC54 /* subarraysDivByK.swift */,
+			);
+			path = "974. 和可被 K 整除的子数组";
 			sourceTree = "<group>";
 		};
 		19D65DF0241A8B0700AEF6B0 /* 面试题10- I. 斐波那契数列(509) */ = {
@@ -2013,6 +2024,7 @@
 				190B8A75240CA98F0055B200 /* InorderTraversal.swift in Sources */,
 				196ADF052406D64B007C8208 /* MaxProfit_714.swift in Sources */,
 				19FE1141242EF5C200DAF210 /* cloneGraph.swift in Sources */,
+				19A792E0247E0DA00078DC54 /* subarraysDivByK.swift in Sources */,
 				19DADFAB24304EDA007C342F /* romanToInt.swift in Sources */,
 				19FA3B2A2423CB7B00A29DC8 /* longestPalindrome.swift in Sources */,
 				194D03C9243115DA00B0A044 /* merge1.swift in Sources */,
