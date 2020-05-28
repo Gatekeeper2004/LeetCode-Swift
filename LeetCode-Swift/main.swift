@@ -10,7 +10,7 @@ import Foundation
 
 
 func main() -> Void {
-    print(subarraysDivByK([4,5,0,-2,-3,1], 5))
+    print(decodeString("3[a]2[bc]"))
 }
 
 main()
