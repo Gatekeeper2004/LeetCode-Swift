@@ -49,6 +49,7 @@
 		1953AA082452909400B1AE80 /* reversePairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1953AA072452909400B1AE80 /* reversePairs.swift */; };
 		195506E324483D6700C7FCD1 /* change2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195506E224483D6700C7FCD1 /* change2.swift */; };
 		195A2C3623F425850081DF85 /* CheckSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195A2C3523F425850081DF85 /* CheckSubarraySum.swift */; };
+		195A2F8D248B81960034C5B4 /* longestConsecutive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195A2F8C248B81960034C5B4 /* longestConsecutive.swift */; };
 		195EBCCD23E6C448007B90BE /* CountSmaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195EBCCC23E6C448007B90BE /* CountSmaller.swift */; };
 		195FAEAF2454084C00F46E0C /* numTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FAEAE2454084C00F46E0C /* numTrees.swift */; };
 		196105BB2433490600B7721A /* sortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196105BA2433490600B7721A /* sortArray.swift */; };
@@ -228,6 +229,7 @@
 		1953AA072452909400B1AE80 /* reversePairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reversePairs.swift; sourceTree = "<group>"; };
 		195506E224483D6700C7FCD1 /* change2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = change2.swift; sourceTree = "<group>"; };
 		195A2C3523F425850081DF85 /* CheckSubarraySum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckSubarraySum.swift; sourceTree = "<group>"; };
+		195A2F8C248B81960034C5B4 /* longestConsecutive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longestConsecutive.swift; sourceTree = "<group>"; };
 		195EBCCC23E6C448007B90BE /* CountSmaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountSmaller.swift; sourceTree = "<group>"; };
 		195FAEAE2454084C00F46E0C /* numTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numTrees.swift; sourceTree = "<group>"; };
 		196105BA2433490600B7721A /* sortArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sortArray.swift; sourceTree = "<group>"; };
@@ -697,6 +699,14 @@
 				195A2C3523F425850081DF85 /* CheckSubarraySum.swift */,
 			);
 			path = "523. 连续的子数组和";
+			sourceTree = "<group>";
+		};
+		195A2F8B248B818A0034C5B4 /* 128. 最长连续序列 */ = {
+			isa = PBXGroup;
+			children = (
+				195A2F8C248B81960034C5B4 /* longestConsecutive.swift */,
+			);
+			path = "128. 最长连续序列";
 			sourceTree = "<group>";
 		};
 		195EBCCB23E6C430007B90BE /* 315. 计算右侧小于当前元素的个数 */ = {
@@ -1280,6 +1290,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				195A2F8B248B818A0034C5B4 /* 128. 最长连续序列 */,
 				194EF4952484172D00AE3F00 /* 1431. 拥有最多糖果的孩子 */,
 				19689F652483467000C6B5B3 /* 101. 对称二叉树 */,
 				19250F2F2482A48600322F43 /* 84. 柱状图中最大的矩形 */,
@@ -2072,6 +2083,7 @@
 				190B8A75240CA98F0055B200 /* InorderTraversal.swift in Sources */,
 				196ADF052406D64B007C8208 /* MaxProfit_714.swift in Sources */,
 				19FE1141242EF5C200DAF210 /* cloneGraph.swift in Sources */,
+				195A2F8D248B81960034C5B4 /* longestConsecutive.swift in Sources */,
 				19A792E0247E0DA00078DC54 /* subarraysDivByK.swift in Sources */,
 				19DADFAB24304EDA007C342F /* romanToInt.swift in Sources */,
 				19FA3B2A2423CB7B00A29DC8 /* longestPalindrome.swift in Sources */,
