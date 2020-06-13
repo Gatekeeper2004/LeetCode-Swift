@@ -26,6 +26,7 @@
 		19207C0323EDB5F900E14D9F /* IsPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19207C0223EDB5F900E14D9F /* IsPalindrome.swift */; };
 		19226D982468F8380059CDEE /* myPow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19226D972468F8380059CDEE /* myPow.swift */; };
 		19250F312482A49100322F43 /* largestRectangleArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19250F302482A49100322F43 /* largestRectangleArea.swift */; };
+		1934729B24946BC700327970 /* climbStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1934729A24946BC700327970 /* climbStairs.swift */; };
 		19353E192411F93100C1E8CC /* removeDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19353E182411F93100C1E8CC /* removeDuplicates.swift */; };
 		1936827B247F51D900B3ACC2 /* decodeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1936827A247F51D900B3ACC2 /* decodeString.swift */; };
 		19386DE323F8F131008A17B1 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19386DE223F8F131008A17B1 /* LongestCommonPrefix.swift */; };
@@ -206,6 +207,7 @@
 		19207C0223EDB5F900E14D9F /* IsPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPalindrome.swift; sourceTree = "<group>"; };
 		19226D972468F8380059CDEE /* myPow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPow.swift; sourceTree = "<group>"; };
 		19250F302482A49100322F43 /* largestRectangleArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = largestRectangleArea.swift; sourceTree = "<group>"; };
+		1934729A24946BC700327970 /* climbStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = climbStairs.swift; sourceTree = "<group>"; };
 		19353E182411F93100C1E8CC /* removeDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeDuplicates.swift; sourceTree = "<group>"; };
 		1936827A247F51D900B3ACC2 /* decodeString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decodeString.swift; sourceTree = "<group>"; };
 		19386DE223F8F131008A17B1 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
@@ -523,6 +525,14 @@
 				19250F302482A49100322F43 /* largestRectangleArea.swift */,
 			);
 			path = "84. 柱状图中最大的矩形";
+			sourceTree = "<group>";
+		};
+		1934729924946BB800327970 /* 70. 爬楼梯 */ = {
+			isa = PBXGroup;
+			children = (
+				1934729A24946BC700327970 /* climbStairs.swift */,
+			);
+			path = "70. 爬楼梯";
 			sourceTree = "<group>";
 		};
 		19353E172411F92900C1E8CC /* 80. 删除排序数组中的重复项 II */ = {
@@ -1290,6 +1300,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				1934729924946BB800327970 /* 70. 爬楼梯 */,
 				195A2F8B248B818A0034C5B4 /* 128. 最长连续序列 */,
 				194EF4952484172D00AE3F00 /* 1431. 拥有最多糖果的孩子 */,
 				19689F652483467000C6B5B3 /* 101. 对称二叉树 */,
@@ -2039,6 +2050,7 @@
 				1987CF302395375F009B3CC0 /* ReverseBetween.swift in Sources */,
 				195FAEAF2454084C00F46E0C /* numTrees.swift in Sources */,
 				1978E8972455CB10003581C6 /* mergeKLists.swift in Sources */,
+				1934729B24946BC700327970 /* climbStairs.swift in Sources */,
 				199FD4D72393F75E0028BDA8 /* ThreeSum.swift in Sources */,
 				1946BC9D241EA806009F0C56 /* findMin2.swift in Sources */,
 				19EDBDE9239800EA002C53B8 /* Partition.swift in Sources */,

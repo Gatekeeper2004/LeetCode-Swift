@@ -10,7 +10,7 @@ import Foundation
 
 
 func main() -> Void {
-    print(decodeString("3[a]2[bc]"))
+    print(climbStairs(2))
 }
 
 main()
