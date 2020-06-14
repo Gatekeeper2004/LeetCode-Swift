@@ -38,6 +38,7 @@
 		1940A01B245185DD00A14B77 /* waysToChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1940A01A245185DD00A14B77 /* waysToChange.swift */; };
 		1943875423A71A00002E08CF /* MaxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943875323A71A00002E08CF /* MaxProfit.swift */; };
 		1943875723A726A7002E08CF /* MaxPorfit_121.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943875623A726A7002E08CF /* MaxPorfit_121.swift */; };
+		1944419D2495EB2F00BA8EAE /* findBestValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1944419C2495EB2F00BA8EAE /* findBestValue.swift */; };
 		1944B633243F190E00C925FC /* lengthOfLIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1944B632243F190E00C925FC /* lengthOfLIS.swift */; };
 		19458D2C24245AD2005F1DA1 /* getLeastNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19458D2B24245AD2005F1DA1 /* getLeastNumbers.swift */; };
 		1946BC94241E9373009F0C56 /* search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1946BC93241E9373009F0C56 /* search.swift */; };
@@ -219,6 +220,7 @@
 		1940A01A245185DD00A14B77 /* waysToChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waysToChange.swift; sourceTree = "<group>"; };
 		1943875323A71A00002E08CF /* MaxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit.swift; sourceTree = "<group>"; };
 		1943875623A726A7002E08CF /* MaxPorfit_121.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxPorfit_121.swift; sourceTree = "<group>"; };
+		1944419C2495EB2F00BA8EAE /* findBestValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findBestValue.swift; sourceTree = "<group>"; };
 		1944B632243F190E00C925FC /* lengthOfLIS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lengthOfLIS.swift; sourceTree = "<group>"; };
 		19458D2B24245AD2005F1DA1 /* getLeastNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getLeastNumbers.swift; sourceTree = "<group>"; };
 		1946BC93241E9373009F0C56 /* search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = search.swift; sourceTree = "<group>"; };
@@ -621,6 +623,14 @@
 				1943875623A726A7002E08CF /* MaxPorfit_121.swift */,
 			);
 			path = "121. 买卖股票的最佳时机";
+			sourceTree = "<group>";
+		};
+		1944419B2495EB2400BA8EAE /* 1300. 转变数组后最接近目标值的数组和 */ = {
+			isa = PBXGroup;
+			children = (
+				1944419C2495EB2F00BA8EAE /* findBestValue.swift */,
+			);
+			path = "1300. 转变数组后最接近目标值的数组和";
 			sourceTree = "<group>";
 		};
 		1944B631243F190400C925FC /* 300. 最长上升子序列 */ = {
@@ -1300,6 +1310,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				1944419B2495EB2400BA8EAE /* 1300. 转变数组后最接近目标值的数组和 */,
 				1934729924946BB800327970 /* 70. 爬楼梯 */,
 				195A2F8B248B818A0034C5B4 /* 128. 最长连续序列 */,
 				194EF4952484172D00AE3F00 /* 1431. 拥有最多糖果的孩子 */,
@@ -2060,6 +2071,7 @@
 				19EA94B6242B0B06004232F7 /* getIntersectionNode.swift in Sources */,
 				197106AF239160FF0087B259 /* SwapPairs.swift in Sources */,
 				19AE25ED24017F25008EA886 /* FindRedundantConnection.swift in Sources */,
+				1944419D2495EB2F00BA8EAE /* findBestValue.swift in Sources */,
 				194EF4972484173600AE3F00 /* kidsWithCandies.swift in Sources */,
 				196858F52463BBE400773D6A /* isSubtree.swift in Sources */,
 				1981E571242734CE0089E1DD /* minIncrementForUnique.swift in Sources */,
