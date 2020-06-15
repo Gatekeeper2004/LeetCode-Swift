@@ -10,7 +10,7 @@ import Foundation
 
 
 func main() -> Void {
-    print(climbStairs(2))
+    print(runningSum([3,1,2,10,1]))
 }
 
 main()

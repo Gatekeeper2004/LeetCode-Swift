@@ -48,6 +48,7 @@
 		194D03C9243115DA00B0A044 /* merge1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194D03C8243115DA00B0A044 /* merge1.swift */; };
 		194D03CC24311D5800B0A044 /* convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194D03CB24311D5800B0A044 /* convert.swift */; };
 		194EF4972484173600AE3F00 /* kidsWithCandies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194EF4962484173600AE3F00 /* kidsWithCandies.swift */; };
+		194EF7B624970D8C009E6FF0 /* runningSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194EF7B524970D8C009E6FF0 /* runningSum.swift */; };
 		1953AA082452909400B1AE80 /* reversePairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1953AA072452909400B1AE80 /* reversePairs.swift */; };
 		195506E324483D6700C7FCD1 /* change2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195506E224483D6700C7FCD1 /* change2.swift */; };
 		195A2C3623F425850081DF85 /* CheckSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195A2C3523F425850081DF85 /* CheckSubarraySum.swift */; };
@@ -230,6 +231,7 @@
 		194D03C8243115DA00B0A044 /* merge1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = merge1.swift; sourceTree = "<group>"; };
 		194D03CB24311D5800B0A044 /* convert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = convert.swift; sourceTree = "<group>"; };
 		194EF4962484173600AE3F00 /* kidsWithCandies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kidsWithCandies.swift; sourceTree = "<group>"; };
+		194EF7B524970D8C009E6FF0 /* runningSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = runningSum.swift; sourceTree = "<group>"; };
 		1953AA072452909400B1AE80 /* reversePairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reversePairs.swift; sourceTree = "<group>"; };
 		195506E224483D6700C7FCD1 /* change2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = change2.swift; sourceTree = "<group>"; };
 		195A2C3523F425850081DF85 /* CheckSubarraySum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckSubarraySum.swift; sourceTree = "<group>"; };
@@ -695,6 +697,14 @@
 				194EF4962484173600AE3F00 /* kidsWithCandies.swift */,
 			);
 			path = "1431. 拥有最多糖果的孩子";
+			sourceTree = "<group>";
+		};
+		194EF7B424970D82009E6FF0 /* 5436. 一维数组的动态和 */ = {
+			isa = PBXGroup;
+			children = (
+				194EF7B524970D8C009E6FF0 /* runningSum.swift */,
+			);
+			path = "5436. 一维数组的动态和";
 			sourceTree = "<group>";
 		};
 		1953AA062452905B00B1AE80 /* 面试题51. 数组中的逆序对 */ = {
@@ -1310,6 +1320,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				194EF7B424970D82009E6FF0 /* 5436. 一维数组的动态和 */,
 				1944419B2495EB2400BA8EAE /* 1300. 转变数组后最接近目标值的数组和 */,
 				1934729924946BB800327970 /* 70. 爬楼梯 */,
 				195A2F8B248B818A0034C5B4 /* 128. 最长连续序列 */,
@@ -2037,6 +2048,7 @@
 				1963BE3A2457058B0038BCC3 /* numSquares.swift in Sources */,
 				1943875723A726A7002E08CF /* MaxPorfit_121.swift in Sources */,
 				19DAE31B242D0C2A00A431FA /* preorderTraversal.swift in Sources */,
+				194EF7B624970D8C009E6FF0 /* runningSum.swift in Sources */,
 				19B62619242CFC0E00F83BE5 /* numRookCaptures.swift in Sources */,
 				195506E324483D6700C7FCD1 /* change2.swift in Sources */,
 				197F08212418CCE40016E6AD /* numWays.swift in Sources */,
