@@ -26,6 +26,7 @@
 		19207C0323EDB5F900E14D9F /* IsPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19207C0223EDB5F900E14D9F /* IsPalindrome.swift */; };
 		19226D982468F8380059CDEE /* myPow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19226D972468F8380059CDEE /* myPow.swift */; };
 		19250F312482A49100322F43 /* largestRectangleArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19250F302482A49100322F43 /* largestRectangleArea.swift */; };
+		192586112498889A00D64119 /* Codec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192586102498889A00D64119 /* Codec.swift */; };
 		1934729B24946BC700327970 /* climbStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1934729A24946BC700327970 /* climbStairs.swift */; };
 		19353E192411F93100C1E8CC /* removeDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19353E182411F93100C1E8CC /* removeDuplicates.swift */; };
 		1936827B247F51D900B3ACC2 /* decodeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1936827A247F51D900B3ACC2 /* decodeString.swift */; };
@@ -209,6 +210,7 @@
 		19207C0223EDB5F900E14D9F /* IsPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPalindrome.swift; sourceTree = "<group>"; };
 		19226D972468F8380059CDEE /* myPow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPow.swift; sourceTree = "<group>"; };
 		19250F302482A49100322F43 /* largestRectangleArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = largestRectangleArea.swift; sourceTree = "<group>"; };
+		192586102498889A00D64119 /* Codec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codec.swift; sourceTree = "<group>"; };
 		1934729A24946BC700327970 /* climbStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = climbStairs.swift; sourceTree = "<group>"; };
 		19353E182411F93100C1E8CC /* removeDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeDuplicates.swift; sourceTree = "<group>"; };
 		1936827A247F51D900B3ACC2 /* decodeString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decodeString.swift; sourceTree = "<group>"; };
@@ -529,6 +531,14 @@
 				19250F302482A49100322F43 /* largestRectangleArea.swift */,
 			);
 			path = "84. 柱状图中最大的矩形";
+			sourceTree = "<group>";
+		};
+		1925860F249887F800D64119 /* 297. 二叉树的序列化与反序列化 */ = {
+			isa = PBXGroup;
+			children = (
+				192586102498889A00D64119 /* Codec.swift */,
+			);
+			path = "297. 二叉树的序列化与反序列化";
 			sourceTree = "<group>";
 		};
 		1934729924946BB800327970 /* 70. 爬楼梯 */ = {
@@ -1320,6 +1330,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				1925860F249887F800D64119 /* 297. 二叉树的序列化与反序列化 */,
 				194EF7B424970D82009E6FF0 /* 5436. 一维数组的动态和 */,
 				1944419B2495EB2400BA8EAE /* 1300. 转变数组后最接近目标值的数组和 */,
 				1934729924946BB800327970 /* 70. 爬楼梯 */,
@@ -2003,6 +2014,7 @@
 				1978D6C3242E5C0E005A8C4D /* numTilePossibilities.swift in Sources */,
 				19185BD3243250A60066094F /* removeDuplicateLetters.swift in Sources */,
 				191A4B8123EF1FBF00DD5334 /* Divide.swift in Sources */,
+				192586112498889A00D64119 /* Codec.swift in Sources */,
 				1962020A240FD15300298BBE /* coinChange.swift in Sources */,
 				19AE25EA24017A10008EA886 /* FindCircleNum.swift in Sources */,
 				19C39921242256590011910A /* maxSubArray.swift in Sources */,
