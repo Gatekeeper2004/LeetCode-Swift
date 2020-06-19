@@ -85,6 +85,7 @@
 		1972D3DC241A5775007CCA1E /* buildTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972D3DB241A5775007CCA1E /* buildTree.swift */; };
 		1974D6A4239F767A00484953 /* CombinationSum2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1974D6A3239F767A00484953 /* CombinationSum2.swift */; };
 		1977FAAA244F211B0074A124 /* numberOfSubarrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1977FAA9244F211B0074A124 /* numberOfSubarrays.swift */; };
+		197811C9249CD281009BE948 /* isPalindromeStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197811C8249CD281009BE948 /* isPalindromeStr.swift */; };
 		1978D6C0242E4C2E005A8C4D /* permuteUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1978D6BF242E4C2E005A8C4D /* permuteUnique.swift */; };
 		1978D6C3242E5C0E005A8C4D /* numTilePossibilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1978D6C2242E5C0D005A8C4D /* numTilePossibilities.swift */; };
 		1978E8972455CB10003581C6 /* mergeKLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1978E8962455CB10003581C6 /* mergeKLists.swift */; };
@@ -269,6 +270,7 @@
 		1972D3DB241A5775007CCA1E /* buildTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buildTree.swift; sourceTree = "<group>"; };
 		1974D6A3239F767A00484953 /* CombinationSum2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSum2.swift; sourceTree = "<group>"; };
 		1977FAA9244F211B0074A124 /* numberOfSubarrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numberOfSubarrays.swift; sourceTree = "<group>"; };
+		197811C8249CD281009BE948 /* isPalindromeStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isPalindromeStr.swift; sourceTree = "<group>"; };
 		1978D6BF242E4C2E005A8C4D /* permuteUnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = permuteUnique.swift; sourceTree = "<group>"; };
 		1978D6C2242E5C0D005A8C4D /* numTilePossibilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numTilePossibilities.swift; sourceTree = "<group>"; };
 		1978E8962455CB10003581C6 /* mergeKLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mergeKLists.swift; sourceTree = "<group>"; };
@@ -997,6 +999,14 @@
 			path = "1248. 统计「优美子数组」";
 			sourceTree = "<group>";
 		};
+		197811C7249CD276009BE948 /* 125. 验证回文串 */ = {
+			isa = PBXGroup;
+			children = (
+				197811C8249CD281009BE948 /* isPalindromeStr.swift */,
+			);
+			path = "125. 验证回文串";
+			sourceTree = "<group>";
+		};
 		1978D6BE242E4C26005A8C4D /* 47. 全排列 II */ = {
 			isa = PBXGroup;
 			children = (
@@ -1330,6 +1340,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				197811C7249CD276009BE948 /* 125. 验证回文串 */,
 				1925860F249887F800D64119 /* 297. 二叉树的序列化与反序列化 */,
 				194EF7B424970D82009E6FF0 /* 5436. 一维数组的动态和 */,
 				1944419B2495EB2400BA8EAE /* 1300. 转变数组后最接近目标值的数组和 */,
@@ -2092,6 +2103,7 @@
 				19D814C023C4B4F00066B8B6 /* CountBits.swift in Sources */,
 				19DC0BC2244FEFA2005BDCA4 /* rightSideView.swift in Sources */,
 				19E43DF423AB5815005BF64A /* LRUCache.swift in Sources */,
+				197811C9249CD281009BE948 /* isPalindromeStr.swift in Sources */,
 				19EA94B6242B0B06004232F7 /* getIntersectionNode.swift in Sources */,
 				197106AF239160FF0087B259 /* SwapPairs.swift in Sources */,
 				19AE25ED24017F25008EA886 /* FindRedundantConnection.swift in Sources */,
