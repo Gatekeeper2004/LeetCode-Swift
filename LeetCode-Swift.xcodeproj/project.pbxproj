@@ -109,6 +109,7 @@
 		19A2960F23CEC489003E091A /* FindKthLargest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A2960E23CEC489003E091A /* FindKthLargest.swift */; };
 		19A572B42446B15100515E4D /* binaryTreePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A572B32446B15100515E4D /* binaryTreePaths.swift */; };
 		19A792E0247E0DA00078DC54 /* subarraysDivByK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A792DF247E0DA00078DC54 /* subarraysDivByK.swift */; };
+		19AE10EA249F567000B64270 /* maxPathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE10E9249F567000B64270 /* maxPathSum.swift */; };
 		19AE25EA24017A10008EA886 /* FindCircleNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE25E924017A10008EA886 /* FindCircleNum.swift */; };
 		19AE25ED24017F25008EA886 /* FindRedundantConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE25EC24017F25008EA886 /* FindRedundantConnection.swift */; };
 		19B2A6D0242F33BF00BEE658 /* findPeakElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B2A6CF242F33BF00BEE658 /* findPeakElement.swift */; };
@@ -294,6 +295,7 @@
 		19A2960E23CEC489003E091A /* FindKthLargest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindKthLargest.swift; sourceTree = "<group>"; };
 		19A572B32446B15100515E4D /* binaryTreePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = binaryTreePaths.swift; sourceTree = "<group>"; };
 		19A792DF247E0DA00078DC54 /* subarraysDivByK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subarraysDivByK.swift; sourceTree = "<group>"; };
+		19AE10E9249F567000B64270 /* maxPathSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maxPathSum.swift; sourceTree = "<group>"; };
 		19AE25E924017A10008EA886 /* FindCircleNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCircleNum.swift; sourceTree = "<group>"; };
 		19AE25EC24017F25008EA886 /* FindRedundantConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindRedundantConnection.swift; sourceTree = "<group>"; };
 		19B2A6CF242F33BF00BEE658 /* findPeakElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findPeakElement.swift; sourceTree = "<group>"; };
@@ -1183,6 +1185,14 @@
 			path = "257. 二叉树的所有路径";
 			sourceTree = "<group>";
 		};
+		19AE10E8249F566800B64270 /* 124. 二叉树中的最大路径和 */ = {
+			isa = PBXGroup;
+			children = (
+				19AE10E9249F567000B64270 /* maxPathSum.swift */,
+			);
+			path = "124. 二叉树中的最大路径和";
+			sourceTree = "<group>";
+		};
 		19AE25E824017A07008EA886 /* 547. 朋友圈 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1340,6 +1350,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				19AE10E8249F566800B64270 /* 124. 二叉树中的最大路径和 */,
 				197811C7249CD276009BE948 /* 125. 验证回文串 */,
 				1925860F249887F800D64119 /* 297. 二叉树的序列化与反序列化 */,
 				194EF7B424970D82009E6FF0 /* 5436. 一维数组的动态和 */,
@@ -2006,6 +2017,7 @@
 				1992824C23D1852800DF9DD0 /* Trie.swift in Sources */,
 				1969ED8823B7192C00810BA1 /* LengthOfLongestSubstring.swift in Sources */,
 				19B5391123A776BC003F8D44 /* IsAnagram.swift in Sources */,
+				19AE10EA249F567000B64270 /* maxPathSum.swift in Sources */,
 				19F1C3AF24430AF600A591AB /* sortedArrayToBST.swift in Sources */,
 				19DADFAE24305777007C342F /* rotateRight.swift in Sources */,
 				1919B1752464F832003E6EA7 /* hammingDistance.swift in Sources */,
