@@ -10,7 +10,7 @@ import Foundation
 
 
 func main() -> Void {
-    print(runningSum([3,1,2,10,1]))
+    print(divingBoard(2, 4, 4))
 }
 
 main()
