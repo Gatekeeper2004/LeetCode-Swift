@@ -103,6 +103,7 @@
 		1988EF492427D49C00AACF06 /* subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1988EF482427D49C00AACF06 /* subsets.swift */; };
 		198AD33D239CFC790051EA35 /* PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198AD33C239CFC790051EA35 /* PlusOne.swift */; };
 		198AD340239D463F0051EA35 /* LetterCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198AD33F239D463F0051EA35 /* LetterCombinations.swift */; };
+		198E545624CEA7A4008CC917 /* isSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198E545524CEA7A4008CC917 /* isSubsequence.swift */; };
 		1992824C23D1852800DF9DD0 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1992824B23D1852800DF9DD0 /* Trie.swift */; };
 		199C7F4623CAE95900CF6DB8 /* DailyTemperatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C7F4523CAE95900CF6DB8 /* DailyTemperatures.swift */; };
 		199C7F4923CB1A7500CF6DB8 /* Trap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C7F4823CB1A7500CF6DB8 /* Trap.swift */; };
@@ -291,6 +292,7 @@
 		1988EF482427D49C00AACF06 /* subsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subsets.swift; sourceTree = "<group>"; };
 		198AD33C239CFC790051EA35 /* PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOne.swift; sourceTree = "<group>"; };
 		198AD33F239D463F0051EA35 /* LetterCombinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCombinations.swift; sourceTree = "<group>"; };
+		198E545524CEA7A4008CC917 /* isSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isSubsequence.swift; sourceTree = "<group>"; };
 		1992824B23D1852800DF9DD0 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
 		199C7F4523CAE95900CF6DB8 /* DailyTemperatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTemperatures.swift; sourceTree = "<group>"; };
 		199C7F4823CB1A7500CF6DB8 /* Trap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trap.swift; sourceTree = "<group>"; };
@@ -1149,6 +1151,14 @@
 			path = "17. 电话号码的字母组合";
 			sourceTree = "<group>";
 		};
+		198E545424CEA799008CC917 /* 392. 判断子序列 */ = {
+			isa = PBXGroup;
+			children = (
+				198E545524CEA7A4008CC917 /* isSubsequence.swift */,
+			);
+			path = "392. 判断子序列";
+			sourceTree = "<group>";
+		};
 		1992824D23D1854B00DF9DD0 /* 208. 实现 Trie (前缀树) */ = {
 			isa = PBXGroup;
 			children = (
@@ -1370,6 +1380,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				198E545424CEA799008CC917 /* 392. 判断子序列 */,
 				196876E424C1399200F40DCE /* 35. 搜索插入位置 */,
 				1978879E24B5ABBA0089CAAA /* 面试题 16.11. 跳水板 */,
 				19AE10E8249F566800B64270 /* 124. 二叉树中的最大路径和 */,
@@ -2095,6 +2106,7 @@
 				196DE09A23CC9CF80037ABE1 /* DetectCycle2.swift in Sources */,
 				19DAE31E242D19FD00A431FA /* postorderTraversal.swift in Sources */,
 				19EE25ED243CC27F006102D3 /* rotate1.swift in Sources */,
+				198E545624CEA7A4008CC917 /* isSubsequence.swift in Sources */,
 				19FFB2EC24421034009A3A23 /* superEggDrop.swift in Sources */,
 				1984CDDB2398DF5A003827A4 /* ReverseKGroup.swift in Sources */,
 				19624D442429CD7F0055276D /* rob3.swift in Sources */,
