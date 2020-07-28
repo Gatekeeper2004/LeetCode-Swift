@@ -104,6 +104,7 @@
 		198AD33D239CFC790051EA35 /* PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198AD33C239CFC790051EA35 /* PlusOne.swift */; };
 		198AD340239D463F0051EA35 /* LetterCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198AD33F239D463F0051EA35 /* LetterCombinations.swift */; };
 		198E545624CEA7A4008CC917 /* isSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198E545524CEA7A4008CC917 /* isSubsequence.swift */; };
+		198F5D2A24CFBBE200948EF3 /* maxDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198F5D2924CFBBE200948EF3 /* maxDepth.swift */; };
 		1992824C23D1852800DF9DD0 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1992824B23D1852800DF9DD0 /* Trie.swift */; };
 		199C7F4623CAE95900CF6DB8 /* DailyTemperatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C7F4523CAE95900CF6DB8 /* DailyTemperatures.swift */; };
 		199C7F4923CB1A7500CF6DB8 /* Trap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C7F4823CB1A7500CF6DB8 /* Trap.swift */; };
@@ -293,6 +294,7 @@
 		198AD33C239CFC790051EA35 /* PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOne.swift; sourceTree = "<group>"; };
 		198AD33F239D463F0051EA35 /* LetterCombinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCombinations.swift; sourceTree = "<group>"; };
 		198E545524CEA7A4008CC917 /* isSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isSubsequence.swift; sourceTree = "<group>"; };
+		198F5D2924CFBBE200948EF3 /* maxDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maxDepth.swift; sourceTree = "<group>"; };
 		1992824B23D1852800DF9DD0 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
 		199C7F4523CAE95900CF6DB8 /* DailyTemperatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTemperatures.swift; sourceTree = "<group>"; };
 		199C7F4823CB1A7500CF6DB8 /* Trap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trap.swift; sourceTree = "<group>"; };
@@ -1159,6 +1161,14 @@
 			path = "392. 判断子序列";
 			sourceTree = "<group>";
 		};
+		198F5D2824CFBBD700948EF3 /* 104. 二叉树的最大深度 */ = {
+			isa = PBXGroup;
+			children = (
+				198F5D2924CFBBE200948EF3 /* maxDepth.swift */,
+			);
+			path = "104. 二叉树的最大深度";
+			sourceTree = "<group>";
+		};
 		1992824D23D1854B00DF9DD0 /* 208. 实现 Trie (前缀树) */ = {
 			isa = PBXGroup;
 			children = (
@@ -1380,6 +1390,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				198F5D2824CFBBD700948EF3 /* 104. 二叉树的最大深度 */,
 				198E545424CEA799008CC917 /* 392. 判断子序列 */,
 				196876E424C1399200F40DCE /* 35. 搜索插入位置 */,
 				1978879E24B5ABBA0089CAAA /* 面试题 16.11. 跳水板 */,
@@ -2071,6 +2082,7 @@
 				19185BD3243250A60066094F /* removeDuplicateLetters.swift in Sources */,
 				191A4B8123EF1FBF00DD5334 /* Divide.swift in Sources */,
 				192586112498889A00D64119 /* Codec.swift in Sources */,
+				198F5D2A24CFBBE200948EF3 /* maxDepth.swift in Sources */,
 				1962020A240FD15300298BBE /* coinChange.swift in Sources */,
 				19AE25EA24017A10008EA886 /* FindCircleNum.swift in Sources */,
 				19C39921242256590011910A /* maxSubArray.swift in Sources */,
