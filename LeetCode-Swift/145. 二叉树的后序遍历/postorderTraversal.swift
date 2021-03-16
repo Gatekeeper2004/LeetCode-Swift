@@ -9,7 +9,7 @@
 import Foundation
 
 func postorderTraversal(_ root: TreeNode?) -> [Int] {
-    var result = Array<Int>.init()
+    var result = [Int]()
     let (white, gray) = (0, 1)
     var stack = [(white, root)]
     

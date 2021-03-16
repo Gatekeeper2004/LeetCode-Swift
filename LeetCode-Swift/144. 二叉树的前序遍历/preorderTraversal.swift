@@ -36,7 +36,7 @@ import Foundation
 //迭代
 func preorderTraversal(_ root: TreeNode?) -> [Int] {
     var result = Array<Int>.init()
-    var stack = Array<TreeNode?>.init()
+    var stack = [TreeNode?]()
     var point = root
     while !stack.isEmpty || point != nil {
         if point != nil {
