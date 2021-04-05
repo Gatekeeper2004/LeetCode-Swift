@@ -131,6 +131,7 @@
 		19C3A2D52398A03C00FAA27C /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C3A2D42398A03C00FAA27C /* AddTwoNumbers.swift */; };
 		19C482C1242AF46E00BE8BA6 /* generateTheString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C482C0242AF46E00BE8BA6 /* generateTheString.swift */; };
 		19C62C1923E59D070093CF4F /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C62C1823E59D070093CF4F /* ContainsDuplicate.swift */; };
+		19C740F7261B603F00A28C7A /* merge88.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C740F6261B603F00A28C7A /* merge88.swift */; };
 		19C96FA0238F655F00699CA5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C96F9F238F655F00699CA5 /* main.swift */; };
 		19C96FAA238F676800699CA5 /* IsValid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C96FA9238F676800699CA5 /* IsValid.swift */; };
 		19CAA601240DFFF0006513E9 /* flatten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CAA600240DFFF0006513E9 /* flatten.swift */; };
@@ -321,6 +322,7 @@
 		19C3A2D42398A03C00FAA27C /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
 		19C482C0242AF46E00BE8BA6 /* generateTheString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generateTheString.swift; sourceTree = "<group>"; };
 		19C62C1823E59D070093CF4F /* ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate.swift; sourceTree = "<group>"; };
+		19C740F6261B603F00A28C7A /* merge88.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = merge88.swift; sourceTree = "<group>"; };
 		19C96F9C238F655F00699CA5 /* LeetCode-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCode-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19C96F9F238F655F00699CA5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		19C96FA9238F676800699CA5 /* IsValid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsValid.swift; sourceTree = "<group>"; };
@@ -1369,6 +1371,14 @@
 			path = "217. 存在重复元素";
 			sourceTree = "<group>";
 		};
+		19C740F5261B603100A28C7A /* 88. 合并两个有序数组 */ = {
+			isa = PBXGroup;
+			children = (
+				19C740F6261B603F00A28C7A /* merge88.swift */,
+			);
+			path = "88. 合并两个有序数组";
+			sourceTree = "<group>";
+		};
 		19C96F93238F655F00699CA5 = {
 			isa = PBXGroup;
 			children = (
@@ -1390,6 +1400,7 @@
 		19C96F9E238F655F00699CA5 /* LeetCode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				19C740F5261B603100A28C7A /* 88. 合并两个有序数组 */,
 				198F5D2824CFBBD700948EF3 /* 104. 二叉树的最大深度 */,
 				198E545424CEA799008CC917 /* 392. 判断子序列 */,
 				196876E424C1399200F40DCE /* 35. 搜索插入位置 */,
@@ -2154,6 +2165,7 @@
 				19001B1D2418B929006496C9 /* canThreePartsEqualSum.swift in Sources */,
 				1987CF302395375F009B3CC0 /* ReverseBetween.swift in Sources */,
 				195FAEAF2454084C00F46E0C /* numTrees.swift in Sources */,
+				19C740F7261B603F00A28C7A /* merge88.swift in Sources */,
 				1978E8972455CB10003581C6 /* mergeKLists.swift in Sources */,
 				1934729B24946BC700327970 /* climbStairs.swift in Sources */,
 				196876E624C139A300F40DCE /* searchInsert.swift in Sources */,

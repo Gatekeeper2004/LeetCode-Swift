@@ -11,8 +11,11 @@ import Foundation
 
 func main() -> Void {
 //    print(divingBoard(2, 4, 4))
-    
+    var nums1 = [1,2,3,0,0,0]; let m = 3; let nums2 = [2,5,6]; let n = 3
+    merge88(&nums1, m, nums2, n)
+    print(nums1)
 }
+
 
 func bubbleSort(array: [Int]) -> [Int] {
     var array = array
